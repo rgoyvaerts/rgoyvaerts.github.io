@@ -348,20 +348,6 @@ main {
   padding: 0 20px;
   font-size: 25px;
   text-align: justify; }
-  main .agenda {
-    font-size: 22px; }
-    main .agenda a {
-      background: none; }
-    main .agenda .links {
-      margin-top: 40px;
-      text-align: left; }
-    main .agenda .rechts {
-      margin-top: 40px;
-      text-align: right; }
-    main .agenda .describtion {
-      font-size: 18px; }
-    main .agenda .date {
-      background: #fff9cb; }
   main a {
     background: #fff9cb;
     border-bottom: 2px dashed #2c2c2c;
@@ -594,3 +580,30 @@ footer {
     left: 25px;
     background: none;
     border: none; }
+
+.agenda {
+  font-size: 22px; }
+  .agenda a {
+    background: none;
+    border: none; }
+  .agenda a:hover, .agenda a:focus {
+    background: #fff9cb; }
+  .agenda .links {
+    display: block;
+    text-align: left;
+    border-top: 2px dashed #2c2c2c; }
+    .agenda .links .date {
+      background: #fff9cb;
+      font-size: 25px;
+      display: inline-block;
+      border: 2px solid #2c2c2c;
+      padding: 0 10px 2px 10px;
+      margin: 40px 0 25px; }
+    .agenda .links .more-info {
+      margin-top: 25px; }
+  .agenda .rechts {
+    padding-top: 40px;
+    text-align: right;
+    border-top: 2px dashed #2c2c2c; }
+  .agenda .describtion {
+    font-size: 18px; }
