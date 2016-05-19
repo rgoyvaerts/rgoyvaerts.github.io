@@ -297,16 +297,16 @@ header {
   header .midden {
     display: block;
     text-align: center; }
-    header .midden .agenda {
+    header .midden .agenda-menu {
       display: inline-block;
       line-height: 0;
       height: 75px;
       margin: 0 17px 0 0;
       vertical-align: middle; }
-      header .midden .agenda a {
+      header .midden .agenda-menu a {
         padding: 5px 2px;
         background: none; }
-      header .midden .agenda a:hover {
+      header .midden .agenda-menu a:hover {
         background: #fff9cb; }
     header .midden .logo {
       height: 85px;
@@ -330,23 +330,16 @@ header {
       -o-transform: rotate(360deg);
       transform: rotate(360deg);
       background: #fff9cb; }
-    header .midden .sprite {
-      width: 48px;
-      height: 48px;
-      position: absolute;
-      top: 170px;
-      background: none;
-      border: none; }
-    header .midden .blog {
+    header .midden .blog-menu {
       display: inline-block;
       line-height: 0;
       height: 75px;
       margin: 0 17px;
       vertical-align: middle; }
-      header .midden .blog a {
+      header .midden .blog-menu a {
         padding: 5px 2px;
         background: none; }
-      header .midden .blog a:hover {
+      header .midden .blog-menu a:hover {
         background: #fff9cb; }
 
 main {
