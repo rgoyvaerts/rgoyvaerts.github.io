@@ -295,7 +295,7 @@ header {
       header nav.hoek .visualarts {
         padding: 150px 145px 10px 150px;
         right: -185px;
-        top: 105px; } }
+        top: -105px; } }
   header .midden {
     display: block;
     text-align: center; }
