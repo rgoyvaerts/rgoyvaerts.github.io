@@ -330,6 +330,13 @@ header {
       -o-transform: rotate(360deg);
       transform: rotate(360deg);
       background: #fff9cb; }
+    header .midden .sprite {
+      width: 48px;
+      height: 48px;
+      position: absolute;
+      top: 170px;
+      background: none;
+      border: none; }
     header .midden .blog {
       display: inline-block;
       line-height: 0;
@@ -348,6 +355,11 @@ main {
   padding: 0 20px;
   font-size: 25px;
   text-align: justify; }
+  main .sprite {
+    width: 48px;
+    height: 48px;
+    background: none;
+    border: none; }
   main a {
     background: #fff9cb;
     border-bottom: 2px dashed #2c2c2c;
@@ -542,7 +554,7 @@ footer {
   padding-top: 5px; }
   footer .mailto {
     border-top: 2px dashed #2c2c2c;
-    padding: 60px 20px; }
+    padding: 60px 20px 0; }
     footer .mailto a {
       outline: 0;
       padding: 0 5px 2px 5px; }
@@ -572,14 +584,6 @@ footer {
       border-bottom: none; }
     footer .social .facebook:hover {
       background: #fff9cb; }
-  footer .sprite {
-    width: 48px;
-    height: 48px;
-    position: absolute;
-    bottom: 75px;
-    left: 25px;
-    background: none;
-    border: none; }
 
 .agenda {
   font-size: 22px; }
@@ -588,10 +592,13 @@ footer {
     border: none; }
   .agenda a:hover, .agenda a:focus {
     background: #fff9cb; }
+  .agenda .current {
+    border-bottom: 2px dashed #2c2c2c; }
   .agenda .links {
     display: block;
     text-align: left;
-    border-top: 2px dashed #2c2c2c; }
+    border-top: 2px dashed #2c2c2c;
+    padding-top: 40px; }
     .agenda .links .date {
       background: #fff9cb;
       font-size: 25px;
@@ -600,10 +607,22 @@ footer {
       padding: 0 10px 2px 10px;
       margin: 40px 0 25px; }
     .agenda .links .more-info {
-      margin-top: 25px; }
+      display: inline-block;
+      margin-top: 20px; }
   .agenda .rechts {
-    padding-top: 40px;
+    display: block;
     text-align: right;
-    border-top: 2px dashed #2c2c2c; }
+    border-top: 2px dashed #2c2c2c;
+    padding-top: 40px; }
+    .agenda .rechts .date {
+      background: #fff9cb;
+      font-size: 25px;
+      display: inline-block;
+      border: 2px solid #2c2c2c;
+      padding: 0 10px 2px 10px;
+      margin: 40px 0 25px; }
+    .agenda .rechts .more-info {
+      display: inline-block;
+      margin-top: 20px; }
   .agenda .describtion {
     font-size: 18px; }
