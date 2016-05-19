@@ -273,7 +273,7 @@ header {
       header nav.hoek .theater {
         padding: 150px 130px 15px 160px;
         left: -200px;
-        top: -95px; } }
+        top: -90px; } }
   header nav.hoek .visualarts {
     right: -175px;
     position: fixed;
@@ -293,7 +293,9 @@ header {
       border-bottom: none; }
     @media only screen and (max-width: 500px) {
       header nav.hoek .visualarts {
-        padding: 150px 145px 10px 150px; } }
+        padding: 150px 145px 10px 150px;
+        right: -185px;
+        top: 105px; } }
   header .midden {
     display: block;
     text-align: center; }
