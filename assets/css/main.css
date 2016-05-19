@@ -556,7 +556,7 @@ footer {
   padding-top: 5px; }
   footer .mailto {
     border-top: 2px dashed #2c2c2c;
-    padding-top: 60px; }
+    padding: 60px 20px; }
     footer .mailto a {
       outline: 0;
       padding: 0 5px 2px 5px; }
@@ -586,3 +586,11 @@ footer {
       border-bottom: none; }
     footer .social .facebook:hover {
       background: #fff9cb; }
+  footer .sprite {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 75px;
+    left: 25px;
+    background: none;
+    border: none; }
