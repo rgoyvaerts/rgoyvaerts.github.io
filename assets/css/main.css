@@ -255,7 +255,7 @@ header {
     width: 48px;
     height: 48px;
     position: absolute;
-    top: 30px;
+    top: 20px;
     background: none;
     border: none; }
   header nav.hoek a {
@@ -592,6 +592,16 @@ footer {
       padding: 0 5px 2px 5px; }
     footer .mailto p {
       margin-bottom: 40px; }
+  footer .sprite {
+    z-index: 5;
+    width: 48px;
+    height: 48px;
+    bottom: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    background: none;
+    border-bottom: none; }
   footer .social {
     padding-bottom: 50px; }
     footer .social .instagram {
