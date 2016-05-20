@@ -6,6 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">  
   <link rel="stylesheet" href="/assets/css/main.css" />
+  <script src="/assets/js/instafeed.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '2028166473',
+        accessToken: '2028166473.cd1d3b6.595f7dc21dc747ea9ab78e259622be21',
+        limit: '1',
+        resolution: 'standard_resolution',
+    });
+    feed.run();
+  </script>
 </head>
 <body>
     
@@ -36,9 +47,23 @@
  
 <main>
     
+    <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'popular',
+        tagName: 'awesome',
+        clientId: '2028166473',
+        template: '<a class="animation" href=""><img src="" /></a>'
+    });
+    feed.run();
+    </script>
+    
 <p><a href="../about/"><strong>Robbert&Frank Frank&Robbert</strong></a> is an artist duo based in Ghent, Belgium. </p>
 
     <p>"If we take artists as the barometer for the changes happening in contemporary society, then the work of the duo F&R R&F offers up a richly varied, full-colour readout. Like a well-oiled machine, completely in tune with the zeitgeist and marching to the rhythm of an increasingly globalised world, they are quickly amassing a diverse oeuvre. <strong><a href="../visual-arts/">Visual art</a>, <a href="../visual-arts/">video work</a>, <a href="../theater/">theatre shows</a>, <a href="../theater/">performances</a>, ...</strong> the multidisciplinary world of F&R R&F forms an unimpeded supernation unto itself." - Beatrijs Eemans</p>
+    
+    <div id="instafeed">
+        <a href="https://www.instagram.com/r_en_f/" class="instatext" target="_blank"><h1>#R_en_F</h1></a>
+    </div>
 
 </main>
 
@@ -47,7 +72,6 @@
     <div class='mailto'>
         <p><a href="mailto:info@robbertenfrank.com">info@robbertenfrank.com</a></p>
         <p>Follow R&F F&R on <a href="https://www.instagram.com/r_en_f/" target="_blank">Instagram</a> & <a href="https://www.facebook.com/frankenrobbertrobbertenfrank" target="_blank">Facebook</a> to stay up to date.</p>
-        <p style="font-family: Courier New, Courier, monospace;">#R_en_F</p>
     </div>
     
     <div class='social'>
