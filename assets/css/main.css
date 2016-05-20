@@ -251,6 +251,13 @@ header {
   display: block;
   padding-top: 75px;
   margin-bottom: 40px; }
+  header .sprite {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 30px;
+    background: none;
+    border: none; }
   header nav.hoek a {
     text-transform: uppercase;
     font-weight: 700; }
