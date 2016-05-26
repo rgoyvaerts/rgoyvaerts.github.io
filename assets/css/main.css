@@ -687,5 +687,12 @@ footer {
 .blog .postcard:nth-child(even) {
   margin-bottom: 80px; }
   .blog .postcard:nth-child(even) #share-buttons {
-    display: block;
-    bottom: 45px; }
+    display: block; }
+  .blog .postcard:nth-child(even) a {
+    background: none;
+    border-bottom: none; }
+    .blog .postcard:nth-child(even) a img {
+      width: 25px;
+      position: relative;
+      bottom: -35;
+      padding: 0 5px 2px 5px; }
