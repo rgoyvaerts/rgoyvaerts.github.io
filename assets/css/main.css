@@ -669,6 +669,10 @@ footer {
   .agenda .describtion {
     font-size: 18px; }
 
+.blog .text-video {
+  background: #fff9cb;
+  font-size: 16px;
+  padding: 10px 10px; }
 .blog .postcard #share-buttons {
   display: block; }
   .blog .postcard #share-buttons a {
@@ -680,13 +684,13 @@ footer {
 .blog .postcard img {
   width: 100%;
   height: 100%; }
-.blog .postcard:nth-child(even) {
+.blog .postcard:nth-child(odd) {
   margin-bottom: 80px; }
-  .blog .postcard:nth-child(even) #share-buttons {
+  .blog .postcard:nth-child(odd) #share-buttons {
     display: none; }
-    .blog .postcard:nth-child(even) #share-buttons a {
+    .blog .postcard:nth-child(odd) #share-buttons a {
       background: none;
       border-bottom: none; }
-      .blog .postcard:nth-child(even) #share-buttons a img {
+      .blog .postcard:nth-child(odd) #share-buttons a img {
         width: 25px;
         padding: 0 5px 2px 5px; }
