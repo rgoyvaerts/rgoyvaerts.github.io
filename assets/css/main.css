@@ -631,7 +631,8 @@ footer {
   font-size: 22px; }
   .agenda a {
     background: none;
-    border: none; }
+    border: none;
+    color: #db163d; }
   .agenda a:hover, .agenda a:focus {
     background: #fff9cb; }
   .agenda .current {
