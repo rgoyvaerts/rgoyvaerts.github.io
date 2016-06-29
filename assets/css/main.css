@@ -410,172 +410,6 @@ main {
     main .close::before {
       content: "▲";
       margin-right: 0.5em; }
-  main .expander-trigger {
-    cursor: pointer;
-    user-select: none;
-    color: #db163d;
-    display: none; }
-    main .expander-trigger::before {
-      content: "▼";
-      margin-right: 0.5em; }
-  main .expander-content {
-    position: relative;
-    width: 100vw;
-    left: calc(-50vw + 50%);
-    height: 100%;
-    margin: 30px 0; }
-  main .expander-hidden::before {
-    content: "►"; }
-  main .expander-hidden + .expander-content {
-    display: none; }
-  main .expander-content-main {
-    margin: 0 20px;
-    background: #fff9cb;
-    text-align: center; }
-    @media screen and (max-width: 760px) {
-      main .expander-content-main {
-        margin: 0; } }
-    main .expander-content-main .close {
-      padding: 0 0 20px 20px; }
-    main .expander-content-main .expander-text {
-      max-width: 1300px;
-      margin: 0 auto;
-      font-size: 22px; }
-      main .expander-content-main .expander-text p {
-        margin: 0 20px 30px 20px; }
-    main .expander-content-main .container-photos {
-      margin: 20px 0; }
-    main .expander-content-main .row-photos {
-      width: 100%;
-      margin: 0px auto; }
-      main .expander-content-main .row-photos:after {
-        content: "";
-        display: table;
-        clear: both; }
-      main .expander-content-main .row-photos .photo {
-        display: block;
-        width: 33.33%;
-        width: calc(100% / 3);
-        float: left;
-        box-sizing: border-box;
-        position: relative;
-        padding-top: 25%;
-        font-size: 16px;
-        text-align: left; }
-        @media screen and (max-width: 760px) {
-          main .expander-content-main .row-photos .photo {
-            width: 100%;
-            padding-top: 75%; } }
-        main .expander-content-main .row-photos .photo .photo-overlay {
-          position: absolute;
-          bottom: 0;
-          background: #FFF;
-          padding: 0 5px 2px 5px; }
-      main .expander-content-main .row-photos .journey1 {
-        background-image: url(/assets/img/journey-into-space/1.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .journey2 {
-        background-image: url(/assets/img/journey-into-space/2.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .journey3 {
-        background-image: url(/assets/img/journey-into-space/3.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .journey4 {
-        background-image: url(/assets/img/journey-into-space/4.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .journey5 {
-        background-image: url(/assets/img/journey-into-space/5.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .journey6 {
-        background-image: url(/assets/img/journey-into-space/6.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .tobreak1 {
-        background-image: url(/assets/img/tobreak/1.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .tobreak2 {
-        background-image: url(/assets/img/tobreak/2.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .tobreak3 {
-        background-image: url(/assets/img/tobreak/3.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .tobreak4 {
-        background-image: url(/assets/img/tobreak/4.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .tobreak5 {
-        background-image: url(/assets/img/tobreak/5.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .tobreak6 {
-        background-image: url(/assets/img/tobreak/6.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .visual-arts1 {
-        background-image: url(/assets/img/visual-arts/1.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .visual-arts2 {
-        background-image: url(/assets/img/visual-arts/2.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .visual-arts3 {
-        background-image: url(/assets/img/visual-arts/3.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .visual-arts4 {
-        background-image: url(/assets/img/visual-arts/4.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .visual-arts5 {
-        background-image: url(/assets/img/visual-arts/5.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .visual-arts6 {
-        background-image: url(/assets/img/visual-arts/6.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .visual-arts7 {
-        background-image: url(/assets/img/visual-arts/7.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .visual-arts8 {
-        background-image: url(/assets/img/visual-arts/8.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      main .expander-content-main .row-photos .visual-arts9 {
-        background-image: url(/assets/img/visual-arts/9.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; }
 
 footer {
   max-width: 750px;
@@ -637,6 +471,8 @@ footer {
     background: #fff9cb; }
   .agenda .current {
     border-bottom: 2px dashed #2c2c2c; }
+  .agenda .upcoming {
+    border-bottom: 2px dashed #2c2c2c; }
   .agenda .links {
     display: block;
     text-align: left;
@@ -669,6 +505,34 @@ footer {
       margin-top: 20px; }
   .agenda .describtion {
     font-size: 18px; }
+  .agenda .expander-trigger {
+    cursor: pointer;
+    user-select: none;
+    color: #db163d;
+    display: block;
+    margin-bottom: 25px;
+    padding: 10px; }
+    .agenda .expander-trigger::before {
+      content: "▼";
+      margin-right: 0.5em; }
+  .agenda .expander-content {
+    position: relative;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+    margin: 30px 0; }
+  .agenda .expander-hidden::before {
+    content: "►"; }
+  .agenda .expander-hidden + .expander-content {
+    display: none; }
+  .agenda .expander-content-main {
+    max-width: 750px;
+    margin: 0 auto; }
+    @media screen and (max-width: 760px) {
+      .agenda .expander-content-main {
+        margin: 0 10px; } }
+    .agenda .expander-content-main .close {
+      background: #fff9cb;
+      padding-bottom: 10px; }
 
 .blog .text-video {
   background: #fff9cb;
@@ -695,3 +559,170 @@ footer {
       .blog .postcard:nth-child(odd) #share-buttons a img {
         width: 25px;
         padding: 0 5px 2px 5px; }
+
+.theater .expander-trigger {
+  cursor: pointer;
+  user-select: none;
+  color: #db163d;
+  display: none; }
+  .theater .expander-trigger::before {
+    content: "▼";
+    margin-right: 0.5em; }
+.theater .expander-content {
+  position: relative;
+  width: 100vw;
+  left: calc(-50vw + 50%);
+  height: 100%;
+  margin: 30px 0; }
+.theater .expander-hidden::before {
+  content: "►"; }
+.theater .expander-hidden + .expander-content {
+  display: none; }
+.theater .expander-content-main {
+  margin: 0 20px;
+  background: #fff9cb;
+  text-align: center; }
+  @media screen and (max-width: 760px) {
+    .theater .expander-content-main {
+      margin: 0; } }
+  .theater .expander-content-main .close {
+    padding: 0 0 20px 20px; }
+  .theater .expander-content-main .expander-text {
+    max-width: 1300px;
+    margin: 0 auto;
+    font-size: 22px; }
+    .theater .expander-content-main .expander-text p {
+      margin: 0 20px 30px 20px; }
+  .theater .expander-content-main .container-photos {
+    margin: 20px 0; }
+  .theater .expander-content-main .row-photos {
+    width: 100%;
+    margin: 0px auto; }
+    .theater .expander-content-main .row-photos:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .theater .expander-content-main .row-photos .photo {
+      display: block;
+      width: 33.33%;
+      width: calc(100% / 3);
+      float: left;
+      box-sizing: border-box;
+      position: relative;
+      padding-top: 25%;
+      font-size: 16px;
+      text-align: left; }
+      @media screen and (max-width: 760px) {
+        .theater .expander-content-main .row-photos .photo {
+          width: 100%;
+          padding-top: 75%; } }
+      .theater .expander-content-main .row-photos .photo .photo-overlay {
+        position: absolute;
+        bottom: 0;
+        background: #FFF;
+        padding: 0 5px 2px 5px; }
+    .theater .expander-content-main .row-photos .journey1 {
+      background-image: url(/assets/img/journey-into-space/1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .journey2 {
+      background-image: url(/assets/img/journey-into-space/2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .journey3 {
+      background-image: url(/assets/img/journey-into-space/3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .journey4 {
+      background-image: url(/assets/img/journey-into-space/4.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .journey5 {
+      background-image: url(/assets/img/journey-into-space/5.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .journey6 {
+      background-image: url(/assets/img/journey-into-space/6.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .tobreak1 {
+      background-image: url(/assets/img/tobreak/1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .tobreak2 {
+      background-image: url(/assets/img/tobreak/2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .tobreak3 {
+      background-image: url(/assets/img/tobreak/3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .tobreak4 {
+      background-image: url(/assets/img/tobreak/4.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .tobreak5 {
+      background-image: url(/assets/img/tobreak/5.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .tobreak6 {
+      background-image: url(/assets/img/tobreak/6.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .visual-arts1 {
+      background-image: url(/assets/img/visual-arts/1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .visual-arts2 {
+      background-image: url(/assets/img/visual-arts/2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .visual-arts3 {
+      background-image: url(/assets/img/visual-arts/3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .visual-arts4 {
+      background-image: url(/assets/img/visual-arts/4.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .visual-arts5 {
+      background-image: url(/assets/img/visual-arts/5.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .visual-arts6 {
+      background-image: url(/assets/img/visual-arts/6.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .visual-arts7 {
+      background-image: url(/assets/img/visual-arts/7.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .visual-arts8 {
+      background-image: url(/assets/img/visual-arts/8.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .theater .expander-content-main .row-photos .visual-arts9 {
+      background-image: url(/assets/img/visual-arts/9.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }

@@ -3,6 +3,8 @@ $(function() {
     closetobreak();
     expandjourney();
     closejourney();
+    expandagenda();
+    closeagenda();
     smoothScroll(800);
 });
 
@@ -43,6 +45,26 @@ function closetobreak(){
     $(document).ready(function() {
   $('#tobreakclose').click(function(){
     $('#tobreaktrigger').toggleClass("expander-hidden");
+  });
+});
+    
+}
+
+function expandagenda(){
+  
+  $(document).ready(function() {
+  $('#agendatrigger').click(function(){
+    $('#agendatrigger').toggleClass("expander-hidden");
+  });
+});
+    
+}
+
+function closeagenda(){
+    
+    $(document).ready(function() {
+  $('#agendaclose').click(function(){
+    $('#agendatrigger').toggleClass("expander-hidden");
   });
 });
     
