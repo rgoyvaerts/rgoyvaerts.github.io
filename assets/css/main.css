@@ -560,49 +560,53 @@ footer {
         width: 25px;
         padding: 0 5px 2px 5px; }
 
-.theater .expander-trigger {
+.expander-trigger {
   cursor: pointer;
   user-select: none;
   color: #db163d;
   display: none; }
-  .theater .expander-trigger::before {
+  .expander-trigger::before {
     content: "▼";
     margin-right: 0.5em; }
-.theater .expander-content {
+
+.expander-content {
   position: relative;
   width: 100vw;
   left: calc(-50vw + 50%);
   height: 100%;
   margin: 30px 0; }
-.theater .expander-hidden::before {
+
+.expander-hidden::before {
   content: "►"; }
-.theater .expander-hidden + .expander-content {
+
+.expander-hidden + .expander-content {
   display: none; }
-.theater .expander-content-main {
+
+.expander-content-main {
   margin: 0 20px;
   background: #fff9cb;
   text-align: center; }
   @media screen and (max-width: 760px) {
-    .theater .expander-content-main {
+    .expander-content-main {
       margin: 0; } }
-  .theater .expander-content-main .close {
+  .expander-content-main .close {
     padding: 0 0 20px 20px; }
-  .theater .expander-content-main .expander-text {
+  .expander-content-main .expander-text {
     max-width: 1300px;
     margin: 0 auto;
     font-size: 22px; }
-    .theater .expander-content-main .expander-text p {
+    .expander-content-main .expander-text p {
       margin: 0 20px 30px 20px; }
-  .theater .expander-content-main .container-photos {
+  .expander-content-main .container-photos {
     margin: 20px 0; }
-  .theater .expander-content-main .row-photos {
+  .expander-content-main .row-photos {
     width: 100%;
     margin: 0px auto; }
-    .theater .expander-content-main .row-photos:after {
+    .expander-content-main .row-photos:after {
       content: "";
       display: table;
       clear: both; }
-    .theater .expander-content-main .row-photos .photo {
+    .expander-content-main .row-photos .photo {
       display: block;
       width: 33.33%;
       width: calc(100% / 3);
@@ -613,115 +617,115 @@ footer {
       font-size: 16px;
       text-align: left; }
       @media screen and (max-width: 760px) {
-        .theater .expander-content-main .row-photos .photo {
+        .expander-content-main .row-photos .photo {
           width: 100%;
           padding-top: 75%; } }
-      .theater .expander-content-main .row-photos .photo .photo-overlay {
+      .expander-content-main .row-photos .photo .photo-overlay {
         position: absolute;
         bottom: 0;
         background: #FFF;
         padding: 0 5px 2px 5px; }
-    .theater .expander-content-main .row-photos .journey1 {
+    .expander-content-main .row-photos .journey1 {
       background-image: url(/assets/img/journey-into-space/1.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .journey2 {
+    .expander-content-main .row-photos .journey2 {
       background-image: url(/assets/img/journey-into-space/2.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .journey3 {
+    .expander-content-main .row-photos .journey3 {
       background-image: url(/assets/img/journey-into-space/3.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .journey4 {
+    .expander-content-main .row-photos .journey4 {
       background-image: url(/assets/img/journey-into-space/4.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .journey5 {
+    .expander-content-main .row-photos .journey5 {
       background-image: url(/assets/img/journey-into-space/5.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .journey6 {
+    .expander-content-main .row-photos .journey6 {
       background-image: url(/assets/img/journey-into-space/6.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .tobreak1 {
+    .expander-content-main .row-photos .tobreak1 {
       background-image: url(/assets/img/tobreak/1.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .tobreak2 {
+    .expander-content-main .row-photos .tobreak2 {
       background-image: url(/assets/img/tobreak/2.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .tobreak3 {
+    .expander-content-main .row-photos .tobreak3 {
       background-image: url(/assets/img/tobreak/3.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .tobreak4 {
+    .expander-content-main .row-photos .tobreak4 {
       background-image: url(/assets/img/tobreak/4.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .tobreak5 {
+    .expander-content-main .row-photos .tobreak5 {
       background-image: url(/assets/img/tobreak/5.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .tobreak6 {
+    .expander-content-main .row-photos .tobreak6 {
       background-image: url(/assets/img/tobreak/6.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .visual-arts1 {
+    .expander-content-main .row-photos .visual-arts1 {
       background-image: url(/assets/img/visual-arts/1.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .visual-arts2 {
+    .expander-content-main .row-photos .visual-arts2 {
       background-image: url(/assets/img/visual-arts/2.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .visual-arts3 {
+    .expander-content-main .row-photos .visual-arts3 {
       background-image: url(/assets/img/visual-arts/3.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .visual-arts4 {
+    .expander-content-main .row-photos .visual-arts4 {
       background-image: url(/assets/img/visual-arts/4.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .visual-arts5 {
+    .expander-content-main .row-photos .visual-arts5 {
       background-image: url(/assets/img/visual-arts/5.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .visual-arts6 {
+    .expander-content-main .row-photos .visual-arts6 {
       background-image: url(/assets/img/visual-arts/6.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .visual-arts7 {
+    .expander-content-main .row-photos .visual-arts7 {
       background-image: url(/assets/img/visual-arts/7.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .visual-arts8 {
+    .expander-content-main .row-photos .visual-arts8 {
       background-image: url(/assets/img/visual-arts/8.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .theater .expander-content-main .row-photos .visual-arts9 {
+    .expander-content-main .row-photos .visual-arts9 {
       background-image: url(/assets/img/visual-arts/9.jpg);
       background-position: center center;
       background-repeat: no-repeat;
