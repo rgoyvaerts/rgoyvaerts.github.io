@@ -357,6 +357,9 @@ main {
   padding: 0 20px;
   font-size: 25px;
   text-align: justify; }
+  main .tags {
+    font-size: 22px;
+    padding-bottom: 20px; }
   main #instafeed {
     width: 100%;
     height: 100%;
@@ -583,7 +586,6 @@ footer {
   display: none; }
 
 .expander-content-main {
-  margin: 0 20px;
   background: #fff9cb;
   text-align: center; }
   @media screen and (max-width: 760px) {
@@ -593,10 +595,17 @@ footer {
     padding: 0 0 20px 20px; }
   .expander-content-main .expander-text {
     max-width: 1300px;
-    margin: 0 auto;
-    font-size: 22px; }
+    margin: 0px auto;
+    font-size: 22px;
+    padding: 20px 0; }
     .expander-content-main .expander-text p {
       margin: 0 20px 30px 20px; }
+    .expander-content-main .expander-text a {
+      color: #db163d;
+      border-bottom: none; }
+    .expander-content-main .expander-text a:hover, .expander-content-main .expander-text a:focus {
+      color: #2c2c2c;
+      border-bottom: 2px dashed #2c2c2c; }
   .expander-content-main .container-photos {
     margin: 20px 0; }
   .expander-content-main .row-photos {
@@ -727,6 +736,486 @@ footer {
       background-size: cover; }
     .expander-content-main .row-photos .visual-arts9 {
       background-image: url(/assets/img/visual-arts/9.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_ack_ack_1 {
+      background-image: url(/assets/img/portfolio/​ackack_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_ack_ack_2 {
+      background-image: url(/assets/img/portfolio/​ackack_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_ack_ack_3 {
+      background-image: url(/assets/img/portfolio/​ackack_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_a_documentary_1 {
+      background-image: url(/assets/img/portfolio/​adocumentary_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_a_documentary_2 {
+      background-image: url(/assets/img/portfolio/​adocumentary_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_a_documentary_3 {
+      background-image: url(/assets/img/portfolio/​adocumentary_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_a_journey_1 {
+      background-image: url(/assets/img/portfolio/ajourney_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_a_journey_2 {
+      background-image: url(/assets/img/portfolio/ajourney_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_a_journey_3 {
+      background-image: url(/assets/img/portfolio/ajourney_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_alterego_1 {
+      background-image: url(/assets/img/portfolio/alterego_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_alterego_2 {
+      background-image: url(/assets/img/portfolio/alterego_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_alterego_3 {
+      background-image: url(/assets/img/portfolio/alterego_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_bloodstain_1 {
+      background-image: url(/assets/img/portfolio/bloodstain_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_bloodstain_2 {
+      background-image: url(/assets/img/portfolio/bloodstain_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_bloodstain_3 {
+      background-image: url(/assets/img/portfolio/bloodstain_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_chocolategun_1 {
+      background-image: url(/assets/img/portfolio/chocolateguns_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_chocolategun_2 {
+      background-image: url(/assets/img/portfolio/chocolateguns_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_chocolategun_3 {
+      background-image: url(/assets/img/portfolio/chocolateguns_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_crowds_1 {
+      background-image: url(/assets/img/portfolio/crowds_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_crowds_2 {
+      background-image: url(/assets/img/portfolio/crowds_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_crowds_3 {
+      background-image: url(/assets/img/portfolio/crowds_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_dr_Valcke_1 {
+      background-image: url(/assets/img/portfolio/dr_valcke_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_dr_Valcke_2 {
+      background-image: url(/assets/img/portfolio/dr_valcke_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_dr_Valcke_3 {
+      background-image: url(/assets/img/portfolio/dr_valcke_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_dr_Valcke_4 {
+      background-image: url(/assets/img/portfolio/dr_valcke_4.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_dr_Valcke_5 {
+      background-image: url(/assets/img/portfolio/dr_valcke_5.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_dr_Valcke_6 {
+      background-image: url(/assets/img/portfolio/dr_valcke_6.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_faces_1 {
+      background-image: url(/assets/img/portfolio/faces_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_faces_2 {
+      background-image: url(/assets/img/portfolio/faces_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_faces_3 {
+      background-image: url(/assets/img/portfolio/faces_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_faces_4 {
+      background-image: url(/assets/img/portfolio/faces_4.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_gg_1 {
+      background-image: url(/assets/img/portfolio/gg_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_gg_2 {
+      background-image: url(/assets/img/portfolio/gg_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_gg_3 {
+      background-image: url(/assets/img/portfolio/gg_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_1 {
+      background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_2 {
+      background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_3 {
+      background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_4 {
+      background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_4.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_5 {
+      background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_5.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_6 {
+      background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_6.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_7 {
+      background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_7.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_googleburning_1 {
+      background-image: url(/assets/img/portfolio/googleburning_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_googleburning_2 {
+      background-image: url(/assets/img/portfolio/googleburning_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_googleburning_3 {
+      background-image: url(/assets/img/portfolio/googleburning_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_grandhumanprojects_1 {
+      background-image: url(/assets/img/portfolio/grandhumanprojects_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_grandhumanprojects_2 {
+      background-image: url(/assets/img/portfolio/grandhumanprojects_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_grandhumanprojects_3 {
+      background-image: url(/assets/img/portfolio/grandhumanprojects_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_guns_1 {
+      background-image: url(/assets/img/portfolio/guns_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_guns_2 {
+      background-image: url(/assets/img/portfolio/guns_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_guns_3 {
+      background-image: url(/assets/img/portfolio/guns_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_gunsbook_1 {
+      background-image: url(/assets/img/portfolio/gunsbook_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_gunsbook_2 {
+      background-image: url(/assets/img/portfolio/gunsbook_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_gunsbook_3 {
+      background-image: url(/assets/img/portfolio/gunsbook_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_mayanhieroglyfe_1 {
+      background-image: url(/assets/img/portfolio/mayanhieroglyfe_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_mayanhieroglyfe_2 {
+      background-image: url(/assets/img/portfolio/mayanhieroglyfe_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_mayanhieroglyfe_3 {
+      background-image: url(/assets/img/portfolio/mayanhieroglyfe_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_pigeonpricewinners_1 {
+      background-image: url(/assets/img/portfolio/pigeonpricewinners_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_pigeonpricewinners_2 {
+      background-image: url(/assets/img/portfolio/pigeonpricewinners_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_pigeonpricewinners_3 {
+      background-image: url(/assets/img/portfolio/pigeonpricewinners_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_PONG_1 {
+      background-image: url(/assets/img/portfolio/pong_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_PONG_2 {
+      background-image: url(/assets/img/portfolio/pong_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_PONG_3 {
+      background-image: url(/assets/img/portfolio/pong_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_reindeer_oxhead_1 {
+      background-image: url(/assets/img/portfolio/reindeer-oxhead_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_reindeer_oxhead_2 {
+      background-image: url(/assets/img/portfolio/reindeer-oxhead_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_reindeer_oxhead_3 {
+      background-image: url(/assets/img/portfolio/reindeer-oxhead_3.gif);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_samplersongs_1 {
+      background-image: url(/assets/img/portfolio/samplersongs_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_samplersongs_2 {
+      background-image: url(/assets/img/portfolio/samplersongs_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_samplersongs_3 {
+      background-image: url(/assets/img/portfolio/samplersongs_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_suitcasevariations_1 {
+      background-image: url(/assets/img/portfolio/suitcasevariations_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_suitcasevariations_2 {
+      background-image: url(/assets/img/portfolio/suitcasevariations_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_suitcasevariations_3 {
+      background-image: url(/assets/img/portfolio/suitcasevariations_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_suitcasevariations_4 {
+      background-image: url(/assets/img/portfolio/suitcasevariations_4.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_suitcasevariations_5 {
+      background-image: url(/assets/img/portfolio/suitcasevariations_5.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_suitcasevariations_6 {
+      background-image: url(/assets/img/portfolio/suitcasevariations_6.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_suitcasevariations_7 {
+      background-image: url(/assets/img/portfolio/suitcasevariations_7.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_thegildedchild_1 {
+      background-image: url(/assets/img/portfolio/thegildedchild_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_thegildedchild_2 {
+      background-image: url(/assets/img/portfolio/thegildedchild_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_thegildedchild_3 {
+      background-image: url(/assets/img/portfolio/thegildedchild_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_tobreak_1 {
+      background-image: url(/assets/img/portfolio/tobreak_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_tobreak_2 {
+      background-image: url(/assets/img/portfolio/tobreak_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_tobreak_3 {
+      background-image: url(/assets/img/portfolio/tobreak_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_trophies_1 {
+      background-image: url(/assets/img/portfolio/trophies_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_trophies_2 {
+      background-image: url(/assets/img/portfolio/trophies_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_trophies_3 {
+      background-image: url(/assets/img/portfolio/trophies_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_V_sign_1 {
+      background-image: url(/assets/img/portfolio/v-signs_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_V_sign_2 {
+      background-image: url(/assets/img/portfolio/v-signs_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_V_sign_3 {
+      background-image: url(/assets/img/portfolio/v-signs_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_vendingmachine_1 {
+      background-image: url(/assets/img/portfolio/vendingmachine_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_vendingmachine_2 {
+      background-image: url(/assets/img/portfolio/vendingmachine_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_vendingmachine_3 {
+      background-image: url(/assets/img/portfolio/vendingmachine_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_whataboutamericanhistory_1 {
+      background-image: url(/assets/img/portfolio/whataboutamericanhistory_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_whataboutamericanhistory_2 {
+      background-image: url(/assets/img/portfolio/whataboutamericanhistory_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_whataboutamericanhistory_3 {
+      background-image: url(/assets/img/portfolio/whataboutamericanhistory_3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_whey_1 {
+      background-image: url(/assets/img/portfolio/whey_1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_whey_2 {
+      background-image: url(/assets/img/portfolio/whey_2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .portfolio_whey_3 {
+      background-image: url(/assets/img/portfolio/whey_3.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
