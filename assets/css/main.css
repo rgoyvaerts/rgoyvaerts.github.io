@@ -247,7 +247,7 @@ blockquote {
   padding: 0 15px; }
 
 header {
-  height: 125px;
+  height: 200px;
   display: block;
   padding-top: 75px;
   margin-bottom: 40px; }
@@ -309,8 +309,8 @@ header {
     header .midden .agenda-menu {
       display: inline-block;
       line-height: 0;
-      height: 75px;
-      margin: 0 17px;
+      height: 0 px;
+      margin: 35px 25px 0 0;
       vertical-align: middle; }
       header .midden .agenda-menu a {
         padding: 5px 2px;
@@ -342,8 +342,8 @@ header {
     header .midden .blog-menu {
       display: inline-block;
       line-height: 0;
-      height: 75px;
-      margin: 0 17px 0 0;
+      height: 0 px;
+      margin: 35px 25px 0 0;
       vertical-align: middle; }
       header .midden .blog-menu a {
         padding: 5px 2px;
