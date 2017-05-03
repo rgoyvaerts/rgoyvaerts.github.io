@@ -563,15 +563,6 @@ footer {
         width: 25px;
         padding: 0 5px 2px 5px; }
 
-.expander-trigger {
-  cursor: pointer;
-  user-select: none;
-  color: #db163d;
-  display: none; }
-  .expander-trigger::before {
-    content: "▼";
-    margin-right: 0.5em; }
-
 .expander-content {
   position: relative;
   width: 100vw;
@@ -579,20 +570,12 @@ footer {
   height: 100%;
   margin: 30px 0; }
 
-.expander-hidden::before {
-  content: "►"; }
-
-.expander-hidden + .expander-content {
-  display: none; }
-
 .expander-content-main {
   background: #fff9cb;
   text-align: center; }
   @media screen and (max-width: 760px) {
     .expander-content-main {
       margin: 0; } }
-  .expander-content-main .close {
-    padding: 0 0 20px 20px; }
   .expander-content-main .expander-text {
     max-width: 1300px;
     margin: 0px auto;
@@ -691,6 +674,36 @@ footer {
       background-size: cover; }
     .expander-content-main .row-photos .tobreak6 {
       background-image: url(/assets/img/tobreak/6.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .grand-human-projects1 {
+      background-image: url(/assets/img/grand-human-projects/1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .grand-human-projects2 {
+      background-image: url(/assets/img/grand-human-projects/2.gif);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .grand-human-projects3 {
+      background-image: url(/assets/img/grand-human-projects/3.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .grand-human-projects4 {
+      background-image: url(/assets/img/grand-human-projects/4.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .grand-human-projects5 {
+      background-image: url(/assets/img/grand-human-projects/5.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .expander-content-main .row-photos .grand-human-projects6 {
+      background-image: url(/assets/img/grand-human-projects/6.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover; }
