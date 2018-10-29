@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://use.typekit.net/ocp4xjz.css");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -143,50 +144,41 @@ table {
 td, th {
   padding: 0; }
 
-@font-face {
-  font-family: 'Crimson Text';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Crimson Text"), local("CrimsonText-Roman"), url(https://fonts.gstatic.com/s/crimsontext/v6/3IFMwfRa07i-auYR-B-zNaRDOzjiPcYnFooOUGCOsRk.woff) format("woff"); }
-@font-face {
-  font-family: 'Crimson Text';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Crimson Text Bold"), local("CrimsonText-Bold"), url(https://fonts.gstatic.com/s/crimsontext/v6/rEy5tGc5HdXy56Xvd4f3IxAPw1J91axKNXP_-QX9CC8.woff) format("woff"); }
-@font-face {
-  font-family: 'Amaranth';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Amaranth Regular"), local("Amaranth-Regular"), url(https://fonts.gstatic.com/s/amaranth/v8/KtkuALODe433f0j1zMnFHdCIwWzX.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face {
-  font-family: 'Amaranth';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Amaranth Bold"), local("Amaranth-Bold"), url(https://fonts.gstatic.com/s/amaranth/v8/KtkpALODe433f0j1zMF-OMWl42H9FYud.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 .gigantic {
   font-size: 110px;
   line-height: 1.09;
   letter-spacing: -2px; }
 
 .huge, h1 {
-  font-size: 68px;
+  font-family: "amaranth", sans-serif;
+  font-size: 600%;
   letter-spacing: -1px;
   margin: 0; }
+  @media screen and (max-width: 520px) {
+    .huge, h1 {
+      font-size: 400%; } }
 
 .large, h2 {
-  font-size: 42px;
+  font-family: "amaranth", sans-serif;
+  font-size: 400%;
   line-height: 1.14; }
+  @media screen and (max-width: 520px) {
+    .large, h2 {
+      font-size: 300%; } }
 
 .bigger, h3 {
-  font-size: 32px;
+  font-family: "amaranth", sans-serif;
+  font-size: 300%;
   line-height: 1.38;
   text-align: center;
   letter-spacing: 1px; }
+  @media screen and (max-width: 520px) {
+    .bigger, h3 {
+      font-size: 250%; } }
 
 .big, h4 {
-  font-size: 22px;
+  font-family: "amaranth", sans-serif;
+  font-size: 200%;
   line-height: 1.38; }
 
 .small, small {
@@ -194,14 +186,15 @@ td, th {
   line-height: 1.2; }
 
 p {
-  margin: 0 0 50px 0; }
+  margin: 0 0 2em 0; }
 
 em {
   font-style: italic; }
 
 strong {
-  font-family: "Amaranth", sans-serif;
-  letter-spacing: 1px; }
+  font-family: "amaranth", sans-serif;
+  font-weight: 700;
+  font-size: 1.1em; }
 
 hr {
   border: solid #ddd;
@@ -217,11 +210,14 @@ li {
 
 a {
   color: #db163d;
-  border-bottom: 2px dashed #FFEB6B;
   text-decoration: none;
-  outline: 0; }
+  outline: 0;
+  padding: 0 5px 2px 5px; }
 
 a:hover, a:focus {
+  background: #fff29e; }
+
+a.current {
   background: #fff29e; }
 
 ::selection {
@@ -240,11 +236,13 @@ body {
   -webkit-tap-highlight-color: #db163d; }
 
 body {
-  background: #ffffff;
-  font-size: 20px;
+  font-size: 1.1em;
   line-height: 1.6;
-  font-family: "Amaranth", sans-serif;
+  font-family: "europa", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05em;
   color: #2D384F;
+  background: #fff;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
   @media only screen and (max-width: 500px) {
@@ -252,15 +250,25 @@ body {
       font-size: 18px; } }
 
 blockquote {
-  border-left: 4px solid #ddd;
-  color: #777;
-  padding: 0 15px; }
+  font-family: "amaranth", sans-serif;
+  font-size: 110%;
+  margin: 0 0 2em 0; }
 
 header {
-  height: 180px;
-  display: block;
-  padding-top: 75px;
-  margin-bottom: 40px; }
+  padding-bottom: 40px;
+  max-width: 750px;
+  margin: 0 auto 40px; }
+  header .landing-header {
+    position: relative;
+    margin-top: 25vh; }
+    header .landing-header h1 {
+      -webkit-animation: FadeOut 2.5s forwards;
+      -moz-animation: FadeOut 2.5s forwards;
+      animation: FadeOut 2.5s forwards;
+      color: #FFEB6B; }
+      @media screen and (max-width: 950px) {
+        header .landing-header h1 {
+          font-size: 400%; } }
   header .sprite {
     width: 48px;
     height: 48px;
@@ -268,68 +276,20 @@ header {
     top: 20px;
     background: none;
     border: none; }
-  header nav.hoek a {
-    text-transform: uppercase;
-    font-weight: 700; }
-  header nav.hoek .theater {
-    left: -190px;
-    position: fixed;
-    top: -75px;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    padding: 150px 130px 25px 160px;
-    border: 2px dashed #db163d;
-    z-index: 5; }
-    header nav.hoek .theater a {
-      border-bottom: none; }
-    @media only screen and (max-width: 500px) {
-      header nav.hoek .theater {
-        padding: 150px 130px 15px 160px;
-        left: -200px;
-        top: -90px; } }
-  header nav.hoek .visualarts {
-    right: -175px;
-    position: fixed;
-    top: -90px;
-    text-align: center;
-    line-height: 1;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    padding: 150px 145px 20px 150px;
-    border: 2px dashed #db163d;
-    z-index: 5; }
-    header nav.hoek .visualarts a {
-      border-bottom: none; }
-    @media only screen and (max-width: 500px) {
-      header nav.hoek .visualarts {
-        padding: 150px 145px 10px 150px;
-        right: -185px;
-        top: -105px; } }
   header .midden {
-    display: block;
     text-align: center; }
-    header .midden .menu-items {
+    header .midden .landing-title {
       display: inline-block;
-      line-height: 0;
-      height: 0 px;
-      margin: 35px 25px 0 0;
-      vertical-align: middle; }
-      header .midden .menu-items a {
-        padding: 5px 10px;
-        border-radius: 5px; }
-      header .midden .menu-items a:hover {
-        background: none;
-        color: #2D384F; }
+      padding: 20px; }
+      @media screen and (max-width: 520px) {
+        header .midden .landing-title {
+          display: none; } }
     header .midden .logo {
       height: 85px;
       width: 85px;
       display: inline-block;
+      position: relative;
+      top: 25px;
       border-radius: 50%;
       border-bottom: none;
       background: none;
@@ -347,32 +307,94 @@ header {
       -ms-transform: rotate(360deg);
       -o-transform: rotate(360deg);
       transform: rotate(360deg); }
+  header .menu {
+    position: relative;
+    text-align: center;
+    padding: 32px 0 0 0;
+    top: 0;
+    left: 0;
+    font-size: 0.9em; }
+    @media screen and (max-width: 1050px) {
+      header .menu {
+        position: relative;
+        text-align: center;
+        padding: 32px 0 0 0;
+        top: 0;
+        left: 0; } }
+    header .menu .menu-items {
+      margin-bottom: 10px;
+      display: inline-block;
+      margin: 0 15px 0 0; }
+      @media screen and (max-width: 1050px) {
+        header .menu .menu-items {
+          display: inline-block;
+          margin: 0 15px 0 0; } }
+  header .social-header {
+    position: fixed;
+    top: 35px;
+    right: 35px;
+    z-index: 99; }
+    @media screen and (max-width: 1050px) {
+      header .social-header {
+        position: relative;
+        text-align: center;
+        padding: 32px 0 0 0;
+        top: 0;
+        right: 0; } }
+    header .social-header .social-icon {
+      height: 30px;
+      width: 30px;
+      border-radius: 20%;
+      padding: 0;
+      margin: 0 auto 10px;
+      display: block;
+      background: rgba(255, 255, 255, 0.6);
+      border-bottom: none; }
+      @media screen and (max-width: 1050px) {
+        header .social-header .social-icon {
+          display: inline-block; } }
+    header .social-header .social-icon:hover {
+      background: #fff29e; }
+    header .social-header .social-icon.email {
+      height: 35px;
+      width: 35px; }
+      @media screen and (max-width: 1050px) {
+        header .social-header .social-icon.email {
+          position: relative;
+          top: 2.5px; } }
 
+@keyframes FadeOut {
+  0% {
+    z-index: 2;
+    opacity: 1; }
+  20% {
+    opacity: 1; }
+  99% {
+    z-index: 2; }
+  100% {
+    opacity: 0;
+    z-index: -1; } }
 main {
   max-width: 750px;
   margin: 0 auto;
   padding: 0 20px;
-  font-size: 25px;
-  text-align: justify; }
+  text-align: justify;
+  font-weight: 400; }
+  main .pagetitle {
+    -webkit-animation: FadeOut 2.5s forwards;
+    -moz-animation: FadeOut 2.5s forwards;
+    animation: FadeOut 2.5s forwards;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFEB6B; }
+    @media screen and (max-width: 1050px) {
+      main .pagetitle {
+        top: 40%; } }
   main .tags {
-    font-size: 22px;
     padding-bottom: 20px; }
-  main #instafeed {
-    width: 100%;
-    height: 100%;
-    padding-bottom: 20px;
-    margin-top: -50px; }
-    main #instafeed .instatext {
-      width: 250px;
-      line-height: 0;
-      text-align: center;
-      position: relative;
-      top: 180px;
-      color: #fff29e; }
-    main #instafeed a {
-      border: none;
-      background: none; }
-    main #instafeed img {
+    main .tags img {
       width: 100%;
       height: 100%; }
   main .video-container {
@@ -392,11 +414,6 @@ main {
     height: 48px;
     background: none;
     border: none; }
-  main a {
-    outline: 0;
-    padding: 0 5px 2px 5px; }
-  main a:hover, main a:focus {
-    color: #db163d; }
   main .close {
     display: block;
     text-align: left;
@@ -410,20 +427,12 @@ main {
       margin-right: 0.5em; }
 
 footer {
-  max-width: 750px;
-  margin: 0 auto;
+  padding: 30px 20px;
+  margin: 40x auto 0px;
   display: block;
-  text-align: center;
-  font-size: 25px;
-  padding-top: 5px; }
-  footer .mailto {
-    border-top: 2px dashed #2D384F;
-    padding: 60px 20px 0; }
-    footer .mailto a {
-      outline: 0;
-      padding: 0 5px 2px 5px; }
-    footer .mailto p {
-      margin-bottom: 40px; }
+  text-align: center; }
+  footer .mailto p {
+    margin-bottom: 30px; }
   footer .sprite {
     z-index: 5;
     width: 48px;
@@ -434,103 +443,97 @@ footer {
     bottom: 20px;
     background: none;
     border-bottom: none; }
-  footer .social {
-    padding-bottom: 50px; }
-    footer .social .instagram {
-      height: 60px;
-      width: 60px;
-      border-radius: 20%;
-      display: inline-block;
-      margin: 0 30px 0 0;
-      padding: 5px;
-      background: none;
-      border-bottom: none; }
-    footer .social .instagram:hover {
-      background: #fff29e; }
-    footer .social .facebook {
-      height: 60px;
-      width: 60px;
-      border-radius: 20%;
-      display: inline-block;
-      margin: 0 0 0 30px;
-      padding: 5px;
-      background: none;
-      border-bottom: none; }
-    footer .social .facebook:hover {
-      background: #fff29e; }
-
-.agenda {
-  font-size: 22px; }
-  .agenda a {
-    background: none;
-    border: none;
-    color: #db163d; }
-  .agenda a:hover, .agenda a:focus {
-    background: #fff29e; }
-  .agenda .current {
-    border-bottom: 2px dashed #2D384F; }
-  .agenda .upcoming {
-    border-bottom: 2px dashed #2D384F; }
-  .agenda .links {
-    display: block;
-    text-align: left;
-    border-top: 2px dashed #2D384F;
-    padding-top: 40px; }
-    .agenda .links .date {
-      background: #fff29e;
-      font-size: 25px;
-      display: inline-block;
-      border: 2px solid #2D384F;
-      padding: 0 10px 2px 10px;
-      margin: 40px 0 25px; }
-    .agenda .links .more-info {
-      display: inline-block;
-      margin-top: 20px; }
-  .agenda .rechts {
-    display: block;
-    text-align: right;
-    border-top: 2px dashed #2D384F;
-    padding-top: 40px; }
-    .agenda .rechts .date {
-      background: #fff29e;
-      font-size: 25px;
-      display: inline-block;
-      border: 2px solid #2D384F;
-      padding: 0 10px 2px 10px;
-      margin: 40px 0 25px; }
-    .agenda .rechts .more-info {
-      display: inline-block;
-      margin-top: 20px; }
-  .agenda .describtion {
-    font-size: 18px; }
-  .agenda .expander-trigger {
-    cursor: pointer;
-    user-select: none;
-    color: #db163d;
-    display: block;
-    margin-bottom: 25px;
-    padding: 10px; }
-    .agenda .expander-trigger::before {
-      content: "▼";
-      margin-right: 0.5em; }
-  .agenda .expander-content {
+  footer .social-footer {
     position: relative;
-    width: 100vw;
-    left: calc(-50vw + 50%);
-    margin: 30px 0; }
-  .agenda .expander-hidden::before {
-    content: "►"; }
-  .agenda .expander-hidden + .expander-content {
-    display: none; }
-  .agenda .expander-content-main {
-    max-width: 750px;
-    margin: 0 auto; }
-    @media screen and (max-width: 760px) {
-      .agenda .expander-content-main {
-        margin: 0 10px; } }
-    .agenda .expander-content-main .close {
-      background: #fff29e;
-      padding-bottom: 10px; }
+    text-align: center;
+    top: 0;
+    right: 0; }
+    footer .social-footer .social-icon {
+      height: 30px;
+      width: 30px;
+      border-radius: 20%;
+      padding: 0;
+      margin: 0 auto 10px;
+      display: inline-block;
+      border-bottom: none; }
+    footer .social-footer .social-icon:hover {
+      background: #fff29e; }
+    footer .social-footer .social-icon.email {
+      height: 35px;
+      width: 35px;
+      position: relative;
+      top: 2.5px; }
+
+.agenda a {
+  background: none;
+  border: none;
+  color: #db163d; }
+.agenda a:hover, .agenda a:focus {
+  background: #fff29e; }
+.agenda .current {
+  border-bottom: 2px dashed #2D384F; }
+.agenda .upcoming {
+  border-bottom: 2px dashed #2D384F; }
+.agenda .links {
+  display: block;
+  text-align: left;
+  border-top: 2px dashed #2D384F;
+  padding-top: 40px; }
+  .agenda .links .date {
+    background: #fff29e;
+    font-size: 25px;
+    display: inline-block;
+    border: 2px solid #2D384F;
+    padding: 0 10px 2px 10px;
+    margin: 40px 0 25px; }
+  .agenda .links .more-info {
+    display: inline-block;
+    margin-top: 20px; }
+.agenda .rechts {
+  display: block;
+  text-align: right;
+  border-top: 2px dashed #2D384F;
+  padding-top: 40px; }
+  .agenda .rechts .date {
+    background: #fff29e;
+    font-size: 25px;
+    display: inline-block;
+    border: 2px solid #2D384F;
+    padding: 0 10px 2px 10px;
+    margin: 40px 0 25px; }
+  .agenda .rechts .more-info {
+    display: inline-block;
+    margin-top: 20px; }
+.agenda .describtion {
+  font-size: 18px; }
+.agenda .expander-trigger {
+  cursor: pointer;
+  user-select: none;
+  color: #db163d;
+  display: block;
+  margin-bottom: 25px;
+  padding: 10px; }
+  .agenda .expander-trigger::before {
+    content: "▼";
+    margin-right: 0.5em; }
+.agenda .expander-content {
+  position: relative;
+  width: 100vw;
+  left: calc(-50vw + 50%);
+  margin: 30px 0; }
+.agenda .expander-hidden::before {
+  content: "►"; }
+.agenda .expander-hidden + .expander-content {
+  display: none; }
+.agenda .expander-content-main {
+  max-width: 750px;
+  margin: 0 auto; }
+  @media screen and (max-width: 760px) {
+    .agenda .expander-content-main {
+      margin: 0 10px; } }
+  .agenda .expander-content-main .close {
+    background: #fff29e;
+    padding-bottom: 10px; }
 
 .blog .text-video {
   background: #fff29e;
@@ -574,7 +577,6 @@ footer {
   .expander-content-main .expander-text {
     max-width: 1300px;
     margin: 0px auto;
-    font-size: 22px;
     padding: 20px 0; }
     .expander-content-main .expander-text p {
       margin: 0 20px 30px 20px; }
@@ -586,647 +588,648 @@ footer {
       border-bottom: 2px dashed #2D384F; }
   .expander-content-main .container-photos {
     margin: 20px 0; }
-  .expander-content-main .row-photos {
-    width: 100%;
-    margin: 0px auto; }
-    .expander-content-main .row-photos:after {
-      content: "";
-      display: table;
-      clear: both; }
-    .expander-content-main .row-photos .photo {
-      display: block;
-      width: 33.33%;
-      width: calc(100% / 3);
-      float: left;
-      box-sizing: border-box;
-      position: relative;
-      padding-top: 25%;
-      font-size: 16px;
-      text-align: left; }
-      @media screen and (max-width: 760px) {
-        .expander-content-main .row-photos .photo {
-          width: 100%;
-          padding-top: 75%; } }
-      .expander-content-main .row-photos .photo .photo-overlay {
-        position: absolute;
-        bottom: 0;
-        background: #FFF;
-        padding: 0 5px 2px 5px; }
-    .expander-content-main .row-photos .journey1 {
-      background-image: url(/assets/img/journey-into-space/1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .journey2 {
-      background-image: url(/assets/img/journey-into-space/2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .journey3 {
-      background-image: url(/assets/img/journey-into-space/3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .journey4 {
-      background-image: url(/assets/img/journey-into-space/4.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .journey5 {
-      background-image: url(/assets/img/journey-into-space/5.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .journey6 {
-      background-image: url(/assets/img/journey-into-space/6.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .tobreak1 {
-      background-image: url(/assets/img/tobreak/1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .tobreak2 {
-      background-image: url(/assets/img/tobreak/2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .tobreak3 {
-      background-image: url(/assets/img/tobreak/3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .tobreak4 {
-      background-image: url(/assets/img/tobreak/4.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .tobreak5 {
-      background-image: url(/assets/img/tobreak/5.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .tobreak6 {
-      background-image: url(/assets/img/tobreak/6.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .grand-human-projects1 {
-      background-image: url(/assets/img/grand-human-projects/1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .grand-human-projects2 {
-      background-image: url(/assets/img/grand-human-projects/2.gif);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .grand-human-projects3 {
-      background-image: url(/assets/img/grand-human-projects/3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .grand-human-projects4 {
-      background-image: url(/assets/img/grand-human-projects/4.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .grand-human-projects5 {
-      background-image: url(/assets/img/grand-human-projects/5.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .grand-human-projects6 {
-      background-image: url(/assets/img/grand-human-projects/6.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .visual-arts1 {
-      background-image: url(/assets/img/visual-arts/1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .visual-arts2 {
-      background-image: url(/assets/img/visual-arts/2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .visual-arts3 {
-      background-image: url(/assets/img/visual-arts/3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .visual-arts4 {
-      background-image: url(/assets/img/visual-arts/4.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .visual-arts5 {
-      background-image: url(/assets/img/visual-arts/5.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .visual-arts6 {
-      background-image: url(/assets/img/visual-arts/6.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .visual-arts7 {
-      background-image: url(/assets/img/visual-arts/7.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .visual-arts8 {
-      background-image: url(/assets/img/visual-arts/8.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .visual-arts9 {
-      background-image: url(/assets/img/visual-arts/9.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_ack_ack_1 {
-      background-image: url(/assets/img/portfolio/​ackack_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_ack_ack_2 {
-      background-image: url(/assets/img/portfolio/​ackack_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_ack_ack_3 {
-      background-image: url(/assets/img/portfolio/​ackack_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_a_documentary_1 {
-      background-image: url(/assets/img/portfolio/​adocumentary_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_a_documentary_2 {
-      background-image: url(/assets/img/portfolio/​adocumentary_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_a_documentary_3 {
-      background-image: url(/assets/img/portfolio/​adocumentary_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_a_journey_1 {
-      background-image: url(/assets/img/portfolio/ajourney_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_a_journey_2 {
-      background-image: url(/assets/img/portfolio/ajourney_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_a_journey_3 {
-      background-image: url(/assets/img/portfolio/ajourney_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_alterego_1 {
-      background-image: url(/assets/img/portfolio/alterego_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_alterego_2 {
-      background-image: url(/assets/img/portfolio/alterego_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_alterego_3 {
-      background-image: url(/assets/img/portfolio/alterego_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_bloodstain_1 {
-      background-image: url(/assets/img/portfolio/bloodstain_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_bloodstain_2 {
-      background-image: url(/assets/img/portfolio/bloodstain_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_bloodstain_3 {
-      background-image: url(/assets/img/portfolio/bloodstain_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_chocolategun_1 {
-      background-image: url(/assets/img/portfolio/chocolateguns_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_chocolategun_2 {
-      background-image: url(/assets/img/portfolio/chocolateguns_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_chocolategun_3 {
-      background-image: url(/assets/img/portfolio/chocolateguns_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_crowds_1 {
-      background-image: url(/assets/img/portfolio/crowds_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_crowds_2 {
-      background-image: url(/assets/img/portfolio/crowds_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_crowds_3 {
-      background-image: url(/assets/img/portfolio/crowds_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_dr_Valcke_1 {
-      background-image: url(/assets/img/portfolio/dr_valcke_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_dr_Valcke_2 {
-      background-image: url(/assets/img/portfolio/dr_valcke_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_dr_Valcke_3 {
-      background-image: url(/assets/img/portfolio/dr_valcke_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_dr_Valcke_4 {
-      background-image: url(/assets/img/portfolio/dr_valcke_4.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_dr_Valcke_5 {
-      background-image: url(/assets/img/portfolio/dr_valcke_5.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_dr_Valcke_6 {
-      background-image: url(/assets/img/portfolio/dr_valcke_6.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_faces_1 {
-      background-image: url(/assets/img/portfolio/faces_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_faces_2 {
-      background-image: url(/assets/img/portfolio/faces_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_faces_3 {
-      background-image: url(/assets/img/portfolio/faces_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_faces_4 {
-      background-image: url(/assets/img/portfolio/faces_4.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_gg_1 {
-      background-image: url(/assets/img/portfolio/gg_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_gg_2 {
-      background-image: url(/assets/img/portfolio/gg_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_gg_3 {
-      background-image: url(/assets/img/portfolio/gg_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_1 {
-      background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_2 {
-      background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_3 {
-      background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_4 {
-      background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_4.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_5 {
-      background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_5.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_6 {
-      background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_6.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_7 {
-      background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_7.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_googleburning_1 {
-      background-image: url(/assets/img/portfolio/googleburning_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_googleburning_2 {
-      background-image: url(/assets/img/portfolio/googleburning_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_googleburning_3 {
-      background-image: url(/assets/img/portfolio/googleburning_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_grandhumanprojects_1 {
-      background-image: url(/assets/img/portfolio/grandhumanprojects_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_grandhumanprojects_2 {
-      background-image: url(/assets/img/portfolio/grandhumanprojects_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_grandhumanprojects_3 {
-      background-image: url(/assets/img/portfolio/grandhumanprojects_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_guns_1 {
-      background-image: url(/assets/img/portfolio/guns_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_guns_2 {
-      background-image: url(/assets/img/portfolio/guns_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_guns_3 {
-      background-image: url(/assets/img/portfolio/guns_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_gunsbook_1 {
-      background-image: url(/assets/img/portfolio/gunsbook_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_gunsbook_2 {
-      background-image: url(/assets/img/portfolio/gunsbook_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_gunsbook_3 {
-      background-image: url(/assets/img/portfolio/gunsbook_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_mayanhieroglyfe_1 {
-      background-image: url(/assets/img/portfolio/mayanhieroglyfe_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_mayanhieroglyfe_2 {
-      background-image: url(/assets/img/portfolio/mayanhieroglyfe_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_mayanhieroglyfe_3 {
-      background-image: url(/assets/img/portfolio/mayanhieroglyfe_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_pigeonpricewinners_1 {
-      background-image: url(/assets/img/portfolio/pigeonpricewinners_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_pigeonpricewinners_2 {
-      background-image: url(/assets/img/portfolio/pigeonpricewinners_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_pigeonpricewinners_3 {
-      background-image: url(/assets/img/portfolio/pigeonpricewinners_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_PONG_1 {
-      background-image: url(/assets/img/portfolio/pong_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_PONG_2 {
-      background-image: url(/assets/img/portfolio/pong_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_PONG_3 {
-      background-image: url(/assets/img/portfolio/pong_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_reindeer_oxhead_1 {
-      background-image: url(/assets/img/portfolio/reindeer-oxhead_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_reindeer_oxhead_2 {
-      background-image: url(/assets/img/portfolio/reindeer-oxhead_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_reindeer_oxhead_3 {
-      background-image: url(/assets/img/portfolio/reindeer-oxhead_3.gif);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_samplersongs_1 {
-      background-image: url(/assets/img/portfolio/samplersongs_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_samplersongs_2 {
-      background-image: url(/assets/img/portfolio/samplersongs_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_samplersongs_3 {
-      background-image: url(/assets/img/portfolio/samplersongs_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_suitcasevariations_1 {
-      background-image: url(/assets/img/portfolio/suitcasevariations_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_suitcasevariations_2 {
-      background-image: url(/assets/img/portfolio/suitcasevariations_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_suitcasevariations_3 {
-      background-image: url(/assets/img/portfolio/suitcasevariations_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_suitcasevariations_4 {
-      background-image: url(/assets/img/portfolio/suitcasevariations_4.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_suitcasevariations_5 {
-      background-image: url(/assets/img/portfolio/suitcasevariations_5.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_suitcasevariations_6 {
-      background-image: url(/assets/img/portfolio/suitcasevariations_6.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_suitcasevariations_7 {
-      background-image: url(/assets/img/portfolio/suitcasevariations_7.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_thegildedchild_1 {
-      background-image: url(/assets/img/portfolio/thegildedchild_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_thegildedchild_2 {
-      background-image: url(/assets/img/portfolio/thegildedchild_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_thegildedchild_3 {
-      background-image: url(/assets/img/portfolio/thegildedchild_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_tobreak_1 {
-      background-image: url(/assets/img/portfolio/tobreak_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_tobreak_2 {
-      background-image: url(/assets/img/portfolio/tobreak_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_tobreak_3 {
-      background-image: url(/assets/img/portfolio/tobreak_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_trophies_1 {
-      background-image: url(/assets/img/portfolio/trophies_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_trophies_2 {
-      background-image: url(/assets/img/portfolio/trophies_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_trophies_3 {
-      background-image: url(/assets/img/portfolio/trophies_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_V_sign_1 {
-      background-image: url(/assets/img/portfolio/v-signs_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_V_sign_2 {
-      background-image: url(/assets/img/portfolio/v-signs_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_V_sign_3 {
-      background-image: url(/assets/img/portfolio/v-signs_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_vendingmachine_1 {
-      background-image: url(/assets/img/portfolio/vendingmachine_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_vendingmachine_2 {
-      background-image: url(/assets/img/portfolio/vendingmachine_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_vendingmachine_3 {
-      background-image: url(/assets/img/portfolio/vendingmachine_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_whataboutamericanhistory_1 {
-      background-image: url(/assets/img/portfolio/whataboutamericanhistory_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_whataboutamericanhistory_2 {
-      background-image: url(/assets/img/portfolio/whataboutamericanhistory_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_whataboutamericanhistory_3 {
-      background-image: url(/assets/img/portfolio/whataboutamericanhistory_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_whey_1 {
-      background-image: url(/assets/img/portfolio/whey_1.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_whey_2 {
-      background-image: url(/assets/img/portfolio/whey_2.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .expander-content-main .row-photos .portfolio_whey_3 {
-      background-image: url(/assets/img/portfolio/whey_3.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover; }
+
+.row-photos {
+  width: 100%;
+  margin: 0px auto; }
+  .row-photos:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row-photos .photo {
+    display: block;
+    width: 33.33%;
+    width: calc(100% / 3);
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 25%;
+    font-size: 16px;
+    text-align: left; }
+    @media screen and (max-width: 760px) {
+      .row-photos .photo {
+        width: 100%;
+        padding-top: 75%; } }
+  .row-photos .photo-overlay {
+    position: absolute;
+    bottom: 0;
+    background: #FFF;
+    padding: 0 5px 2px 5px; }
+  .row-photos .journey1 {
+    background-image: url(/assets/img/journey-into-space/1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .journey2 {
+    background-image: url(/assets/img/journey-into-space/2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .journey3 {
+    background-image: url(/assets/img/journey-into-space/3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .journey4 {
+    background-image: url(/assets/img/journey-into-space/4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .journey5 {
+    background-image: url(/assets/img/journey-into-space/5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .journey6 {
+    background-image: url(/assets/img/journey-into-space/6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .tobreak1 {
+    background-image: url(/assets/img/tobreak/1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .tobreak2 {
+    background-image: url(/assets/img/tobreak/2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .tobreak3 {
+    background-image: url(/assets/img/tobreak/3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .tobreak4 {
+    background-image: url(/assets/img/tobreak/4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .tobreak5 {
+    background-image: url(/assets/img/tobreak/5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .tobreak6 {
+    background-image: url(/assets/img/tobreak/6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .grand-human-projects1 {
+    background-image: url(/assets/img/grand-human-projects/1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .grand-human-projects2 {
+    background-image: url(/assets/img/grand-human-projects/2.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .grand-human-projects3 {
+    background-image: url(/assets/img/grand-human-projects/3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .grand-human-projects4 {
+    background-image: url(/assets/img/grand-human-projects/4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .grand-human-projects5 {
+    background-image: url(/assets/img/grand-human-projects/5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .grand-human-projects6 {
+    background-image: url(/assets/img/grand-human-projects/6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .visual-arts1 {
+    background-image: url(/assets/img/visual-arts/1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .visual-arts2 {
+    background-image: url(/assets/img/visual-arts/2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .visual-arts3 {
+    background-image: url(/assets/img/visual-arts/3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .visual-arts4 {
+    background-image: url(/assets/img/visual-arts/4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .visual-arts5 {
+    background-image: url(/assets/img/visual-arts/5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .visual-arts6 {
+    background-image: url(/assets/img/visual-arts/6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .visual-arts7 {
+    background-image: url(/assets/img/visual-arts/7.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .visual-arts8 {
+    background-image: url(/assets/img/visual-arts/8.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .visual-arts9 {
+    background-image: url(/assets/img/visual-arts/9.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_ack_ack_1 {
+    background-image: url(/assets/img/portfolio/​ackack_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_ack_ack_2 {
+    background-image: url(/assets/img/portfolio/​ackack_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_ack_ack_3 {
+    background-image: url(/assets/img/portfolio/​ackack_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_a_documentary_1 {
+    background-image: url(/assets/img/portfolio/​adocumentary_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_a_documentary_2 {
+    background-image: url(/assets/img/portfolio/​adocumentary_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_a_documentary_3 {
+    background-image: url(/assets/img/portfolio/​adocumentary_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_a_journey_1 {
+    background-image: url(/assets/img/portfolio/ajourney_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_a_journey_2 {
+    background-image: url(/assets/img/portfolio/ajourney_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_a_journey_3 {
+    background-image: url(/assets/img/portfolio/ajourney_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_alterego_1 {
+    background-image: url(/assets/img/portfolio/alterego_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_alterego_2 {
+    background-image: url(/assets/img/portfolio/alterego_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_alterego_3 {
+    background-image: url(/assets/img/portfolio/alterego_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_bloodstain_1 {
+    background-image: url(/assets/img/portfolio/bloodstain_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_bloodstain_2 {
+    background-image: url(/assets/img/portfolio/bloodstain_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_bloodstain_3 {
+    background-image: url(/assets/img/portfolio/bloodstain_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_chocolategun_1 {
+    background-image: url(/assets/img/portfolio/chocolateguns_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_chocolategun_2 {
+    background-image: url(/assets/img/portfolio/chocolateguns_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_chocolategun_3 {
+    background-image: url(/assets/img/portfolio/chocolateguns_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_crowds_1 {
+    background-image: url(/assets/img/portfolio/crowds_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_crowds_2 {
+    background-image: url(/assets/img/portfolio/crowds_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_crowds_3 {
+    background-image: url(/assets/img/portfolio/crowds_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dr_Valcke_1 {
+    background-image: url(/assets/img/portfolio/dr_valcke_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dr_Valcke_2 {
+    background-image: url(/assets/img/portfolio/dr_valcke_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dr_Valcke_3 {
+    background-image: url(/assets/img/portfolio/dr_valcke_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dr_Valcke_4 {
+    background-image: url(/assets/img/portfolio/dr_valcke_4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dr_Valcke_5 {
+    background-image: url(/assets/img/portfolio/dr_valcke_5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dr_Valcke_6 {
+    background-image: url(/assets/img/portfolio/dr_valcke_6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_faces_1 {
+    background-image: url(/assets/img/portfolio/faces_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_faces_2 {
+    background-image: url(/assets/img/portfolio/faces_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_faces_3 {
+    background-image: url(/assets/img/portfolio/faces_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_faces_4 {
+    background-image: url(/assets/img/portfolio/faces_4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_gg_1 {
+    background-image: url(/assets/img/portfolio/gg_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_gg_2 {
+    background-image: url(/assets/img/portfolio/gg_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_gg_3 {
+    background-image: url(/assets/img/portfolio/gg_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_1 {
+    background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_2 {
+    background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_3 {
+    background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_4 {
+    background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_5 {
+    background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_6 {
+    background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_7 {
+    background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_7.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_googleburning_1 {
+    background-image: url(/assets/img/portfolio/googleburning_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_googleburning_2 {
+    background-image: url(/assets/img/portfolio/googleburning_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_googleburning_3 {
+    background-image: url(/assets/img/portfolio/googleburning_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_grandhumanprojects_1 {
+    background-image: url(/assets/img/portfolio/grandhumanprojects_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_grandhumanprojects_2 {
+    background-image: url(/assets/img/portfolio/grandhumanprojects_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_grandhumanprojects_3 {
+    background-image: url(/assets/img/portfolio/grandhumanprojects_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_guns_1 {
+    background-image: url(/assets/img/portfolio/guns_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_guns_2 {
+    background-image: url(/assets/img/portfolio/guns_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_guns_3 {
+    background-image: url(/assets/img/portfolio/guns_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_gunsbook_1 {
+    background-image: url(/assets/img/portfolio/gunsbook_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_gunsbook_2 {
+    background-image: url(/assets/img/portfolio/gunsbook_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_gunsbook_3 {
+    background-image: url(/assets/img/portfolio/gunsbook_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_mayanhieroglyfe_1 {
+    background-image: url(/assets/img/portfolio/mayanhieroglyfe_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_mayanhieroglyfe_2 {
+    background-image: url(/assets/img/portfolio/mayanhieroglyfe_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_mayanhieroglyfe_3 {
+    background-image: url(/assets/img/portfolio/mayanhieroglyfe_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_pigeonpricewinners_1 {
+    background-image: url(/assets/img/portfolio/pigeonpricewinners_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_pigeonpricewinners_2 {
+    background-image: url(/assets/img/portfolio/pigeonpricewinners_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_pigeonpricewinners_3 {
+    background-image: url(/assets/img/portfolio/pigeonpricewinners_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_PONG_1 {
+    background-image: url(/assets/img/portfolio/pong_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_PONG_2 {
+    background-image: url(/assets/img/portfolio/pong_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_PONG_3 {
+    background-image: url(/assets/img/portfolio/pong_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_reindeer_oxhead_1 {
+    background-image: url(/assets/img/portfolio/reindeer-oxhead_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_reindeer_oxhead_2 {
+    background-image: url(/assets/img/portfolio/reindeer-oxhead_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_reindeer_oxhead_3 {
+    background-image: url(/assets/img/portfolio/reindeer-oxhead_3.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_samplersongs_1 {
+    background-image: url(/assets/img/portfolio/samplersongs_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_samplersongs_2 {
+    background-image: url(/assets/img/portfolio/samplersongs_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_samplersongs_3 {
+    background-image: url(/assets/img/portfolio/samplersongs_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_suitcasevariations_1 {
+    background-image: url(/assets/img/portfolio/suitcasevariations_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_suitcasevariations_2 {
+    background-image: url(/assets/img/portfolio/suitcasevariations_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_suitcasevariations_3 {
+    background-image: url(/assets/img/portfolio/suitcasevariations_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_suitcasevariations_4 {
+    background-image: url(/assets/img/portfolio/suitcasevariations_4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_suitcasevariations_5 {
+    background-image: url(/assets/img/portfolio/suitcasevariations_5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_suitcasevariations_6 {
+    background-image: url(/assets/img/portfolio/suitcasevariations_6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_suitcasevariations_7 {
+    background-image: url(/assets/img/portfolio/suitcasevariations_7.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_thegildedchild_1 {
+    background-image: url(/assets/img/portfolio/thegildedchild_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_thegildedchild_2 {
+    background-image: url(/assets/img/portfolio/thegildedchild_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_thegildedchild_3 {
+    background-image: url(/assets/img/portfolio/thegildedchild_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_tobreak_1 {
+    background-image: url(/assets/img/portfolio/tobreak_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_tobreak_2 {
+    background-image: url(/assets/img/portfolio/tobreak_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_tobreak_3 {
+    background-image: url(/assets/img/portfolio/tobreak_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_trophies_1 {
+    background-image: url(/assets/img/portfolio/trophies_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_trophies_2 {
+    background-image: url(/assets/img/portfolio/trophies_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_trophies_3 {
+    background-image: url(/assets/img/portfolio/trophies_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_V_sign_1 {
+    background-image: url(/assets/img/portfolio/v-signs_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_V_sign_2 {
+    background-image: url(/assets/img/portfolio/v-signs_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_V_sign_3 {
+    background-image: url(/assets/img/portfolio/v-signs_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_vendingmachine_1 {
+    background-image: url(/assets/img/portfolio/vendingmachine_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_vendingmachine_2 {
+    background-image: url(/assets/img/portfolio/vendingmachine_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_vendingmachine_3 {
+    background-image: url(/assets/img/portfolio/vendingmachine_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_whataboutamericanhistory_1 {
+    background-image: url(/assets/img/portfolio/whataboutamericanhistory_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_whataboutamericanhistory_2 {
+    background-image: url(/assets/img/portfolio/whataboutamericanhistory_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_whataboutamericanhistory_3 {
+    background-image: url(/assets/img/portfolio/whataboutamericanhistory_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_whey_1 {
+    background-image: url(/assets/img/portfolio/whey_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_whey_2 {
+    background-image: url(/assets/img/portfolio/whey_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_whey_3 {
+    background-image: url(/assets/img/portfolio/whey_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
@@ -1234,3 +1237,42 @@ footer {
     list-style-type: initial;
     padding: 0;
     margin: 0; }
+
+.landingpage {
+  text-align: center; }
+  .landingpage .landing-header {
+    position: relative;
+    margin-top: 25vh; }
+    .landingpage .landing-header h1 {
+      -webkit-animation: FadeOut 2.5s forwards;
+      -moz-animation: FadeOut 2.5s forwards;
+      animation: FadeOut 2.5s forwards;
+      color: #FFEB6B; }
+      @media screen and (max-width: 950px) {
+        .landingpage .landing-header h1 {
+          font-size: 400%; } }
+    .landingpage .landing-header .landing-logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .landingpage .landing-header .landing-logo .logo {
+        height: 85px;
+        width: 85px;
+        display: inline-block;
+        border-radius: 50%;
+        border-bottom: none;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        transition: 1s;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg); }
+      .landingpage .landing-header .landing-logo .logo:hover {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg); }

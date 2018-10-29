@@ -25,7 +25,6 @@
   top: -7%;
 }
 .container {
-  font-size: 1rem;
   padding-bottom: 50px;
 }
 .container .header {
@@ -41,7 +40,6 @@
   margin: 0;
   height: 2.1em;
   padding: 0 0.6em;
-  font-size: 1em;
   white-space: nowrap;
   cursor: pointer;
   border-radius: 0.2rem;
@@ -49,7 +47,7 @@
   border-width: 0;
   display: inline-block;
 }
-.container .header-inner h2 {
+.container .header-inner h3 {
   margin: 0;
   display: inline-block;
 }
@@ -64,8 +62,8 @@
   padding-top: 100px;
 }
 .container .list {
-  border-top: 2px dashed #2c2c2c;
-  font-size: 1.4rem;
+  //border-top: 2px dashed #2c2c2c;//
+  //font-size: 1.4rem;//
 }
 .container .list-message {
   margin: 1.4rem 0;
@@ -76,7 +74,6 @@
   font-weight: bold;
   color: #db163d;
   padding-top: 50px;
-  font-size: 1.4rem;
 }
 .container .list-item {
   width: 100%;

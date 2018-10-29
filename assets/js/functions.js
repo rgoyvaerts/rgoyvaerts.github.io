@@ -6,6 +6,7 @@ $(function() {
     expandagenda();
     closeagenda();
     smoothScroll(800);
+    landingpage;
 });
 
 function expandjourney(){
