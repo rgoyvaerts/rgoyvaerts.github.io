@@ -985,6 +985,21 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_grandhumanprojects_4 {
+    background-image: url(/assets/img/portfolio/grandhumanprojects_4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_grandhumanprojects_5 {
+    background-image: url(/assets/img/portfolio/grandhumanprojects_5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_grandhumanprojects_6 {
+    background-image: url(/assets/img/portfolio/grandhumanprojects_6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
   .row-photos .portfolio_guns_1 {
     background-image: url(/assets/img/portfolio/guns_1.jpg);
     background-position: center center;
