@@ -1394,7 +1394,7 @@ footer {
         width: 100%; } }
 
 .container-380px {
-  max-width: 380px; }
+  max-width: 500px; }
 
 .container-380px-midden {
   max-width: 380px;
@@ -1419,12 +1419,11 @@ footer {
   padding-top: 100%; }
 
 .resp-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0; }
+  width: 380px;
+  height: 385px; }
+  @media screen and (max-width: 380px) {
+    .resp-iframe {
+      width: 320px; } }
 
 .flex-container {
   display: flex;
@@ -1435,7 +1434,8 @@ footer {
   width: 500px;
   display: flex;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  padding: 0 20px; }
 
 .flex-item-left {
   padding-bottom: 2em; }
