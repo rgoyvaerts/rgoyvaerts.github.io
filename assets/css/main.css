@@ -1419,11 +1419,12 @@ footer {
   padding-top: 100%; }
 
 .resp-iframe {
-  width: 380px;
-  height: 385px; }
-  @media screen and (max-width: 380px) {
-    .resp-iframe {
-      width: 320px; } }
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0; }
 
 .flex-container {
   display: flex;
@@ -1434,8 +1435,15 @@ footer {
   width: 500px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  padding: 0 20px; }
+  align-items: center; }
 
 .flex-item-left {
   padding-bottom: 2em; }
+
+.iframe-artwork {
+  width: 380px;
+  height: 385px; }
+  @media screen and (max-width: 380px) {
+    .iframe-artwork {
+      width: 320px;
+      height: 324px; } }
