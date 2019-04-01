@@ -380,6 +380,15 @@ main {
   margin: 0 auto;
   padding: 0 20px;
   font-weight: 400; }
+  main .textbox {
+    background: #fff29e;
+    padding: 0.5em; }
+  main .link-textcolor a {
+    color: #2D384F; }
+  main .link-textcolor a:hover, main .link-textcolor a:focus {
+    color: #db163d; }
+  main .link-textcolor a.current {
+    color: #db163d; }
   main table {
     margin: 2em 0 3em 0; }
   main th, main td {
@@ -393,12 +402,6 @@ main {
     margin-bottom: 4em; }
   main .center {
     text-align: center; }
-    main .center a {
-      color: #2D384F; }
-    main .center a:hover, main .center a:focus {
-      color: #db163d; }
-    main .center a.current {
-      color: #db163d; }
     main .center li {
       margin-bottom: 18px; }
     main .center .logo {
@@ -1008,32 +1011,17 @@ footer {
     background-repeat: no-repeat;
     background-size: cover; }
   .row-photos .portfolio_grandhumanprojects_1 {
-    background-image: url(/assets/img/portfolio/grandhumanprojects_8.jpg);
+    background-image: url(/assets/img/portfolio/grandhumanprojects_1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
   .row-photos .portfolio_grandhumanprojects_2 {
-    background-image: url(/assets/img/portfolio/grandhumanprojects_9.jpg);
+    background-image: url(/assets/img/portfolio/grandhumanprojects_2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
   .row-photos .portfolio_grandhumanprojects_3 {
-    background-image: url(/assets/img/portfolio/grandhumanprojects_7.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .row-photos .portfolio_grandhumanprojects_4 {
-    background-image: url(/assets/img/portfolio/grandhumanprojects_10.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .row-photos .portfolio_grandhumanprojects_5 {
-    background-image: url(/assets/img/portfolio/grandhumanprojects_16.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .row-photos .portfolio_grandhumanprojects_6 {
-    background-image: url(/assets/img/portfolio/grandhumanprojects_15.jpg);
+    background-image: url(/assets/img/portfolio/grandhumanprojects_3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -1302,6 +1290,21 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_blueprintboardgame_1 {
+    background-image: url(/assets/img/portfolio/blueprintboardgame_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_blueprintboardgame_2 {
+    background-image: url(/assets/img/portfolio/blueprintboardgame_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_blueprintboardgame_3 {
+    background-image: url(/assets/img/portfolio/blueprintboardgame_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
@@ -1362,7 +1365,7 @@ footer {
   @media screen and (max-width: 950px) {
     .row-artwork {
       max-width: 750px;
-      left: 0; } }
+      left: -20px; } }
   .row-artwork .artwork-left {
     display: block;
     width: 50%;
@@ -1371,7 +1374,7 @@ footer {
     text-align: right;
     box-sizing: border-box;
     position: relative;
-    padding: 0 3em 3em 0; }
+    padding: 1.5em 3em 3em 0; }
     @media screen and (max-width: 950px) {
       .row-artwork .artwork-left {
         width: 100%;
@@ -1381,7 +1384,7 @@ footer {
     display: inline-block;
     width: 50%;
     width: calc(100% / 2);
-    max-width: 600px;
+    max-width: 500px;
     float: left;
     box-sizing: border-box;
     position: relative;
@@ -1390,14 +1393,49 @@ footer {
       .row-artwork .artwork-info {
         width: 100%; } }
 
-.resp-container {
+.container-380px {
+  max-width: 380px; }
+
+.container-380px-midden {
+  max-width: 380px;
+  margin: 0 auto; }
+
+.container-400px-rechts {
+  max-width: 600px;
+  float: right; }
+  @media screen and (max-width: 950px) {
+    .container-400px-rechts {
+      margin: 0 auto;
+      float: none; } }
+
+.resp-container-16-9 {
   position: relative;
   overflow: hidden;
   padding-top: 56.25%; }
-  .resp-container .resp-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0; }
+
+.resp-container-1-1 {
+  position: relative;
+  overflow: hidden;
+  padding-top: 100%; }
+
+.resp-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0; }
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.flex-item {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.flex-item-left {
+  padding-bottom: 2em; }
