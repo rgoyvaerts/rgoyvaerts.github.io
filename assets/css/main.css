@@ -259,6 +259,9 @@ header {
   padding-bottom: 40px;
   max-width: 750px;
   margin: 0 auto 40px; }
+  @media screen and (max-width: 1050px) {
+    header {
+      margin: 0 auto 20px; } }
   header .landing-header {
     position: relative;
     margin-top: 25vh; }
@@ -1352,7 +1355,22 @@ footer {
         -o-transform: rotate(360deg);
         transform: rotate(360deg); }
 
+.overview-artworks {
+  text-align: center; }
+  @media screen and (max-width: 950px) {
+    .overview-artworks {
+      text-align: left; }
+      .overview-artworks ul {
+        -webkit-margin-before: 0em;
+        -webkit-margin-after: 0em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 0px; } }
+  .overview-artworks li {
+    margin-bottom: 18px; }
+
 .row-artwork {
+  box-sizing: border-box;
   position: relative;
   width: 100vw;
   left: calc(-50vw + 50%);
@@ -1364,8 +1382,7 @@ footer {
     clear: both; }
   @media screen and (max-width: 950px) {
     .row-artwork {
-      max-width: 750px;
-      left: -20px; } }
+      max-width: 750px; } }
   .row-artwork .artwork-left {
     display: block;
     width: 50%;
@@ -1435,7 +1452,8 @@ footer {
   width: 500px;
   display: flex;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  padding: 0 20px; }
 
 .flex-item-left {
   padding-bottom: 2em; }
