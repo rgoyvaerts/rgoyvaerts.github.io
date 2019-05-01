@@ -160,11 +160,12 @@ td, th {
 
 .large, h2 {
   font-family: "amaranth", sans-serif;
-  font-size: 400%;
-  line-height: 1.14; }
+  font-size: 200%;
+  line-height: 1.14;
+  margin-top: 0; }
   @media screen and (max-width: 520px) {
     .large, h2 {
-      font-size: 300%; } }
+      font-size: 200%; } }
 
 .bigger, h3 {
   font-family: "amaranth", sans-serif;
@@ -1288,11 +1289,6 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
-  .row-photos .blueprint_1 {
-    background-image: url(/assets/img/portfolio/blueprint_1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; }
   .row-photos .portfolio_blueprintboardgame_1 {
     background-image: url(/assets/img/portfolio/blueprintboardgame_2.jpg);
     background-position: center center;
@@ -1305,6 +1301,51 @@ footer {
     background-size: cover; }
   .row-photos .portfolio_blueprintboardgame_3 {
     background-image: url(/assets/img/portfolio/blueprintboardgame_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dogdemonsuitcase_1 {
+    background-image: url(/assets/img/portfolio/dog-demon-suitcase3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dogdemonsuitcase_2 {
+    background-image: url(/assets/img/portfolio/dog-demon-suitcase2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dogdemonsuitcase_3 {
+    background-image: url(/assets/img/portfolio/dog-demon-suitcase1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dogdemonsuitcase_4 {
+    background-image: url(/assets/img/portfolio/dog-demon-suitcase4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dogdemonsuitcase_5 {
+    background-image: url(/assets/img/portfolio/dog-demon-suitcase5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dogdemonsuitcase_6 {
+    background-image: url(/assets/img/portfolio/dog-demon-suitcase7.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dogdemonsuitcase_7 {
+    background-image: url(/assets/img/portfolio/dog-demon-suitcase9.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dogdemonsuitcase_8 {
+    background-image: url(/assets/img/portfolio/dog-demon-suitcase10.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dogdemonsuitcase_9 {
+    background-image: url(/assets/img/portfolio/dog-demon-suitcase11.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
