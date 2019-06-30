@@ -1364,6 +1364,21 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_dicesorrow_1 {
+    background-image: url(/assets/img/portfolio/dice-sorrow_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dicesorrow_2 {
+    background-image: url(/assets/img/portfolio/dice-sorrow_4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_dicesorrow_3 {
+    background-image: url(/assets/img/portfolio/dice-sorrow_5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
