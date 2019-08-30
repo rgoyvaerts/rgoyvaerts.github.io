@@ -1394,6 +1394,21 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_claytablet-fire_1 {
+    background-image: url(/assets/img/portfolio/claytablet-fire_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_claytablet-fire_2 {
+    background-image: url(/assets/img/portfolio/claytablet-fire_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_claytablet-fire_3 {
+    background-image: url(/assets/img/portfolio/claytablet-fire_4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
