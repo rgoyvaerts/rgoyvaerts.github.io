@@ -1015,17 +1015,32 @@ footer {
     background-repeat: no-repeat;
     background-size: cover; }
   .row-photos .portfolio_grandhumanprojects_1 {
-    background-image: url(/assets/img/portfolio/grandhumanprojects_1.jpg);
+    background-image: url(/assets/img/portfolio/grandhumanprojects_8.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
   .row-photos .portfolio_grandhumanprojects_2 {
-    background-image: url(/assets/img/portfolio/grandhumanprojects_2.jpg);
+    background-image: url(/assets/img/portfolio/grandhumanprojects_9.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
   .row-photos .portfolio_grandhumanprojects_3 {
-    background-image: url(/assets/img/portfolio/grandhumanprojects_3.jpg);
+    background-image: url(/assets/img/portfolio/grandhumanprojects_7.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_grandhumanprojects_4 {
+    background-image: url(/assets/img/portfolio/grandhumanprojects_10.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_grandhumanprojects_5 {
+    background-image: url(/assets/img/portfolio/grandhumanprojects_16.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_grandhumanprojects_6 {
+    background-image: url(/assets/img/portfolio/grandhumanprojects_15.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
