@@ -1015,33 +1015,17 @@ footer {
     background-repeat: no-repeat;
     background-size: cover; }
   .row-photos .portfolio_grandhumanprojects_1 {
-    background-image: url(/assets/img/portfolio/grandhumanprojects_8.jpg);
+    background-image: url(/assets/img/portfolio/grandhumanprojects_1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
   .row-photos .portfolio_grandhumanprojects_2 {
-    background-image: url(/assets/img/portfolio/grandhumanprojects_9.jpg);
+    background-image: url(/assets/img/portfolio/grandhumanprojects_2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
   .row-photos .portfolio_grandhumanprojects_3 {
-    background-image: url(/assets/img/portfolio/grandhumanprojects_7.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .row-photos .portfolio_grandhumanprojects_4 {
-    background-image: url(/assets/img/portfolio/grandhumanprojects_10.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .row-photos .portfolio_grandhumanprojects_5 {
-    background-image: url(/assets/img/portfolio/grandhumanprojects_16.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .row-photos .portfolio_grandhumanprojects_6 {
-    background-image: url(/assets/img/portfolio/grandhumanprojects_15.jpg);
-<<<<<<< Updated upstream
+    background-image: url(/assets/img/portfolio/grandhumanprojects_3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -1057,8 +1041,6 @@ footer {
     background-size: cover; }
   .row-photos .portfolio_grandhumanprojects_6 {
     background-image: url(/assets/img/portfolio/grandhumanprojects_6.jpg);
-=======
->>>>>>> Stashed changes
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -1439,6 +1421,36 @@ footer {
     background-size: cover; }
   .row-photos .portfolio_r-f-screws_3 {
     background-image: url(/assets/img/portfolio/r&f-screw_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_screwdriver-f_1 {
+    background-image: url(/assets/img/portfolio/screwdriver-f_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_screwdriver-f_2 {
+    background-image: url(/assets/img/portfolio/screwdriver-f_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_screwdriver-f_3 {
+    background-image: url(/assets/img/portfolio/screwdriver-f_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_screwdriver-r_1 {
+    background-image: url(/assets/img/portfolio/screwdriver-r_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_screwdriver-r_2 {
+    background-image: url(/assets/img/portfolio/screwdriver-r_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_screwdriver-r_3 {
+    background-image: url(/assets/img/portfolio/screwdriver-r_3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }

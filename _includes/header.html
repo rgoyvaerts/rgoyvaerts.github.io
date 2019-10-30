@@ -1,0 +1,49 @@
+<header>
+    
+    <div class='midden'>
+        
+        <div class="landing-title">
+            Robbert&amp;Frank
+        </div>
+    
+        <a href="{{site.url}}/about" class='logo'>
+            {% include icons/logokoffertje.html %}
+        </a>
+    
+        <div class="landing-title">
+            Frank&amp;Robbert
+        </div> 
+        
+    </div>
+    
+    <div class='menu'>
+        
+        {% assign current = page.url | downcase | split: '/' %}
+        
+        <div class='menu-items'>
+            <a href="{{site.url}}/portfolio" {% if current[1] == 'portfolio' %}class='current'{% endif %}>Artworks</a>
+        </div>
+        
+          <div class='menu-items'>
+            <a href="{{site.url}}/cv" {% if current[1] == 'cv' %}class='current'{% endif %}>CV</a>
+        </div>
+        
+          <div class='menu-items'>
+            <a href="{{site.url}}/texts" {% if current[1] == 'texts' %}class='current'{% endif %}>Texts</a>
+        </div>
+        
+        <div class='menu-items'>
+            <a href="{{site.url}}/news" {% if current[1] == 'news' %}class='current'{% endif %}>News</a>
+        </div>
+        
+    </div>
+    
+    <div class='social-header'>
+        
+        <a href="mailto:info@robbertenfrank.com" class="social-icon email" target="_blank">{% include icons/logoemail.html %}</a>
+        <a href="https://www.instagram.com/r_en_f/" class="social-icon instagram" target="_blank">{% include icons/logoinstagram.html %}</a>
+        <a href="https://www.facebook.com/frankenrobbertrobbertenfrank" class="social-icon facebook" target="_blank">{% include icons/logofacebook.html %}</a>
+        
+    </div>
+         
+</header>

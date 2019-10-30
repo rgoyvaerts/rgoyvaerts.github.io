@@ -1,0 +1,169 @@
+header
+    
+    padding-bottom: 40px
+    
+    max-width: 750px
+    margin: 0 auto 40px
+    
+    @media screen and (max-width: 1050px)
+        margin: 0 auto 20px
+        
+    .landing-header
+            
+        position: relative
+        margin-top: 25vh
+        
+        h1
+            @include animation(FadeOut 2.5s forwards)
+                
+            color: $accent-color
+            
+            @media screen and (max-width: 950px)
+                font-size: 400%
+                    
+    .sprite
+        width: 48px
+        height: 48px
+        position: absolute
+        top: 20px
+        background: none
+        border: none
+
+        
+    .midden
+        
+        text-align: center
+        
+        .landing-title
+            //background: silver
+            display: inline-block
+            padding: 20px
+
+            @media screen and (max-width: 520px)
+                display: none
+        
+        .logo
+            +size(85px)
+            display: inline-block
+            position: relative
+            top: 25px
+            border-radius: 50%
+            border-bottom: none
+            background: none
+            +transition(1s)
+            +transform(rotate(0deg))
+            
+        .logo:hover
+            +transform(rotate(360deg))
+            // background: lighten($accent-color, 10%)
+            
+            
+    .menu
+        
+        //background: gray
+        position: relative
+        text-align: center
+        padding: 32px 0 0 0
+        top: 0
+        left: 0
+        font-size: 0.9em
+        
+        @media screen and (max-width: 1050px)
+            position: relative
+            text-align: center
+            padding: 32px 0 0 0
+            top: 0
+            left: 0
+        
+        .menu-items
+            
+            margin-bottom: 10px
+            display: inline-block
+            margin: 0 15px 0 0
+            
+            @media screen and (max-width: 1050px)
+                display: inline-block
+                margin: 0 15px 0 0
+                
+    .social-header
+        
+        position: fixed
+        top: 35px
+        right: 35px
+        z-index: 99
+        
+        @media screen and (max-width: 1050px)
+            position: relative
+            text-align: center
+            padding: 32px 0 0 0
+            top: 0
+            right: 0
+        
+        .social-icon
+            +size(30px)
+            border-radius: 20%
+            padding: 0
+            margin: 0 auto 10px
+            display: block
+            background: rgba(255, 255, 255, .6)
+            border-bottom: none
+            
+            @media screen and (max-width: 1050px)
+                display: inline-block
+        
+        .social-icon:hover
+            background: lighten($accent-color, 10%)
+            
+        .social-icon.email
+            +size(35px)
+            
+            @media screen and (max-width: 1050px)
+                position: relative
+                top: 2.5px
+            
+//nav.hoek
+        
+        a
+            text-transform: uppercase
+        
+        .theater
+            left: -190px
+            position: fixed
+            top: -75px
+            @include transform(rotate(-45deg))
+            padding: 150px 130px 25px 160px
+            // background: lighten($accent-color, 10%)
+            border: 2px dashed $selection-color
+            z-index: 5
+            
+            a
+                border-bottom: none
+
+            @media only screen and (max-width: 500px)
+                padding: 150px 130px 15px 160px 
+                left: -200px
+                top: -90px
+
+        .visualarts
+            right: -175px
+            position: fixed
+            top: -90px
+            text-align: center
+            line-height: 1
+            @include transform(rotate(45deg))
+            padding: 150px 145px 20px 150px
+            // background: lighten($accent-color, 10%)
+            border: 2px dashed $selection-color
+            z-index: 5
+            
+            a
+                border-bottom: none
+
+            @media only screen and (max-width: 500px)
+                padding: 150px 145px 10px 150px
+                right: -185px
+                top: -105px
+                
+        
+            
+    

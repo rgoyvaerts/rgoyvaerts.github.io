@@ -1,0 +1,123 @@
+//	Typography
+
+.gigantic
+  font-size: 110px
+  line-height: 1.09
+  letter-spacing: -2px
+
+.huge, h1
+  font-family: $font-two
+  font-size: 600%
+  letter-spacing: -1px
+  margin: 0
+
+  @media screen and (max-width: 520px)
+    font-size: 400%
+
+
+.large, h2
+  font-family: $font-two
+  font-size: 200%
+  line-height: 1.14
+  margin-top: 0
+
+  @media screen and (max-width: 520px)
+    font-size: 200%
+
+.bigger, h3
+  font-family: $font-two
+  font-size: 300%
+  line-height: 1.38
+  text-align: center
+  letter-spacing: 1px
+
+  @media screen and (max-width: 520px)
+    font-size: 250%
+
+.big, h4
+  font-family: $font-two
+  font-size: 200%
+  line-height: 1.38
+
+.small, small 
+  font-size: 16px
+  line-height: 1.2
+
+p
+  margin: 0 0 2em 0
+
+em
+  font-style: italic
+
+strong
+  font-family: $font-two
+  font-weight: 700
+  font-size: 1.1em
+
+hr
+  border: solid #ddd
+  border-width: 1px 0 0
+  clear: both
+  margin: 10px 0 30px
+  height: 0
+
+li
+  list-style-type: none
+  padding: 0 
+  margin: 0
+
+// Links
+
+a
+  color: $link-color
+  text-decoration: none
+  outline: 0
+  padding: 0 5px 2px 5px
+  
+a:hover, a:focus
+  background: lighten($accent-color, 10%)
+  color: $link-color
+
+a.current
+  background: lighten($accent-color, 10%)
+
+// Selection colors (easy to forget)
+
+::selection
+  background: lighten($accent-color, 10%)
+  
+::-moz-selection
+  background: lighten($accent-color, 10%)
+  
+img::selection
+  background: transparent
+  
+img::-moz-selection
+  background: transparent
+  
+body
+  -webkit-tap-highlight-color: $selection-color
+
+
+
+// Basic Styles
+
+body
+  font-size: 1.1em
+  line-height: 1.6
+  font-family: $font-one
+  font-weight: 300
+  letter-spacing: 0.05em
+  color: $text-color
+  background: #fff
+  -webkit-font-smoothing: antialiased
+  -webkit-text-size-adjust: 100%
+  @media only screen and (max-width: 500px)
+    font-size: 18px
+
+    
+blockquote
+  font-family: $font-two
+  font-size: 110%
+  //color: darken($selection-color, 10%)
+  margin: 0 0 2em 0

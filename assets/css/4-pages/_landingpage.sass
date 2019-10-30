@@ -1,0 +1,35 @@
+.landingpage
+    //background-color: red
+    text-align: center
+        
+    .landing-header
+            
+        position: relative
+        margin-top: 25vh
+        
+        h1
+            @include animation(FadeOut 2.5s forwards)
+                
+            color: $accent-color
+            
+            @media screen and (max-width: 950px)
+                font-size: 400%
+        
+        .landing-logo
+        
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+
+            .logo
+                //background: yellow
+                +size(85px)
+                display: inline-block
+                border-radius: 50%
+                border-bottom: none
+                +transition(1s)
+                +transform(rotate(0deg))
+
+            .logo:hover
+                +transform(rotate(360deg))

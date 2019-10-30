@@ -1,0 +1,122 @@
+.icon {
+  display: inline-block;
+  height: 1em;
+  line-height: 1em;
+  font-size: 1em;
+  text-align: center;
+  overflow: hidden;
+  font-family: "Courier New", Courier, monospace;
+  user-select: none;
+  position: relative;
+  top: -0.05em;
+  margin: 0 0.2em;
+  vertical-align: middle;
+}
+.icon-prev:after {
+  content: "\2039";
+  font-weight: bold;
+  font-size: 200%;
+  top: -7%;
+}
+.icon-next:after {
+  content: "\203A";
+  font-weight: bold;
+  font-size: 200%;
+  top: -7%;
+}
+.container {
+  padding-bottom: 50px;
+}
+.container .header {
+  height: 50px;
+}
+.container .header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.container .header-inner button {
+  margin: 0;
+  height: 2.1em;
+  padding: 0 0.6em;
+  white-space: nowrap;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  background: transparent;
+  border-width: 0;
+  display: inline-block;
+}
+.container .header-inner h3 {
+  margin: 0;
+  display: inline-block;
+}
+.container .header-inner-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #fff;
+  justify-content: space-evenly;
+  z-index: 4;
+  padding-top: 100px;
+}
+.container .list {
+  //border-top: 2px dashed #2c2c2c;//
+  //font-size: 1.4rem;//
+}
+.container .list-message {
+  margin: 1.4rem 0;
+  text-align: center;
+  width: 100%;
+}
+.container .list-title {
+  font-weight: bold;
+  color: #db163d;
+  padding-top: 50px;
+}
+.container .list-item {
+  width: 100%;
+}
+.container .list-item-group {
+  color: #2c2c2c;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+.container .list-item-group:hover {
+  background: #fff9cb;
+}
+.container .list-item-group-time {
+  width: 20%;
+  min-width: 200px;
+  padding: 8px 14px;
+  display: inline-block;
+  vertical-align: top;
+}
+.container .list-item-group-summary {
+  padding: 8px 14px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  width: 60%;
+}
+.container .list-item-group-summary:hover {
+  color: #db163d;
+}
+@media screen and (max-width: 450px) {
+  .container .list-item-group-summary {
+    display: block;
+    width: 100%;
+  }
+}
+.container .list-item-description {
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.container .list-item-description[aria-expanded='true'] {
+  padding: 10px;
+}
+

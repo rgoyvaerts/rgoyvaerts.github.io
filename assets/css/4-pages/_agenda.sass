@@ -1,0 +1,92 @@
+.agenda
+
+    a
+        background: none
+        border: none
+        color: $selection-color
+        
+    a:hover, a:focus
+        background: lighten($accent-color, 10%)
+    
+    .current
+        border-bottom: 2px dashed $text-color
+    
+    .upcoming
+        border-bottom: 2px dashed $text-color
+            
+    .links
+        display: block
+        text-align: left
+        border-top: 2px dashed $text-color
+        padding-top: 40px
+        
+        .date
+            background: lighten($accent-color, 10%)
+            font-size: 25px
+            display: inline-block
+            border: 2px solid $text-color
+            padding: 0 10px 2px 10px
+            margin: 40px 0 25px
+
+        .more-info
+            display: inline-block
+            margin-top: 20px
+
+    .rechts
+        display: block
+        text-align: right
+        border-top: 2px dashed $text-color
+        padding-top: 40px
+        
+        .date
+            background: lighten($accent-color, 10%)
+            font-size: 25px
+            display: inline-block
+            border: 2px solid $text-color
+            padding: 0 10px 2px 10px
+            margin: 40px 0 25px
+
+        .more-info
+            display: inline-block
+            margin-top: 20px
+
+    .describtion
+        font-size: 18px
+   
+    .expander-trigger
+        cursor: pointer
+        user-select: none
+        color: $selection-color
+        display: block
+        margin-bottom: 25px
+        padding: 10px
+
+        &::before 
+            content: "\25BC"
+            margin-right: 0.5em
+
+    .expander-content
+        position: relative
+        width: 100vw
+        left: calc(-50vw + 50%)
+        margin: 30px 0
+
+    .expander-hidden
+        &::before
+            content: "\25BA"
+
+    .expander-hidden + .expander-content 
+        display: none
+
+    .expander-content-main
+        max-width: 750px
+        margin: 0 auto
+        
+        @media screen and (max-width: 760px)
+            margin: 0 10px
+        
+        .close
+            background: lighten($accent-color, 10%) 
+            padding-bottom: 10px
+
+    
