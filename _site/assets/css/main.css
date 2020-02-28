@@ -1499,6 +1499,21 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_walldrawing-cosmology_1 {
+    background-image: url(/assets/img/portfolio/walldrawing-cosmology_4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_walldrawing-cosmology_2 {
+    background-image: url(/assets/img/portfolio/walldrawing-cosmology_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_walldrawing-cosmology_3 {
+    background-image: url(/assets/img/portfolio/walldrawing-cosmology_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
