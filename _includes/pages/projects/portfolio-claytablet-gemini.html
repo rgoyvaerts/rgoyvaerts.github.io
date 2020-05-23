@@ -1,0 +1,107 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Neon Gemini" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+   
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/420307802" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (1 min)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Clay Tablet - Gemini Ritual</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2019</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>17 cm x 22.8 cm x 1.5 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>white clay, engobes, ceramic glazes</td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>Custom R&amp;F F&amp;R Wall Mount <a href="{{site.url}}/portfolio/claytablet-totem#wallmount">more info</a></td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>6/6</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, for info<a href="mailto:info@frankenrobbert.com">contact us</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+    
+    
+<p>The astrological sign Gemini is central to this clay tablet. It depicts dual figures in the firmament mirrored in two abstract figures carrying out a ritual performance below. The tablet is a self-portrait, an interpretation that reconciles a physical act with a spiritual symbol: Robbert and Frank as actors in the performance versus Castor and Pollux in the night sky.</p>
+
+<p>Gemini is Frank’s star sign. For Robbert&amp;Frank Frank&amp;Robbert, this symbol represents unity and friendship. It is a recurring image in various of their works (see <a href="{{site.url}}/portfolio/neon-gemini" target="_blank">Neon Gemini</a>).</p>
+
+<p>The performance depicted on the clay tablet also exists in reality. During the ritual ‘Minor Destruction of Suffering’, the public is invited, by means of a a postcard and simple set of instructions, to note down a personal concern and subsequently destroy it. As a memento, each respective participant receives a coin, a pin or a small ceramic amulet (a lucky charm).</p>
+    
+<p>Inspired by the cave paintings of Lascaux, Egyptian hieroglyphics and Mesopotamian proto-cuneiform script, Frank&amp;Robbert Robbert&amp;Frank are developing new work in which they document their own lives and work in the form of simple, symbolic line drawings. These are then translated and activated through small performances, painted boxes (shrines), wall drawings, etc. These drawings are an attempt to grasp and visualise their own personal artistic universe and its position and function in society.</p>
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_claytablet-gemini_1"></div>
+                    <div class="photo portfolio_claytablet-gemini_2"></div>
+                    <div class="photo portfolio_claytablet-gemini_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks.html %}
+
+</main>
