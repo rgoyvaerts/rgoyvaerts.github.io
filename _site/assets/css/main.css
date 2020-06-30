@@ -1558,6 +1558,21 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_claytablet-tobreak_1 {
+    background-image: url(/assets/img/portfolio/claytablet-tobreak_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_claytablet-tobreak_2 {
+    background-image: url(/assets/img/portfolio/claytablet-tobreak_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_claytablet-tobreak_3 {
+    background-image: url(/assets/img/portfolio/claytablet-tobreak_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
