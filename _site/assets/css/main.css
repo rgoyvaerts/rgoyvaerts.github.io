@@ -1133,21 +1133,6 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
-  .row-photos .portfolio_reindeer_oxhead_1 {
-    background-image: url(/assets/img/portfolio/reindeer-oxhead_1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .row-photos .portfolio_reindeer_oxhead_2 {
-    background-image: url(/assets/img/portfolio/reindeer-oxhead_2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .row-photos .portfolio_reindeer_oxhead_3 {
-    background-image: url(/assets/img/portfolio/reindeer-oxhead_3.gif);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; }
   .row-photos .portfolio_samplersongs_1 {
     background-image: url(/assets/img/portfolio/samplersongs_1.jpg);
     background-position: center center;
@@ -1615,6 +1600,21 @@ footer {
     background-size: cover; }
   .row-photos .portfolio_blueprintreligion_3 {
     background-image: url(/assets/img/portfolio/blueprintreligion_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_alteregosuitcase_1 {
+    background-image: url(/assets/img/portfolio/reindeer-oxhead_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_alteregosuitcase_2 {
+    background-image: url(/assets/img/portfolio/reindeer-oxhead_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_alteregosuitcase_3 {
+    background-image: url(/assets/img/portfolio/reindeer-oxhead_3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
