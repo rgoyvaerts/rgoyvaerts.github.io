@@ -1618,6 +1618,21 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_alteregosuitcase-potoi_1 {
+    background-image: url(/assets/img/portfolio/reindeer-oxhead-suitcase_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_alteregosuitcase-potoi_2 {
+    background-image: url(/assets/img/portfolio/reindeer-oxhead-suitcase_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_alteregosuitcase-potoi_3 {
+    background-image: url(/assets/img/portfolio/reindeer-oxhead-suitcase_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
