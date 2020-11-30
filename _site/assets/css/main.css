@@ -1642,6 +1642,36 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_christmas-gift_1 {
+    background-image: url(/assets/img/portfolio/christmas-gift_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_christmas-gift_2 {
+    background-image: url(/assets/img/portfolio/christmas-gift_2.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_christmas-gift_3 {
+    background-image: url(/assets/img/portfolio/christmas-gift_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_christmas-gift_4 {
+    background-image: url(/assets/img/portfolio/christmas-gift_7.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_christmas-gift_5 {
+    background-image: url(/assets/img/portfolio/christmas-gift_9.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_christmas-gift_6 {
+    background-image: url(/assets/img/portfolio/christmas-gift_8.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
