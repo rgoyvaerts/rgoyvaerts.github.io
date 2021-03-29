@@ -1,0 +1,125 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Mayan Hieroglyphics" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+   
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/530433008" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (54 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Mayan Hieroglyphics</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2015</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>111.5 cm x 81.5 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>High quality photoprint, aluminium frame, museum glass </td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>/</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>1/1</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@frankenrobbert.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+    
+    
+<p>This work is a large-format precision scan of an A4 page, set in a sleek aluminium frame and protected with quality museum glass. The work is the result of years of research and experimentation with regard to the materialisation of social media and internet image culture.
+</p>
+    
+<p>
+Between 2010 and 2014 Robbert&amp;Frank Frank&amp;Robbert explored the visual aspect of photos shared on social media. They traced a certain rhythm in the apparently disparate visual data. It struck them that some poses and subjects were repeated despite the lack of a consistent photographer. The artists scrolled through hundreds of profiles and attempted to keep track of the invisible links they came across. They did so by taking many screenshots, as well as by printing the webpages. 
+</p>
+    
+<p>
+The materialisation of the webpages that, in cases such as Facebook, are endless, resulted in analogue anomalies. Many of the webpages were printed ‘blank’. Another frequent occurrence was the printing of a number of empty frames accompanied by the URL, date and time. To save paper, the artists re-used these ‘blank’ sheets during their tests. Occasionally the printer would produce something surprising, such as an out-of-place image or digital glitch, a piece of unparsed code or part of the taskbar. 
+</p>
+    
+<p>
+Layer upon layer, a sort of painterly work arose, with various printers serving as mechanical paintbrushes. The artists also experimented with simple inkjet printers versus commercial photocopiers. Gradually they started to experiment with the unconventional use (or abuse) of the scan and copy functions.
+</p>
+    
+<p>This led them to print a gigantic series of A4 sheets, made up of many layers of printer ink and a combination of unreadable code, symbols and coincidental images. This reflected the impossibility of grasping all the visual stimuli that we are flooded with every day via the internet. And reflected the fleeting nature of today&apos;s information culture – an inextricable tangle of signs demanding our attention.</p>
+    
+<p>At the same time, this work is an ode to the technical wonder of our modern-day printing and copying technologies. The beauty of office paper and line-by-line inkjet printers. The riot of colour and the overabundance that everyone with a simple A4 printer has access to.</p>
+    
+<p>Just like the Mayan hieroglyphics bear within them an almost indecipherable past reality, this formal research presents a series of untranslatable codes, ideas, zeitgeists and holiday photos.</p>
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_mayan-hieroglyphs_1"></div>
+                    <div class="photo portfolio_mayan-hieroglyphs_2"></div>
+                    <div class="photo portfolio_mayan-hieroglyphs_3"></div>
+                </div>
+                <div class="row-photos">
+                    <div class="photo portfolio_mayan-hieroglyphs_4"></div>
+                    <div class="photo portfolio_mayan-hieroglyphs_5"></div>
+                    <div class="photo portfolio_mayan-hieroglyphs_6"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks.html %}
+
+</main>
