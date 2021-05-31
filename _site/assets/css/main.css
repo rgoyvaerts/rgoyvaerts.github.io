@@ -1807,6 +1807,21 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_claytablet-helpinghand_1 {
+    background-image: url(/assets/img/portfolio/claytablet-helpinghand_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_claytablet-helpinghand_2 {
+    background-image: url(/assets/img/portfolio/claytablet-helpinghand_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_claytablet-helpinghand_3 {
+    background-image: url(/assets/img/portfolio/claytablet-helpinghand_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
