@@ -1,0 +1,118 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Ceramic Suitcase - Foo Dog" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+   
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/563606269" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (54 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Ceramic Suitcase - Foo Dog</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2020</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>37 cm x 23 cm x 45 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>white clay, ceramic glazes</td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>/</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>1/1</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@frankenrobbert.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+    
+    
+<p>
+This ceramic sculpture has its origins in a working trip / residency in Hong Kong. The work refers, on the one hand, to the tradition of the Chinese ‘foo dog’ and, on the other hand, to the suitcase project developed by Robbert&amp;Frank Frank&amp;Robbert.
+</p>
+    
+<p>
+The foo dog or Chinese guardian lion was traditionally placed at either side of the entrance to palaces, temples and tombs. They symbolise nurture, prosperity and power, and protect buildings against malignant spiritual influences. 
+</p>
+    
+<p>
+    The sculpture is also inspired by a wooden suitcase that the artists assembled some years ago (<a href="{{site.url}}/portfolio/dog-demon-suitcase/">Dog Demon Suitcase, 2015</a>). This suitcase is in fact a box of blocks containing all the elements to construct a human figure, a demon or a doggie. A transforming object that thus represents the performative and changing nature of F&amp;R R&amp;F’s artistic practice.
+</p>
+    
+<p>
+    During a trip to the Hong Kong island of Po Toi, the artists activated their Dog Demon Suitcase alongside their <a href="{{site.url}}/portfolio/alterego-suitcase/">Alter-Ego Suitcase (2015)</a>. This brought about the connotation of a temple guardian lion. In this unique and coincidental way, their suitcase took on a new dimension. F&amp;R R&amp;F attach great value to this artwork’s evolution, which is what led them to dedicate a new ceramic sculpture to this story and this creature.
+</p>
+
+<p>
+Now this sculpture can go on to create a new story in a new context. 
+</p>
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_foo-dog_1"></div>
+                    <div class="photo portfolio_foo-dog_2"></div>
+                    <div class="photo portfolio_foo-dog_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks.html %}
+
+</main>
