@@ -1837,6 +1837,21 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_claytablet-hugging_1 {
+    background-image: url(/assets/img/portfolio/claytablet-hugging_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_claytablet-hugging_2 {
+    background-image: url(/assets/img/portfolio/claytablet-hugging_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_claytablet-hugging_3 {
+    background-image: url(/assets/img/portfolio/claytablet-hugging_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
