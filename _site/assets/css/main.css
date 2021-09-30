@@ -1867,6 +1867,36 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_burning-shrine_1 {
+    background-image: url(/assets/img/portfolio/burning-shrine_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_burning-shrine_2 {
+    background-image: url(/assets/img/portfolio/burning-shrine_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_burning-shrine_3 {
+    background-image: url(/assets/img/portfolio/burning-shrine_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_burning-shrine_4 {
+    background-image: url(/assets/img/portfolio/burning-shrine_4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_burning-shrine_5 {
+    background-image: url(/assets/img/portfolio/burning-shrine_5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_burning-shrine_6 {
+    background-image: url(/assets/img/portfolio/burning-shrine_6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
