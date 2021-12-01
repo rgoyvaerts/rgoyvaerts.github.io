@@ -1,0 +1,114 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Archeology Suitcase" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>  
+    
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/651479894?h=cc02844cbc" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (58 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Archeology Suitcase</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2019 - 2020</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>45 cm x 85 cmx 60 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>plywood, wood, metal, mattress foam, various clays and glazes</td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>Part of the wooden suitcase project</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>/</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@frankenrobbert.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+    
+    
+<p>This ingenious suitcase contains remnants from the open-air firing in which Robbert&amp;Frank attempted to fire their amulets and clay tablets for the very first time. The clay tablets are broken – but perhaps all the more beautiful for that – while the amulets remained intact. This firing took place in Grabowsee, a special place in the green outskirts of Berlin where a small festival is organised every year by artists and volunteers.</p>
+
+<p>In this ancient technique, a large fire is lit in a pit in the ground. Then the clay objects are very slowly brought closer to the fire to dry out and heat up. Once the fire is reduced to large, glowing coals, any residual flames are put out and the objects are placed in among the hot coals. Then the pit is covered over, effectively creating a hot oven in the earth. Only after a night and a day has everything cooled down enough to be dug up again.</p>
+
+<p>The title refers to the objects themselves, which resemble archaeological finds, but also to the act of excavating the objects from the earth and ashes. This slow, meditative process creates a strong sense of connection between the participants, the earth and our ancient ancestors. As well as a sense of wonder with regard to this alchemical, almost magical process in which the combination of fire &amp; clay (representing earth) gives rise to a new substance that can stand the test of time.</p>
+
+<p>Such amulets and clay tablets now form an important part of Frank&amp;Robbert’s shared artistic practice. This suitcase thus symbolises the beginning of this new period in the artists' work and lives.</p>
+
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_archeology-suitcase_1"></div>
+                    <div class="photo portfolio_archeology-suitcase_2"></div>
+                    <div class="photo portfolio_archeology-suitcase_3"></div>
+                </div>
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_archeology-suitcase_4"></div>
+                    <div class="photo portfolio_archeology-suitcase_5"></div>
+                    <div class="photo portfolio_archeology-suitcase_6"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks.html %}
+
+</main>
