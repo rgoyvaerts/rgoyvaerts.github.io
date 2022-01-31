@@ -1,0 +1,113 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "trophy for culture" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>  
+    
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/671922848?h=5c29bbf414" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (54 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Go Away Sorrow of the World - Mini Suitcase</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2017</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>73 cm x 34 cm x 8 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>reclaimed wood, glue, metal, paint, tape, varnish, printed forex panel 5mm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>/</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>/</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+    
+    
+<p>
+In de video zien we een mini Frank met het uitgeklapte koffertje in de hand de boodschap van vrede verkondigen. De boodschap is in deze video vertaald in het Russisch. Normaal gezien wordt de mantra ‘Ga weg leed van de wereld’ steeds aangepast in functie van de plek waar het werk wordt vertoont.
+</p>
+<p>
+Dit werk is een kleine versie van een bestaande sculptuur: <a href="{{site.url}}/portfolio/sorrow-suitcase-performance">Go Away Sorrow of the World – Suitcase</a>. De idee is dat de mantra zelf de kern is van het kunstwerk en niet zozeer de verschillende materiële verschijningsvormen.
+</p>
+<p>
+Deze mini koffer laat ons toe om deze mee te geven met kennissen en vrienden die op reis gaan en voor ons de boodschap willen uitklappen ergens op aarde. Zo werd dit koffertje onder andere al meegenomen naar Brazilië en Rusland.
+</p>
+<p>
+    Dit model past in een serie van kunstwerken die allen opgebouwd zijn rond exact dezelfde mantra. Op <a href="{{site.url}}/sorrow-blog">onze blog</a> vind je een overzicht terug van alle kunstwerken in deze reeks alsook een extra woordje uitleg.
+</p>
+
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_sorrow-mini-suitcase_1"></div>
+                    <div class="photo portfolio_sorrow-mini-suitcase_2"></div>
+                    <div class="photo portfolio_sorrow-mini-suitcase_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks.html %}
+
+</main>
