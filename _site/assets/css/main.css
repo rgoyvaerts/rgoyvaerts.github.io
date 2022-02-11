@@ -209,6 +209,10 @@ li {
   padding: 0;
   margin: 0; }
 
+.li-classic {
+  list-style-type: square;
+  padding: 5px 0; }
+
 a {
   color: #db163d;
   text-decoration: none;
