@@ -1,0 +1,107 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "trophy for culture" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>  
+    
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/680450184?h=0ce3288483" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (55 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Great Wall of China - Hebei province</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2020</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>115 cm x 78 cm x 3 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>Four-colour silkscreen print on Steinbach paper (220 gr)</td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>incl. custom-made frame by Atelier Derycke<br/>Part of the wooden suitcase project.</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>6 pieces (+ 1 artist’s proof)</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+<p> In the last couple of years F&amp;R R&amp;F have sought to <strong>explore new methods of capturing and sharing</strong> both their performances and their small interventions in the public space. The duo started out with conventional video and photo documentation, amassing an extensive collection of digital footage over the years and sharing it widely with audiences all over the world as part of group and solo exhibitions, screenings, festivals, etc. <br />
+They have now begun to explore the new approach of <strong>transforming their digital footage into unique artworks</strong>, such as clay tablets or silkscreen prints representing their performances that represent their live performances and interventions. The tablets and prints have an artisanal quality to them; each specimen is unique.
+</p> 
+   
+<p><strong>This four-colour silkscreen print</strong> was made by the artists themselves and is one of seven prints in total, including one artist print. The beauty of silkscreen printing lies in the use of multiple screens to create colourful layers. The irony of this art form is that one should aim for perfect layer alignment, but be content with minor aberrations: while small mistakes may create ‘flaws’ in the layering, they also serve to transform every print into a unique work of art. In this way, the process of silkscreen printing seems to flirt with the process of performing: every performance is different, a new story unfolding with each intervention and new setting. The same is true of silkscreen printing.</p>
+
+<p>In this print we see 3D-printed copies of the artists themselves. The figurines are standing motionless, like guardians, on top of the Great Wall of China. They are accompanied by a metal Buddha and a small, pinkish piglet, the combination of elements creating meaning: is this the Year of the Pig? Does the spectacle impart some sort of luck upon the figurines? Or upon the artists themselves? Or the world in general? Here R&amp;F F&amp;R play with scale, perspective, meaning and <strong>a magical sense of place</strong>.</p>
+   
+<p>This silkscreen print makes tangible F&amp;R R&amp;F’s quest to <strong>build bridges between cultures</strong>, anecdotes and times. Asia and Europe, old and new cultures, the associated visual languages and layers of meaning – these themes and dynamics are coming to be a common thread in the work of R&amp;F F&amp;R. The same questions invariably keep arising over and over again: who are we? Where do we come from? And, most of all, where are we headed?</p>
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_wall-of-china_1"></div>
+                    <div class="photo portfolio_wall-of-china_2"></div>
+                    <div class="photo portfolio_wall-of-china_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks.html %}
+
+</main>
