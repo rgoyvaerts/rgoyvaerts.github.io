@@ -1,0 +1,104 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Shrine - Shredding Sorrows" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>  
+    
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/693131917?h=4b663a70c7" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (58 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Shrine - Shredding Sorrows</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2019</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>55,5 cm x 43 cm x 16cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>wood, glue, metal, inkt, paint, varnish</td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>/</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>1/1</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+<p>This large, green shrine is embellished with imagery of a past fire ritual in which the artists burned the sorrows of the general public. Fire symbols enhance the ritual narrative of the shrine. On top of the shrine is an inscription bearing the message ‘With everyone are we connected’ in German. This shrine was built and activated during the artists’ residency in Berlin in 2019, which was made possible with support from the Flemish Community.
+</p> 
+   
+<p>Over the course of their years of collaboration, R&amp;F F&amp;R have sought out clever ways to document their own artistic practice and to communicate it with an audience. Part of their artistic research has been to find new ways of activating artworks. Many years ago, inspired by ancient history, the artists created a wooden suitcase for their alter egos, Reindeerhead and Oxhead. Held upright and with the handle removed, the wooden suitcase looked more like a shrine of the sort used in devotional practices. Instead of honouring deities, ancestors or the spirits of Nature, F&amp;R chose to activate their alter egos in a ritual. This marked a new precedent for a unique aspect of their artistic practice: the creation and activation of shrines.</p>
+
+<p>Some of their shrines require certain rituals to be performed in order to be activated, while others serve simply to depict past events: one such shrine depicts a scene from one of their theatre plays, while another bears a cartoon-like rendering of a past fire ritual in which R&amp;F baked clay amulets. Then there are the other sort, such as their shrine devoted to contemporary archaeology. In this way, each shrine becomes a little theatre or universe in its own right. A work of art that is at once painting and sculpture, object and action.</p>
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_shrine-shredding-sorrows_1"></div>
+                    <div class="photo portfolio_shrine-shredding-sorrows_2"></div>
+                    <div class="photo portfolio_shrine-shredding-sorrows_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks.html %}
+
+</main>
