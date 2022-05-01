@@ -1,0 +1,107 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Surveillance" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>  
+    
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/693142652?h=df50127b1d" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (49 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Surveillance</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2020</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>28 cm x 23 cm x 32 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>scrap wood, nails, screws, paint, white clay and glazes
+                    </td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>/</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>1/1</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+<p>In this seemingly playful work, we see white-glazed figures operating a large surveillance camera. Both the camera and the little figures are made of simple materials. The scene can be viewed as a metaphor: elevated above the masses, a small group of figures film the world from a bird’s-eye view. This sculpture is intended to be presented on a shelf at the height that security cameras are usually installed.
+</p> 
+   
+<p>The work embodies a childlike way of getting to grips with the world: understanding through imitation. It also expresses great concern about the state of our contemporary ‘information society’. The gulf between the haves and the have-nots seems to be growing ever wider. Knowledge is power, and knowledge is becoming increasingly digital.</p>
+
+<p>Moreover, we seem to find it increasingly normal – favourable, even – to record and digitally distribute every aspect of our lives. We are each the stars of our own reality show and willingly allow ourselves to be photographed. We are simultaneously the little white figures, who like to be in control and film everything, and the ones being filmed. </p>
+   
+<p>This society of control, where we are both filming and being filmed, is a palace of mirrors where it is becoming difficult to find peace and security. Does art and culture offer us a safe haven or does it merely fuel the fire?</p>
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_surveillance_1"></div>
+                    <div class="photo portfolio_surveillance_2"></div>
+                    <div class="photo portfolio_surveillance_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks.html %}
+
+</main>
