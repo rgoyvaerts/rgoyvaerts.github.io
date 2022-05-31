@@ -2021,6 +2021,36 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_doorsofperception_1 {
+    background-image: url(/assets/img/portfolio/doorsofperception_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_doorsofperception_2 {
+    background-image: url(/assets/img/portfolio/doorsofperception_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_doorsofperception_3 {
+    background-image: url(/assets/img/portfolio/doorsofperception_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_doorsofperception_4 {
+    background-image: url(/assets/img/portfolio/doorsofperception_6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_doorsofperception_5 {
+    background-image: url(/assets/img/portfolio/doorsofperception_4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_doorsofperception_6 {
+    background-image: url(/assets/img/portfolio/doorsofperception_5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
