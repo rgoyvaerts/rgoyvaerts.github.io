@@ -1,0 +1,107 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Crashed Human" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>  
+    
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/724423865?h=1bc617fd13" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (50 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Crashed Human</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2021</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>24.5 cm x 22 cm x 8.5 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>Clay, slips, glazes
+                    </td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>/</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>1/1</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+<p>This ceramic sculpture is an accident. The clay exploded violently in the kiln and the fragments melted together again in the scorching heat. Instead of tossing this work in the trash in disappointment, we were moved by the unexpected beauty of the thing. </p>
+
+<p>The figure, with broken bones and severed head, looks like a fragile archaeological find. It is equally reminiscent of a body found among the debris of a pulverised city. But what it reminds us of most is Icarus, the fallen angel, shattered sky and sun included (here as blue and yellow rubble). Cast back down to this (polluted?) planet.</p>
+
+<p>In this way, the work seems to connect future and past. In it, the imagery of Pompei meets that of a mission to Mars. Pride comes before a fall. What remains is a fragile beauty. A fusion of heaven and earth, man and nature. </p>
+
+<p>This work was by no means conceived with a moral message in mind. But coincidence brought us one nonetheless. Perhaps the zeitgeist was able to penetrate the kiln.
+</p>
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_crashed-human_1"></div>
+                    <div class="photo portfolio_crashed-human_2"></div>
+                    <div class="photo portfolio_crashed-human_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks.html %}
+
+</main>

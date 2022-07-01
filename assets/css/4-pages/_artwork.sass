@@ -1,5 +1,18 @@
-.overview-artworks
-    text-align: center
+.overview-artworks  
+    a
+        padding: 0
+    th
+        text-align: left
+        vertical-align: center
+        padding-left: 20px
+        padding-top: 12px
+        
+    th, td
+        border-top: 1px solid #ddd
+    
+    font-size: 0.8em
+
+    text-align: left
         
     @media screen and (max-width: 950px)
         text-align: left
@@ -18,6 +31,7 @@
     box-sizing: border-box
     position: relative
     width: 100vw
+    margin: 0 auto
     left: calc(-50vw + 50%)
     height: 100%
     padding-bottom: 2em
@@ -98,6 +112,13 @@
     display: flex
     justify-content: space-around
     align-items: center
+    padding: 0 20px
+    
+.flex-item-not-center
+    width: 500px
+    display: flex
+    justify-content: space-around
+    align-items: flex-start
     padding: 0 20px
 
 .flex-item-left
