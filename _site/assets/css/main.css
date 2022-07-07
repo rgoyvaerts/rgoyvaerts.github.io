@@ -565,7 +565,8 @@ header {
   margin: 0 auto 40px; }
   @media screen and (max-width: 1050px) {
     header {
-      margin: 0 auto 20px; } }
+      margin: 0 auto;
+      padding-bottom: 20px; } }
   header .landing-header {
     position: relative;
     margin-top: 25vh; }
@@ -729,18 +730,16 @@ main {
       -ms-transform: rotate(0deg);
       -o-transform: rotate(0deg);
       transform: rotate(0deg); }
-  main .pagetitle {
+  main .pagetitle h1 {
     -webkit-animation: FadeOut 2.5s forwards;
     -moz-animation: FadeOut 2.5s forwards;
     animation: FadeOut 2.5s forwards;
     position: absolute;
-    top: 25%;
     left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     color: #FFEB6B; }
-    @media screen and (max-width: 1050px) {
-      main .pagetitle {
-        top: 40%; } }
   main .tags {
     padding-bottom: 20px; }
     main .tags img {
@@ -2421,10 +2420,16 @@ footer {
   .overview-artworks th {
     text-align: left;
     vertical-align: center;
-    padding-left: 20px;
-    padding-top: 12px; }
-  .overview-artworks th, .overview-artworks td {
-    border-top: 1px solid #ddd; }
+    padding-left: 15px;
+    padding-top: 14px;
+    width: 20px; }
+  .overview-artworks td.year {
+    width: 110px;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 10px; }
+  .overview-artworks h4 {
+    text-align: center; }
   @media screen and (max-width: 950px) {
     .overview-artworks {
       text-align: left; }
