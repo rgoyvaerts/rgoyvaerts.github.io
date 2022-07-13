@@ -17,7 +17,9 @@
     </div>
     
     <div class='menu'>
-                
+        
+        {% assign current = page.url | downcase | split: '/' %}
+        
         <div class='menu-items'>
             <a href="{{site.url}}/portfolio" {% if current[1] == 'portfolio' %}class='current'{% endif %}>Artworks</a>
         </div>
