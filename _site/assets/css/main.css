@@ -2081,6 +2081,36 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_pleasure-of-making_1 {
+    background-image: url(/assets/img/portfolio/pleasure-of-making_4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_pleasure-of-making_2 {
+    background-image: url(/assets/img/portfolio/pleasure-of-making_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_pleasure-of-making_3 {
+    background-image: url(/assets/img/portfolio/pleasure-of-making_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_stele-stories_1 {
+    background-image: url(/assets/img/portfolio/stele-stories_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_stele-stories_2 {
+    background-image: url(/assets/img/portfolio/stele-stories_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_stele-stories_3 {
+    background-image: url(/assets/img/portfolio/stele-stories_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
