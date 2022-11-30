@@ -1,0 +1,104 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Shrine - To Break" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>  
+    
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/731301604?h=1e99a7f759" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (49 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Shrine - To Break</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2021</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>25.5 cm x 12.0 cm x 13.0 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>wood, aluminium, nails, filler, paint, LED, metal
+                    </td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>1/1</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+<p>This small yellow shrine serves as a mini theatre. Frank and Robbert present a line drawing, executed in aluminium, under an LED light array embedded in the roof of the shrine. </p>
+
+<p>The drawing is a stylised interpretation of a scene from their theatre play TO BREAK: The Window of Opportunity (Campo, 2014). The image depicts a choreographed sequence of a hunting ritual, an ancestor cult and a scaffold as totem pole. The central symbolism here is of power and transformation. This is alluded to directly by the pool of blood and the snake.</p>
+
+<p>A shrine is a particularly rich cultural signifier. Some shrines are designed to protect valuables and therefore resemble ornamental safes. Other shrines are kept empty and only take on meaning when they are filled through ritual actions. Similarly, you could see the church or the theatre as a large shrine, where the altar/stage serves as the elevated area. </p>
+    
+<p>In their work, Frank&amp;Robbert Robbert&amp;Frank regularly return to the expressive power of rituals. In recent years, they have created a number of rituals that gain in meaning and value through repetition. In these rituals the artists frequently use small suitcases – made by themselves out of wood – that can be activated and presented to an audience, just like a shrine (see the Suitcase projects). </p>
+
+<p>This piece is therefore a typical Frank&amp;Robbert work, reflecting both their visual practice and their performative / theatrical practice. </p>
+
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_shrine-tobreak_1"></div>
+                    <div class="photo portfolio_shrine-tobreak_2"></div>
+                    <div class="photo portfolio_shrine-tobreak_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks-organized.html %}
+
+</main>
