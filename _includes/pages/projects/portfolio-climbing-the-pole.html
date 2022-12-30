@@ -1,0 +1,104 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Climbing the pole" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>  
+    
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/785246109?h=e285025f34" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (36 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Climbing the pole</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2020</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>300 x 90 x 10 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>5mm foamed-PVC panel (printed and cut to shape), wood, screws
+                    </td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>/</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+<p>In this image, we see Robbert climbing up what seems to be a narrow plank of wood while Frank holds it up. It is a suspenseful scene from R&amp;F F&amp;R’s second theatre show To Break – The Window of Opportunity. The plank is in fact two thin slats of wood that bend dauntingly to and fro as Robbert ascends; only by keeping them perfectly straight can Frank prevent them from breaking under Robbert’s weight.</p>
+
+<p>With this theatrical act being frozen in a hyper-realistic 2D cut-out, F&amp;R R&amp;F appear to be performing a durational performance, holding on tight forever. But are they clamped to the plank or to each other?</p>
+
+<p>Robbert&amp;Frank’s shared history of collaborative performance was born out of a string of absurd, sometimes silly physical challenges. Prototypical examples from their time at art school include jumping over artworks (big and small), performing choreographies centred on a ladder, burying themselves and climbing the most diverse of objects. One of the most elusive challenges was climbing up a plank of wood that was not mounted to anything. In fact, it would be several years after graduating before they successfully pulled off this feat.</p>
+
+<p>As such, for the artists, this act symbolises stubborn, Sisyphean persistence and their shared quest, which may sometimes fly in the face of reason. It is an image that embodies both awkwardness and heroism.</p>
+
+<p>Here we see the cut-out presented in the garden of Be-Part, Waregem, during F&amp;R R&amp;F’s solo show ‘As you think so shall you become’. The first snowfall almost has the effect of turning this work into a snow globe or a Christmas card, making it the perfect artwork of the month for January. May we continue awkwardly and heroically attempting the seemingly impossible, in 2023 and beyond.</p>
+
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_climbing-the-pole_1"></div>
+                    <div class="photo portfolio_climbing-the-pole_2"></div>
+                    <div class="photo portfolio_climbing-the-pole_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks-organized.html %}
+
+</main>
