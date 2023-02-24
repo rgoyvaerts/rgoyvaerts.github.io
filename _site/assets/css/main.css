@@ -2231,6 +2231,21 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_stele-silver-rain_1 {
+    background-image: url(/assets/img/portfolio/stele-silver-rain_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_stele-silver-rain_2 {
+    background-image: url(/assets/img/portfolio/stele-silver-rain_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_stele-silver-rain_3 {
+    background-image: url(/assets/img/portfolio/stele-silver-rain_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
