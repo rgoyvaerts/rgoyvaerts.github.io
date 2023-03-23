@@ -2246,6 +2246,21 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_blueprint-stonesuitcase_1 {
+    background-image: url(/assets/img/portfolio/blueprint-stonesuitcase_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_blueprint-stonesuitcase_2 {
+    background-image: url(/assets/img/portfolio/blueprint-stonesuitcase_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_blueprint-stonesuitcase_3 {
+    background-image: url(/assets/img/portfolio/blueprint-stonesuitcase_4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
