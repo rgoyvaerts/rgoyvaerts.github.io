@@ -1,0 +1,105 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Shrine - Janus" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>  
+    
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/831985014?h=71b4ced8a4" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (58 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Shrine – Janus Self-Portrait</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2021</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>44 cm x 30.5 cm x 15 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>3D print, turntable, battery, wood, glue, nails
+                    </td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>1/1</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+<p>This shrine is a symbolic representation of Frank&amp;Robbert’s symbiotic collaboration. There are several layers to be unpicked in this work: the Janus head itself, the portal function of the wooden shrine and the inscriptions on the inside of the shrine.</p>
+
+<p>The double head refers to the Roman deity Janus, who symbolises new beginnings – think January, the first month of the new year – and acts as a gatekeeper or guardian. One head looks to the past, the other to the future, with the Janus head as a whole straddling the dividing line between the two: the ‘now’. In this work, the Janus head represents the fusion of two minds in one art practice, while the shrine frames the sculpture and acts as a portal to the world of Robbert&amp;Frank.</p>
+
+<p>On closer inspection, you can see that inscriptions have been made inside the shrine. The abstract symbols are cuneiform characters, while the English text is the likely translation of these ancient symbols. As the Janus head rotates, Frank&amp;Robbert are alternately faced with the opposing symbols. On the left, we see the conceptual sign ‘to build’, ‘to create’, ‘to do’, ‘to make’, ‘everything’, ‘entirety’. On the right, the symbol for ‘foreign’, ‘unfamiliar’, ‘to let go’. For Robbert&amp;Frank, this eternal round dance between making and letting go, everything and nothing, old and new, is the core of working and playing together.</p> 
+
+<p>This work is the result of a long journey of self-study and many DIY attempts to master 3D scanning and 3D modelling. The work was made using 3D-printing and CNC-milling technology, contemporary techniques that contrast strikingly with the age-old formal language of this work. To Frank&amp;Robbert, this tension between content and form, technique and medium serves as another endless source of inspiration and of pleasure through play.</p>
+
+<p>Just like the symbolic ouroboros serpent is circular, biting its own tail, Robbert&amp;Frank revolve around each other, symbolising the cycle of their shared life and work.
+</p>
+
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_shrine-janus_2"></div>
+                    <div class="photo portfolio_shrine-janus_1"></div>
+                    <div class="photo portfolio_shrine-janus_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks-organized.html %}
+
+</main>
