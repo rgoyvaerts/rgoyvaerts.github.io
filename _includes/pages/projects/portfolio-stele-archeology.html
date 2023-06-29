@@ -1,0 +1,103 @@
+﻿<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Stele Archeology" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/840012729?h=5fefeee3b7" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (55 sec)</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Stèle - Archeology</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2023</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>45.5 cm x 24 cm x 6 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>
+                                    black clay, concrete powder, mortar and dark cement powder
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Options</em></th>
+                                <td>/</td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>This work speaks to the artists’ overarching belief in transformation. At the same time, it is an homage to ‘failure’. Through trial and error – or, in more sophisticated terms, ‘iterative investigation’ – Frank and Robbert attempt to capture the spirit of the times. On the one hand, we live in an ever more dazzling world, where people are pushing the boundaries of technology almost daily. On the other hand, we see that the same world is suffering from a serious loss of magical thinking, intuition and connection with nature, to name just a few deficits. It is almost as if we lack the ability to join the dots. In fact, the title of the work, archaeology, alludes somewhat to the idea of self-archaeology. To our discovery of (versions of) ourselves. R&F F&R raise questions without answering them. They evoke possibilities and leave it up to the viewer to explore them. </p>
+
+    <p>Archaeology is the third stele in R&F F&R’s oeuvre. This stele exploded in the kiln during the firing process. Instead of throwing the broken fragments away, Frank and Robbert kept them aside. Months later, these pieces would be used in an experiment. The artists had both recently renovated their homes and in the process learnt to work with mortar, cement and concrete. They decided to put the broken pieces back together. Separate tests with mortar and concrete failed to produce the desired results in terms of look and stability. This led the artists to devise their own blend: a combination of concrete powder, mortar and dark cement powder. They poured this mixture into a mould that incorporated the broken fragments of the original stele. </p>
+
+    <p>The result is unorthodox. This stele is unlike other ceramic works by the artist duo: it does not include a representation of them both. Instead we see just one central figure, the artists’ familiar pointy-headed character, looking out over an organically organised world, where animal, plant and human all seem to coalesce. The speckled surface of the stele nicely shows which parts are original and which parts have been retouched. This surface texture adds an extra dimension to the work; it makes it appear as if we are looking at a very old artefact, an object from a lost world. Given the subject of the work, this is quite apt. The pointy-headed figure, with its clean lines and geometric forms, has a contemporary appearance. This is in stark contrast to the organic world around it. It appears as though the figure is perhaps being granted a peek into some squandered Garden of Eden. </p>
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio_stele-archeology_1"></div>
+                        <div class="photo portfolio_stele-archeology_2"></div>
+                        <div class="photo portfolio_stele-archeology_3"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
