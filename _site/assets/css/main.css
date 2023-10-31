@@ -2382,6 +2382,35 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_totemheads_1 {
+    background-image: url(/assets/img/portfolio/totemheads_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_totemheads_2 {
+    background-image: url(/assets/img/portfolio/totemheads_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_totemheads_3 {
+    background-image: url(/assets/img/portfolio/totemheads_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_totemheads_4 {
+    background-image: url(/assets/img/portfolio/totemheads_4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_totemheads_5 {
+    background-image: url(/assets/img/portfolio/totemheads_5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_totemheads_6 {
+    background-image: url(/assets/img/portfolio/totemheads_6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat; }
 
 .cv {
   font-size: 0.8em; }

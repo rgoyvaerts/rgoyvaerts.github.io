@@ -1,0 +1,112 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Totem Heads" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/876003256?" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (57 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Totem Heads</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2014–2021</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>106 cm x 21 cm x 24 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>
+                                    scrap wood, various paints, metalwork
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Options</em></th>
+                                <td>/</td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>In 2014, Frank&amp;Robbert Robbert&amp;Frank collaborated with VZW Wit.h, an organisation that connects professional artists from the mainstream circuit with professional artists with disabilities. R&amp;F F&amp;R have been involved in their initiatives a number of times, including at Waterkliniek Dr. Valcke in Kortrijk and Bloedtest at the Dr. Guislain museum.</p>
+
+    <p>For the Dr. Valcke project, Robbert&amp;Frank teamed up with Johan Geenens and Laurence Demets at a former hydrotherapy clinic in Kortrijk. This sanatorium was founded by Dr. Jules Henri Valcke in 1913. Valcke was a pioneer in hydrotherapy: the external treatment of diseases with water. </p>
+
+    <p>The artists described the clinic as having a very specific energy: like a cross between a mystical place and a house of horror. Johan and Laurence both took a small room on the first floor. Johan covered his space in drawings – minute abstract compositions, most of which depicted boats, canoes or self-portraits. Laurence likewise drew on the walls. She combined text fragments from old Artis Historia books with drawings of aquatic animals and prints of people who were mummified or in search of healing. </p>
+
+    <p>Frank&amp;Robbert transformed their space into a contemporary ‘sanctuarium’: a sanctuary for healing. They set up new healing rooms on the first floor and on the ground floor they installed a giant water basin with a large totem pole standing in it. The faces of the four artists were depicted one above the other. Their pursed lips squirted jets of water. This large fountain was activated by inserting a self-made wishing coin, which would cause the tower to start singing. </p>
+
+    <p>It was also in this context that the sculptural heads were made. They represent Dr Valcke's patients and were part of the decor of his office/examination room at the time. Of course, it was many years later that Robbert&amp;Frank assembled the wooden heads into a totem pole: a strange collection of fictive characters developed and brought together as way to remember this unique project.</p>
+
+    
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio_totemheads_1"></div>
+                        <div class="photo portfolio_totemheads_2"></div>
+                        <div class="photo portfolio_totemheads_3"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio_totemheads_4"></div>
+                        <div class="photo portfolio_totemheads_5"></div>
+                        <div class="photo portfolio_totemheads_6"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
