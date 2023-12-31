@@ -1,0 +1,108 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Archetypes - Shrine" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/895923929?" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (56 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Archetypes - Shrine</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2019–2021</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>56 cm x 40,5 cm x 17,5 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>
+                                    scrap wood, scrap nails and screws, wood glue, foam board, brass, clay, glazes
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Options</em></th>
+                                <td>/</td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<p>Shrine with Amulets is an artwork about transformation and connection. The wooden shrine is painted: on the left side we can see the head of a demon, on the right that of a Chinese fu dog. Both paintings are in Frank&amp;Robbert’s characteristic style and call to mind the physical heads of their <a href="{{site.url}}/portfolio/dog-demon-suitcase">Dog-Demon Suitcase</a>. The fu dog protects, the demon attacks. Yin and yang: a dynamic that resides in everyone.</p>
+
+<p>At the top of the shrine are sculpted letters forming the words: ‘From One To Many’. With this Robbert and Frank refer to their last big theatre production, <a href="{{site.url}}/portfolio/grand-human-projects">Don’t We Deserve Grand Human Projects That Give Us Meaning?</a>. At the start of the latter piece, a voice over declares that the story of one person is the story of the entire human race. Variations on this quote can be found in the work of writers such as Paulo Coelho and John Barth, but its origins can be traced back as far as Ancient Egyptian and Sumerian texts. We all like to think of ourselves as unique. But every life is a variation on the same theme. The little, changing details give rise to different permutations and provide rhythm, space, depth and dynamics. </p>
+
+<p>The shrine invites the viewer to descend deeper into themselves. It raises questions about identity and purpose. The amulets in the shrine also play into this. Most of these amulets are self-made ceramic talismans featuring symbols based on Jungian archetypes. These archetypes are such recognisable, commonplace distillations that everyone can read and interpret them without prior knowledge. The actions and emotions they evoke represent the basic needs / emotions / demons / desires of every human being. Some of the amulets are different; they are made of a reflective material and thus serve to hold up a mirror to the viewer, both literally and figuratively. </p>
+
+<p>This work was a long time in the making. The origins of this shrine can be traced back to Frank&amp;Robbert’s residency at Air Alexanderplatz Berlin (DE) in 2019. There the artists made a series of objects with the goal of ‘breaking into’ the public space. They constructed a series of shrines: small, empty wooden boxes that they placed in and around the block of flats where they were staying. Some of them were brought to life by local residents: one of the shrines was filled with flowers, one was used as a lending library, and one was used as a hiding place for (marijuana) cigarettes and other small items belonging to the young people in the area.</p> 
+
+<p>The first version of this shrine was placed at the entrance of the block of flats in Berlin. After just a few hours, the shrine had been destroyed and thrown into a garbage container. It was possible to salvage the base board, which was used as the foundation for this shrine (version 2). Robbert and Frank placed the new version in front of their door on the fourth floor. After several days of inactivity, F&amp;R R&amp;F decided to take the object back inside and paint it. This work thus comes at the end of a long path of self-reflection. Its symbolism refers to the makers themselves, their shared practice and the external world to which they seek to make a connection. From many to one. From one to many. 
+</p>
+
+    
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio_shrine-amulets_1"></div>
+                        <div class="photo portfolio_shrine-amulets_2"></div>
+                        <div class="photo portfolio_shrine-amulets_3"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
