@@ -1,0 +1,107 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Cutouts Series" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/927756687?" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (58 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Maquette Yorkshire Sculpture Park</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2024</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>15 cm x 15 cm x 6 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>lasercut 3mm multiplex wood panel, ceramic amulets, 3d printed R&amp;F screws, nails, glue
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Location</em></th>
+                                <td><a href="https://www.google.com/maps/place/53°36'35.4%22N+1°34'21.7%22W/">53°36'35.4"N<br>1°34'21.7"W</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<p>R&amp;F F&amp;R are in Yorkshire, UK. They are visiting the famous Sculpture Park in West Bretton. Yorkshire Sculpture Park (YSP) is one of the leading international centres for modern and contemporary sculpture. The museum and sculpture gardens were founded in 1977 by Sir Peter Murray. It is the largest sculpture park of its kind in Europe, with an impressive collection of works from famous artists like Barbara Hepworth, Henry Moore, Phyllida Barlow, Damien Hirst, Ai Weiwei, Andy Goldsworthy, James Turrell and many others.</p>
+    
+<p>At YSP, F&amp;R R&amp;F were struck by the power of the artworks in relation to the landscape. A lot of the artworks relate to ancient art. In response to this environment, Frank and Robbert made a mini installation as a proposition to the Park for a possible full-scale version to one day be constructed.</p>
+
+<p>A maquette in laser-cut plywood represents a magical circle of figures. The figures have bodies in the shape of stairs – an aid to ascend? These figures are flanked on either side by standing plywood hands. The hands also have an upward energy, as if they were reaching for something. This upward energy is important, as the circle is actually a well. The well spits out amulets. These self-made amulets are there for the taking, helping and enabling their new owners. </p>
+
+<p>R&amp;F F&amp;R are currently traveling through the UK in order to explore Neolithic sites and to reconnect with art institutes post-Brexit. Their travels are part of a reconnection programme supported by the British Arts Council and the Flemish Kunstenpunt. </p>
+
+<p>Frank and Robbert have been working with symbols, rituals and magic for the last couple of years. During their UK trip they aim to combine all of this. Doing so, they interact with the locations they visit, leaving artistic breadcrumbs. They have installed small installations, walked around stone circles and carried out on-site performances.
+</p>
+
+    
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio_maquette-ysp_4"></div>
+                        <div class="photo portfolio_maquette-ysp_2"></div>
+                        <div class="photo portfolio_maquette-ysp_3"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
