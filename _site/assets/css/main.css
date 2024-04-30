@@ -2491,6 +2491,21 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+  .row-photos .portfolio_splott-beach_1 {
+    background-image: url(/assets/img/portfolio/splott-beach_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_splott-beach_2 {
+    background-image: url(/assets/img/portfolio/splott-beach_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio_splott-beach_3 {
+    background-image: url(/assets/img/portfolio/splott-beach_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .cv {
   font-size: 0.8em; }
