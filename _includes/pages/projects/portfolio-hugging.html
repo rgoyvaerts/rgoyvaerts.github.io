@@ -1,0 +1,106 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "FooDog in the wild" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/952238433?" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>    
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (58 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Hugging</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2024</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>170 cm x 75 cm x 1,5 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>
+                                    Polished stainless steel, bolts, nuts, wires
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Options</em></th>
+                                <td>Installation high up in a tree as a mobile</td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<p>This ensemble depicts two figures hugging. It is based on a drawing made by the artists during the COVID-19 pandemic. They subsequently incorporated the embracing duo into their large mural, which was on display in the basement of Be-Part, Waregem, at the time of their solo exhibition there, <a href="{{site.url}}/portfolio/breadcrumbs" target="_blank">‘BREADCRUMBS’</a>.</p>
+
+<p>During COVID, hugging was forbidden (at least, in public and between people outside your ‘bubble’). Many of us felt very lonely. We had never thought that such a simple act could have such an emotional charge. Terms such as ‘skin hunger’ were coined and suddenly took on meaning.</p>
+
+<p>For R&amp;F F&amp;R, hugging is significant beyond the context of COVID. It is a recurring action in their practice, with a history that can be traced back much further than the pandemic. There were hugging scenes in an early video work of theirs from KASK, Ghent, and the act of hugging had its own autonomous moment in their second theatre piece, <a href="{{site.url}}/portfolio/to-break" target="_blank">TO BREAK: The Window of Opportunity</a>. In the latter piece, following a shoot-out scene with chocolate pistols, the artists embraced in front of a gigantic painting of an empty desert. For these makers, hugging is more than an expression of emotion. It is a means of seeking out connection with another person: the fulfilment of the yin-yang dynamic, a bridging of the gap between one’s personal world and that of another.</p>
+
+<p>This creation, realised in mirrored metal, appears to disappear into its surroundings. The hug primarily reflects the environment. In this way, the artwork is at times invisible. However, the interaction of the wind with the different elements adds movement. The artwork thus becomes visible, and the viewer can see themselves. When this happens, it is not so much the artists who are joined in embrace but the visitors.
+</p>
+
+    
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio_hugging_1"></div>
+                        <div class="photo portfolio_hugging_3"></div>
+                        <div class="photo portfolio_hugging_2"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
