@@ -1,0 +1,107 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Cutouts Series" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1005024174?" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (59 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Stranded</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2024</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>7.5 cm × 13.0 cm × 1.8 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>Laser-cut aluminium and 3D-printed screws in stainless steel
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Location</em></th>
+                                <td><a href="https://www.google.com/maps/place/60%C2%B059'46.4%22N+25%C2%B036'51.6%22E">60°59'46.4"N 25°36'51.6"E</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<p>If you ever find yourself utterly lost in the Arctic, you might notice something glinting in the sun on a rock by a frozen lake. On closer inspection, you might discover, screwed down tight to the rock, a small aluminium palm tree and a matching figure with hands held aloft. If you look even closer, you may discover that the screws are personalised Frank&amp;Robbert screws. This work, titled Stranded, is itself stranded here. No geolocation tags, no plaque, no path and no signposts. </p>
+
+<p>The artists purposefully left this installation in ‘the middle of nowhere’ as a gift to the world, a detail for whomever might notice the tiny intervention. To the potential finder it presents itself as an anomaly, a glitch, an error. </p>
+
+<p>Stranded proposes a striking metaphor for the human condition. We are stranded on our lonely planet that encircles the Sun, somewhere in a relatively minor spiral arm of the Milky Way galaxy. While this may be a daunting notion, the idea can also be empowering: we are alone together, after all.</p> 
+
+<p>As is often the case in the work of Robbert&amp;Frank, the work is not without a touch of dry humour. With the climate crisis threatening to devastate ecosystems and change the face of our planet forever, Frank&amp;Robbert bring the the first palm tree to the Arctic.</p> 
+
+<p>However, the ambiguity of the figure’s pose may betray a more hopeful attitude toward the future. Is the figure surrendering? Begging for a deus ex machina? Or do the outstretched arms signal a readiness to accept responsibility and take action? 
+</p>
+
+    
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio_stranded_1"></div>
+                        <div class="photo portfolio_stranded_2"></div>
+                        <div class="photo portfolio_stranded_3"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
