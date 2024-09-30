@@ -2561,8 +2561,38 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
-  .row-photos .portfolio_stranded_3 {
-    background-image: url(/assets/img/portfolio/stranded_3.jpg);
+  .row-photos .portfolio-stranded-3 {
+    background-image: url(/assets/img/portfolio-stranded-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio-bee_ritual-1 {
+    background-image: url(/assets/img/portfolio/bee_ritual-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio-bee_ritual-2 {
+    background-image: url(/assets/img/portfolio/bee_ritual-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio-bee_ritual-3 {
+    background-image: url(/assets/img/portfolio/bee_ritual-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio-bee_ritual-4 {
+    background-image: url(/assets/img/portfolio/bee_ritual-4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio-bee_ritual-5 {
+    background-image: url(/assets/img/portfolio/bee_ritual-5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .row-photos .portfolio-bee_ritual-6 {
+    background-image: url(/assets/img/portfolio/bee_ritual-6.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
