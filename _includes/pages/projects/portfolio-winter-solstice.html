@@ -1,0 +1,123 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Winter Solstice" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1042990984?" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (59 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Winter Solstice</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2024</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>38 cm × 48 cm × 5.7 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>Laser engraved sandstone
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>Yes, contact our gallery <a
+                                        href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry
+                                        (Antwerp, BE)</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>Robbert& Frank, Frank&Robbert celebrated the winter solstice in the garden of Robbert. The winter solstice occurs
+        when the poles of the Earth reach their maximum tilt away from the Sun. Therefore, the day of the winter
+        solstice is the day with the shortest amount of sunlight.
+
+    <p> In the old days, the Ancients believed that this day was a crucial day in the Earth’s annual cycle. Without
+        intervention, the Earth’s cycle could be broken, and the world would become forever covered in darkness. To
+        break the spell, it was important to celebrate the light and kindle as many lights as possible. </p>
+    <p>Just before night falls on the 21st of December, a magic door opens— a portal between day and night. It is then
+        that magical creatures come out; some of them have good intentions, others have bad ones. To protect each other
+        and oneself from these demons, lights have to be lit, and a protection unit has to be built. The construction of
+        protection units, tipis, or special modules is a practice as old as humanity itself. </p>
+
+    <p>In the 2011 movie ‘Melancholia’ by the Danish director Lars Von Trier, Earth faces a possible apocalypse, and at
+        the end of the movie, when all hope seems lost, the main characters go outside in the garden and build a
+        protection tipi from sticks and tree branches. What was a camp made by Robbert and his daughter suddenly became
+        such a magical construction. At the hour of dawn, the artists venture outside and activate their Midwinter
+        artwork; a heavy sandstone representing a troop of animals gathered around a central figure. </p>
+
+    <p>The drawing was lasered in a piece of sandstone, originally part of the house of Frank. The drawing is inspired
+        by the story of Cernunnos (‘the horned one’). Cernunnos was a Celtic god worshipped in Gaul and Britain. He was
+        the lord of fauna, flora, agriculture, prosperity, abundance, and the underworld. Cernunnos is often linked with
+        the transformations in nature linked with the start of winter. </p>
+
+    <p>The drawing made by Robbert and Frank is packed with symbols— the artists hid their alter egos inside the scene
+        and make links to their star signs. It’s a work about the dormant period of winter and the seeds of resurrection
+        during springtime.</p>
+
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-wintersolstice_1"></div>
+                        <div class="photo portfolio-wintersolstice_2"></div>
+                        <div class="photo portfolio-wintersolstice_3"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
