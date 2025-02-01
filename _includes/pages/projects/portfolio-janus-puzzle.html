@@ -1,0 +1,145 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Janus Puzzle" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1041085284?" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (53 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Janus Puzzle </h2>
+
+                    <table class="table">
+                        <tr>
+                            <th><em>Year</em></th>
+                            <td>2025</td>
+                        </tr>
+                        <tr>
+                            <th><em>Size</em></th>
+                            <td>38 cm × 48 cm × 5.7 cm</td>
+                        </tr>
+                        <tr>
+                            <th><em>Materials</em></th>
+                            <td>Laser engraved Wood
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><em>Edition</em></th>
+                            <td>1/1</td>
+                        </tr>
+                        <tr>
+                            <th><em>For Sale</em></th>
+                            <td>No </td>
+                        </tr>
+                        <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                                {% include social-share.html %}
+
+                            </td>
+                        </tr>
+
+                    </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>Since the end of 2022, Frank&Robbert Robbert&Frank are <strong>collaborating with <a
+                href="https://dertien12.be/projecten/robbert-frank">Dertien12 architects</a></strong> in the design and
+        creation of several art integrations as part of the Arcade project in Gistel (BE). The housing project for
+        Arcade provides care and shelter for over 40 young people. In total, three large new buildings have been built
+        on the premises.</p>
+
+    <p>R&F F&R are creating a myriad of different <strong>visual art integrations</strong> throughout the project:
+        special tiles as part
+        of the interior floor design, an outdoor area with an integrated concrete table / sundial carried by ceramic
+        figures, a fire pit guarded by corten steel protector figures, and a mural depicting a ritual. </p>
+
+    <p>To celebrate this collaboration and <strong>the New Year 2025</strong>, the people of <a
+            href="https://dertien12.be/projecten/robbert-frank">Dertien12 architects</a> asked Frank and Robbert
+        to create a unique artwork— this artwork should carry all good intentions for the year to come. The artwork
+        itself is the basis for the New Year’s card that <a
+            href="https://dertien12.be/projecten/robbert-frank">Dertien12 architects</a> sends out. </p>
+
+    <p><strong> R&F created a mesmerizing wooden inlay puzzle. At its heart are the silhouettes of the three architects’
+            heads.</strong>
+        Each head exudes a sense of wisdom and reflection, their expressions timeless, as if drawn from the continuum of
+        past, present, and future. In ancient times, it was a common practice to depict oneself in the past and the
+        future during the time of the year’s renewal. By contemplating what went wrong in the past and what changes one
+        wants to make for the future, a powerful intent was created. This practice was linked to the celebration of the
+        God Janus; therefore, we name the month in which we create this intent, the month of January.</p>
+
+    <p>Encircling these central heads are depictions of essential architects’ tools—an ornate meter, a weathered hammer,
+        and a compass. These tools <strong> the foundation of creation</strong>: measurement, laws of nature, and
+        geometry, the
+        tangible elements that shape the intangible dreams of visionaries.</p>
+
+    <p>Interspersed among these tools are <strong>enigmatic symbols</strong>, their origins rooted in <strong>ancient
+            languages long forgotten</strong>.
+        These glyphs give an extra dimension to the piece. They do not only evoke a sense of mystery but also link to
+        the floor tiles of the Arcade project in which Frank and Robbert made floor tiles based on hieroglyphs of
+        ancient languages that were never translated. </p>
+
+    <p>The puzzle has no front or back. It is an upright three-dimensional puzzle reminiscent of the game ‘four in a
+        row’. As such, it acts as <strong>a tool for dialoguing and playing</strong>. The design of the puzzle carries
+        within
+        itself a built-in dualism; the right side of the puzzle seems to have a positive energy with elements that refer
+        to construction, whereas the left side refers to imminent danger and destruction. This juxtaposition invites the
+        viewers to consider the lessons of history not as relics but as vital resources for reshaping the future. The
+        artwork challenges its audience to engage with the idea of continuity and reinvention—where the mastery of past
+        knowledge becomes the foundation for modern transformation.</p>
+
+    <p>In its entirety, this wooden inlay puzzle is a poignant meditation on the cyclical nature of human endeavor.
+        Through its layers of meaning and exquisite craftsmanship, it bridges the gap between the ancient and the
+        modern, inviting all who behold it to reflect, learn, and create anew.</p>
+
+    <a href="https://dertien12.be/projecten/robbert-frank">Find out more about the R&F F&R / Dertien12 collaboration
+        <strong>here</strong></a>
+
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-janus-puzzle_1"></div>
+                        <div class="photo portfolio-janus-puzzle_2"></div>
+                        <div class="photo portfolio-janus-puzzle_3"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
