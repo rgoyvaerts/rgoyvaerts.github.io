@@ -3248,6 +3248,42 @@ footer .social-footer .social-icon.email {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.row-photos .portfolio-arcade-table_1 {
+  background-image: url(/assets/img/portfolio/arcade-table_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-arcade-table_2 {
+  background-image: url(/assets/img/portfolio/arcade-table_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-arcade-table_3 {
+  background-image: url(/assets/img/portfolio/arcade-table_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-arcade-table_4 {
+  background-image: url(/assets/img/portfolio/arcade-table_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-arcade-table_5 {
+  background-image: url(/assets/img/portfolio/arcade-table_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-arcade-table_6 {
+  background-image: url(/assets/img/portfolio/arcade-table_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .cv {
   font-size: 0.8em;

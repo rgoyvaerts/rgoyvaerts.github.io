@@ -1,0 +1,144 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Arcade Table" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1061196944?" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (60 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Arcade Table </h2>
+
+                    <table class="table">
+                        <tr>
+                            <th><em>Year</em></th>
+                            <td>2025</td>
+                        </tr>
+                        <tr>
+                            <th><em>Size</em></th>
+                            <td>200 cm × 200 cm × 87 cm</td>
+                        </tr>
+                        <tr>
+                            <th><em>Materials</em></th>
+                            <td>Concrete, red and white clay, glazes, Corten steel
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><em>Edition</em></th>
+                            <td>1/1</td>
+                        </tr>
+                        <tr>
+                            <th><em>For Sale</em></th>
+                            <td>No </td>
+                        </tr>
+                        <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                                {% include social-share.html %}
+
+                            </td>
+                        </tr>
+
+                    </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>Frank&Robbert Robbert&Frank have been <strong>working with <a
+                href="https://dertien12.be/projecten/robbert-frank">Dertien12
+                architects</a></strong> since
+        late 2022 to design and
+        create art pieces for the Arcade project in Gistel, Belgium. <strong>The <a
+                href="https://www.arcadevzw.be">Arcade project</a> provides care and
+            shelter for
+            over 40 young people</strong>, and four units have been built on the premises.</p>
+
+    <p>There will be three artistic integrations in Arcade: special tiling on the floors, a mural, and an outdoor temple
+        made of two concrete circles that form a shelter with an inner table and a cortensteel circle of figures
+        guarding a central fire.</p>
+
+    <p>The outdoor temple is <strong>the biggest project at the site</strong>. The inner concrete table is part of the
+        right circle. It’s
+        like <strong>an abstract sundial</strong> because it’s divided into 30 equal parts, each representing an equal
+        slice of time.
+        Each part has <strong></strong>two inlay amulets: a circular white amulet and a rectangular red amulet.
+        <strong>These symbols come from
+            ancient languages</strong> that are no longer spoken and have never been fully translated, so they add an
+        extra layer of
+        mystery to the piece. They also connect to the floor tiles in the Arcade project’s indoor spaces.
+    </p>
+
+    <p>The table is carried by <strong>seven large ceramic figures.</strong> These massive figures represent the
+        transformation and the
+        uniqueness of the young inhabitants, with each of the figures having a unique-shaped hole in their sculptural
+        bodies.</p>
+
+    <p><strong>The table is an active artwork.</strong> The symbols on the amulets were chosen together with the young
+        people who will
+        live there. The symbols on the amulets stick out from the table, making it like <strong>a bas-relief that you
+            can use to
+            make an imprint</strong> into clay, dough, or plasticine. This imprint can then be dried or baked, resulting
+        in a copy
+        that the youngsters can use to give as a gift to their beloved ones or to personalize cookies, personal items,
+        and such.</p>
+
+    <p>In this way, the table becomes more than just a table; it’s an interactive object that can be used in
+        <strong>play,
+            workshops, therapy, and other social activities.</strong>
+    </p>
+
+    <a href="https://dertien12.be/projecten/robbert-frank">Find out more about the R&F F&R / Dertien12 collaboration
+        <strong>here</strong></a>
+
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-arcade-table_1"></div>
+                        <div class="photo portfolio-arcade-table_2"></div>
+                        <div class="photo portfolio-arcade-table_3"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-arcade-table_4"></div>
+                        <div class="photo portfolio-arcade-table_5"></div>
+                        <div class="photo portfolio-arcade-table_6"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
