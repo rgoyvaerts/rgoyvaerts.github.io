@@ -1,0 +1,128 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Tree of Life" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1070293688?" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (59 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Tree of Life</h2>
+
+                    <table class="table">
+                        <tr>
+                            <th><em>Year</em></th>
+                            <td>2025</td>
+                        </tr>
+                        <tr>
+                            <th><em>Size</em></th>
+                            <td>460 cm × 990 cm</td>
+                        </tr>
+                        <tr>
+                            <th><em>Materials</em></th>
+                            <td>Charcoal
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><em>Edition</em></th>
+                            <td>1/1</td>
+                        </tr>
+                        <tr>
+                            <th><em>For Sale</em></th>
+                            <td>No </td>
+                        </tr>
+                        <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                                {% include social-share.html %}
+
+                            </td>
+                        </tr>
+
+                    </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>Frank and Robert are creating a new theater piece called <a href="https://www.table-dialogues.com/wood">WOOD</a>
+        , the third performance in the <a href="https://www.table-dialogues.com">Table Dialogues</a>
+        series. <a href="https://www.table-dialogues.com">Table Dialogues</a>, started in 2020 during the pandemic, aims
+        to use new tech to create meaningful
+        connections with the audience through participatory performances.
+
+    <p><a href="https://www.table-dialogues.com/wood">WOOD</a> is a room-scale multiplayer VR experience where the
+        audience uses the Meta VR headset to enter a liminal
+        world with an inner and outer sphere. Mother Nature has taken a different evolutionary path, creating an
+        alienating and weird world where the audience must learn new rules of nature and discover an unknown plain.
+
+    <p>The Tree of Life, a key element in this theatrical experience, functions as a beacon for Mother Nature to restart
+        life after a cataclysm. It secures the mystery of life and acts as a symbolic Boat of Noah, safekeeping life.
+    </p>
+    <p>Currently, Frank and Robert are working at <a href="https://www.ontsteking.org/contact">
+            Ontsteking </a> in Ghent on the building blocks of <a href="https://www.table-dialogues.com/wood">WOOD</a>.
+        To visualize the
+        mysterious digital world, they created a charcoal mural focusing on the Tree of Life and its mysterious fruits.
+        It’s said that the Tree of Life will lose all its leaves before a disaster, and only when one leaf remains will
+        it start creating mysterious fruits that harbor Manna, the life juice of our planet.
+    </p>
+    <p>Can you spot the Fruits of Life?
+    </p>
+    <p><a href="https://www.ontsteking.org/contact">
+            Ontsteking </a> will be open to the public on the weekends of 5 and 6 April, 12 and 13 april and 19 and 20
+        april 2025. On April 19th, Frank and Robbert will present a test of their WOOD experience. Reserve a spot here
+        via <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeAX6yEKR_L5b_jrSsCJs6zHP6ftZi65frAullOLdcQVWyAeA/viewform">this
+            online form</a>.
+    </p>
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-tree-of-life_1"></div>
+                        <div class="photo portfolio-tree-of-life_2"></div>
+                        <div class="photo portfolio-tree-of-life_3"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-tree-of-life_4"></div>
+                        <div class="photo portfolio-tree-of-life_5"></div>
+                        <div class="photo portfolio-tree-of-life_6"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
