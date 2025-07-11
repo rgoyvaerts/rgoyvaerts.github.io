@@ -1,0 +1,143 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Skiapode" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1100534538?" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (59 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Stèle - self portrait of the artists as skiapode people</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2023</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>42 cm x 26.5 cm x 6.8 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>blue clay, engobes, ceramic glazes
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>Yes, contact our gallery <a
+                                        href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry
+                                        (Antwerp, BE)</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>Frank&Robbert Robbert&Frank have been working with symbols, folklore, rituals, and magic ever since they started
+        collaborating over a decade ago. During the COVID time, the artists discovered the sciapode in an old book
+        enlisting
+        a series of mythical creatures, such as dwarfs, cyclopes, goblins, and phoenixes. This stele is the result of a
+        fascination for this book and our personal addition to the growing number of ‘fake’ sciapode phenomena initiated
+        by
+        Mark Manders (see below).</p>
+
+    <p>Monopods (also called sciapods, skiapods, skiapodes) were mythological dwarf-like creatures with a single, large
+        foot extending from a leg centred in the middle of their bodies. The names monopod and skiapod (σκιάποδες) are
+        both
+        Greek, respectively meaning "one-foot" and "shadow-foot". They are described by Pliny the Elder in his Natural
+        History (AD 77): “…another race of men, who are known as Monocoli, who have only one leg, but are able to leap
+        with
+        surprising agility. The same people are also called Sciapodae, because they are in the habit of lying on their
+        backs, during the time of the extreme heat, and protect themselves from the sun by the shade of their feet.”
+        Reference to the legend continued into the Middle Ages, for example in the books ‘Etymologiae’ by Isidore of
+        Seville
+        and Eiríks saga rauða (Saga of Erik the Red), which describes a race of the "Uniped" in Iceland. Umberto Eco
+        describes a sciapod named Gavagai in ‘Baudolino’, and C. S. Lewis features monopods in the book The Voyage of
+        the
+        Dawn Treader, a part of his children's series The Chronicles of Narnia.</p>
+
+    <p>In his acclaimed lecture Dangerous Memes, cognitive scientist and philosopher Daniel Dennett refers to Skiapodes
+        in
+        relation to the Cartesian theater and points out that "most Skiapodes hold their leg as a strange, uncanny
+        object, a
+        thing that seems not entirely part of their body and therefore their mind.” Psychoanalyst Sigmund Freud linked
+        the
+        leg of the sciapode with the penis. This giant penis feels estranged and distant, almost object-like;
+        symbolizing
+        the idea of males fearing their own future babies, of having their sperm generate a conceivable misfit.</p>
+
+    <p>But most of the information about Skiapode that is to be found online is created by visual artist Mark Manders,
+        who
+        has been researching the skiapode as part of the project ‘Room with all existing words’. “The interesting thing
+        about the myth of the Skiapode is that it never really took off. It appeared and disappeared in different
+        periods
+        and regions of our world. It just never made it big. It is a failed myth. I decided to make ‘fake’ Skiapodes by
+        different artists and from different periods, and now the majority of the Skiapodes were made in Ronse over the
+        last
+        few years. These fake Skiapodes were gradually edited into reality and published online. It is a very scary
+        thing,
+        if you think about it, how easy it is to add fake information to our world and how quickly this information
+        seems
+        reliable. It shows how vulnerable our minds and our society are.”</p>
+
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-skiapode_1"></div>
+                        <div class="photo portfolio-skiapode_2"></div>
+                        <div class="photo portfolio-skiapode_3"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
