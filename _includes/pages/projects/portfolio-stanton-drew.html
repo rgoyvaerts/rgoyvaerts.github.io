@@ -1,0 +1,112 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Cutouts Series" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/970923217?" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (55 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Stanton Drew - Brick</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2024</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>24 cm × 7.7 cm × 1.5 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>Laser engraved red brick cut in half
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Location</em></th>
+                                <td><a href="https://www.google.com/maps/place/51°22'04.0%22N+2°34'28.9%22W">51°22'04.0"N<br>2°34'28.9"W</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<p>Frank&amp;Robbert Robbert&amp;Frank have been working with symbols, rituals and magic ever since they started collaborating over a decade ago. They try to tap into the universal subconscious of humanity, to connect with our primordial roots and transcend identity based on nationality. Hence their keenness to visit ancient sites as a means of making a physical connection to our shared past. </p>
+
+<p>This work is about such a connection. In the spring of 2024, Frank&amp;Robbert set out to visit a series of Neolithic sites in Wales and England. Letting themselves be guided by chance and the cosmos, they ended up in the county of Summerset. The small village of Stanton Drew offered shelter for the night. Upon waking the next day, the artists found themselves surrounded by standing stones. A few solitary stones were standing right next to where they had parked their vehicle. A hundred metres or so further, they found the famous Great Circle. This is the second-largest stone circle in Britain after Avebury henge and stone circles in Wiltshire, England. </p>
+
+<p>Built around 4000 BCE, the two adjacent stone circles at Avebury and the smaller one at nearby Stanton Drew are each associated with various myths and legends. Research in the 1990s revealed an avenue connecting them to the river Chew and the Neolithic Highway. Archaeologists found post holes there, indicating the former presence of wooden constructions. The site’s function is unknown, but the evidence suggests it was used for thousands of years. 
+    Robbert&amp;Frank Frank&amp;Robbert carried artworks and special objects with them on their UK trip. One of the artworks they carried was an ‘origin brick’. They have been making bricks for a number of years, most of which have a protective or good-luck function and are set into an existing brick wall of a building. This brick is different as it tells the Frank&amp;Robbert Robbert&amp;Frank origin story. It references the large mural made by the artists for their 2019 solo show <a href="{{site.url}}/portfolio/breadcrumbs/">‘BREADCRUMBS’</a> at Be-Part (BE). </p>
+
+<p>The brick is meant to be read from right to left. Reading in a conventional, linear way, from left to right, connects the reader with the here and now or with the future. By changing the direction, the artists suggest an ability to travel back in time by reading the brick. </p>
+
+<p>A story is told by the engravings on the brick: a wooden suitcase opens and a blank canvas unfolds. Hidden behind the canvas are two childlike monsters, representing the artists in early childhood – the realm of motivations, fears and foundations. The brick also bears intertextual references to the duo’s early theatre work and installations: blocks on a totem pole allude to the final scene of their 2014 show TO BREAK: The Window of Opportunity. Also depicted is their Dog-demon suitcase, made for their residency in Hong Kong. These examples represent their shared past and their artistic growth. One can also see the artists’ avatars or alter egos: Reindeer-head (Robbert) and Bull-head (Frank). The narrative concludes with the famous R&amp;F F&amp;R hugging figures. It’s a story about connection, growth and the spiritual dimension that connects with art and the social aspect of it. </p>
+
+<p>Art is a means to tell stories. Stories are power. They shape our past, our present and our future. 
+</p>
+
+<p>Frank&amp;Robbert visited Stanton Drew as part of their ‘Reconnect with the UK’ tour, supported by Kunstenpunt and the British Arts Council.</p>
+
+    
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio_stanton-drew_1"></div>
+                        <div class="photo portfolio_stanton-drew_3"></div>
+                        <div class="photo portfolio_stanton-drew_2"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>

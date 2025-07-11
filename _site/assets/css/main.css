@@ -1,0 +1,3610 @@
+@charset "UTF-8";
+@import url("https://use.typekit.net/ocp4xjz.css");
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden], template {
+  display: none;
+}
+
+a {
+  background: 0 0;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: 700;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding-left: 0;
+}
+
+.gigantic {
+  font-size: 110px;
+  line-height: 1.09;
+  letter-spacing: -2px;
+}
+
+.huge, h1 {
+  font-family: "amaranth", sans-serif;
+  font-size: 600%;
+  letter-spacing: -1px;
+  margin: 0;
+}
+@media screen and (max-width: 520px) {
+  .huge, h1 {
+    font-size: 400%;
+  }
+}
+
+.large, h2 {
+  font-family: "amaranth", sans-serif;
+  font-size: 200%;
+  line-height: 1.14;
+  margin-top: 0;
+}
+@media screen and (max-width: 520px) {
+  .large, h2 {
+    font-size: 200%;
+  }
+}
+
+.bigger, h3 {
+  font-family: "amaranth", sans-serif;
+  font-size: 300%;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 520px) {
+  .bigger, h3 {
+    font-size: 250%;
+  }
+}
+
+.big, h4 {
+  font-family: "amaranth", sans-serif;
+  font-size: 200%;
+  line-height: 1.38;
+}
+
+.small, small {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0 0 2em 0;
+}
+
+em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+strong {
+  font-family: "amaranth", sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 30px;
+  height: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.li-classic {
+  list-style-type: square;
+  padding: 5px 0;
+}
+
+a {
+  color: #db163d;
+  text-decoration: none;
+  outline: 0;
+  padding: 0 5px 2px 5px;
+}
+
+a:hover, a:focus {
+  background: rgb(255, 241.8918918919, 158);
+  color: #db163d;
+}
+
+a.current {
+  background: rgb(255, 241.8918918919, 158);
+}
+
+::selection {
+  background: rgb(255, 241.8918918919, 158);
+}
+
+::-moz-selection {
+  background: rgb(255, 241.8918918919, 158);
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+body {
+  -webkit-tap-highlight-color: #db163d;
+}
+
+body {
+  font-size: 1.1em;
+  line-height: 1.6;
+  font-family: "europa", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: #2D384F;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+@media (max-width: 1000px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+blockquote {
+  font-family: "amaranth", sans-serif;
+  font-size: 110%;
+  margin: 0 0 2em 0;
+}
+
+header {
+  padding-bottom: 40px;
+  max-width: 750px;
+  margin: 0 auto 40px;
+}
+@media screen and (max-width: 1050px) {
+  header {
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+}
+header .landing-header {
+  position: relative;
+  margin-top: 25vh;
+}
+header .landing-header h1 {
+  -webkit-animation: FadeOut 2.5s forwards;
+  -moz-animation: FadeOut 2.5s forwards;
+  animation: FadeOut 2.5s forwards;
+  color: #FFEB6B;
+}
+@media screen and (max-width: 950px) {
+  header .landing-header h1 {
+    font-size: 400%;
+  }
+}
+header .sprite {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 20px;
+  background: none;
+  border: none;
+}
+header .midden {
+  text-align: center;
+}
+header .midden .landing-title {
+  display: inline-block;
+  padding: 20px;
+}
+@media screen and (max-width: 520px) {
+  header .midden .landing-title {
+    display: none;
+  }
+}
+header .midden .logo {
+  height: 85px;
+  width: 85px;
+  display: inline-block;
+  position: relative;
+  top: 25px;
+  border-radius: 50%;
+  border-bottom: none;
+  background: none;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+header .midden .logo:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+header .menu {
+  position: relative;
+  text-align: center;
+  padding: 32px 0 0 0;
+  top: 0;
+  left: 0;
+  font-size: 0.9em;
+}
+@media screen and (max-width: 1050px) {
+  header .menu {
+    position: relative;
+    text-align: center;
+    padding: 32px 0 0 0;
+    top: 0;
+    left: 0;
+  }
+}
+header .menu .menu-items {
+  margin-bottom: 10px;
+  display: inline-block;
+  margin: 0 15px 0 0;
+}
+@media screen and (max-width: 1050px) {
+  header .menu .menu-items {
+    display: inline-block;
+    margin: 0 15px 0 0;
+  }
+}
+header .social-header {
+  position: fixed;
+  top: 35px;
+  right: 35px;
+  z-index: 99;
+}
+@media screen and (max-width: 1050px) {
+  header .social-header {
+    position: relative;
+    text-align: center;
+    padding: 32px 0 0 0;
+    top: 0;
+    right: 0;
+  }
+}
+header .social-header .social-icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 20%;
+  padding: 0;
+  margin: 0 auto 10px;
+  display: block;
+  background: rgba(255, 255, 255, 0.6);
+  border-bottom: none;
+}
+@media screen and (max-width: 1050px) {
+  header .social-header .social-icon {
+    display: inline-block;
+  }
+}
+header .social-header .social-icon:hover {
+  background: rgb(255, 241.8918918919, 158);
+}
+header .social-header .social-icon.email {
+  height: 35px;
+  width: 35px;
+}
+@media screen and (max-width: 1050px) {
+  header .social-header .social-icon.email {
+    position: relative;
+    top: 2.5px;
+  }
+}
+
+@keyframes FadeOut {
+  0% {
+    z-index: 2;
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  99% {
+    z-index: 2;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+main {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-weight: 400;
+}
+main .textbox {
+  background: rgb(255, 241.8918918919, 158);
+  padding: 0.5em;
+}
+main .link-textcolor a {
+  color: #2D384F;
+}
+main .link-textcolor a:hover, main .link-textcolor a:focus {
+  color: #db163d;
+}
+main .link-textcolor a.current {
+  color: #db163d;
+}
+main table {
+  margin: 2em 0 3em 0;
+  width: 100%;
+}
+main th, main td {
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #ddd;
+  padding: 14px 0;
+}
+main th {
+  padding-right: 25px;
+}
+main .video {
+  margin-bottom: 4em;
+}
+main .center {
+  text-align: center;
+}
+main .center li {
+  margin-bottom: 18px;
+}
+main .center .logo {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  border-bottom: none;
+  background: none;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+main .pagetitle h1 {
+  -webkit-animation: FadeOut 2.5s forwards;
+  -moz-animation: FadeOut 2.5s forwards;
+  animation: FadeOut 2.5s forwards;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  color: #FFEB6B;
+}
+main .tags {
+  padding-bottom: 20px;
+}
+main .tags img {
+  width: 100%;
+  height: 100%;
+}
+main .video-container {
+  position: relative;
+  padding-bottom: 49.5%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+main .video-container iframe, main .video-container object, main .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+main .sprite {
+  width: 48px;
+  height: 48px;
+  background: none;
+  border: none;
+}
+main .close {
+  display: block;
+  text-align: left;
+  cursor: pointer;
+  user-select: none;
+  background: none;
+  border: none;
+  padding: 10px 0 0 20px;
+}
+main .close::before {
+  content: "▲";
+  margin-right: 0.5em;
+}
+main .share-buttons {
+  display: block;
+}
+main .share-buttons a {
+  background: none;
+  border-bottom: none;
+}
+main .share-buttons img {
+  width: 25px;
+  padding: 0 5px 2px 5px;
+}
+
+footer {
+  padding: 30px 20px;
+  margin: 40x auto 0px;
+  display: block;
+  text-align: center;
+}
+footer .mailto p {
+  margin-bottom: 30px;
+}
+footer .sprite {
+  z-index: 5;
+  width: 48px;
+  height: 48px;
+  bottom: 20px;
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+  background: none;
+  border-bottom: none;
+}
+footer .social-footer {
+  position: relative;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+footer .social-footer .social-icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 20%;
+  padding: 0;
+  margin: 0 auto 10px;
+  display: inline-block;
+  border-bottom: none;
+}
+footer .social-footer .social-icon:hover {
+  background: rgb(255, 241.8918918919, 158);
+}
+footer .social-footer .social-icon.email {
+  height: 35px;
+  width: 35px;
+  position: relative;
+  top: 2.5px;
+}
+
+.agenda a {
+  background: none;
+  border: none;
+  color: #db163d;
+}
+.agenda a:hover, .agenda a:focus {
+  background: rgb(255, 241.8918918919, 158);
+}
+.agenda .current {
+  border-bottom: 2px dashed #2D384F;
+}
+.agenda .upcoming {
+  border-bottom: 2px dashed #2D384F;
+}
+.agenda .links {
+  display: block;
+  text-align: left;
+  border-top: 2px dashed #2D384F;
+  padding-top: 40px;
+}
+.agenda .links .date {
+  background: rgb(255, 241.8918918919, 158);
+  font-size: 25px;
+  display: inline-block;
+  border: 2px solid #2D384F;
+  padding: 0 10px 2px 10px;
+  margin: 40px 0 25px;
+}
+.agenda .links .more-info {
+  display: inline-block;
+  margin-top: 20px;
+}
+.agenda .rechts {
+  display: block;
+  text-align: right;
+  border-top: 2px dashed #2D384F;
+  padding-top: 40px;
+}
+.agenda .rechts .date {
+  background: rgb(255, 241.8918918919, 158);
+  font-size: 25px;
+  display: inline-block;
+  border: 2px solid #2D384F;
+  padding: 0 10px 2px 10px;
+  margin: 40px 0 25px;
+}
+.agenda .rechts .more-info {
+  display: inline-block;
+  margin-top: 20px;
+}
+.agenda .describtion {
+  font-size: 18px;
+}
+.agenda .expander-trigger {
+  cursor: pointer;
+  user-select: none;
+  color: #db163d;
+  display: block;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+.agenda .expander-trigger::before {
+  content: "▼";
+  margin-right: 0.5em;
+}
+.agenda .expander-content {
+  position: relative;
+  width: 100vw;
+  left: calc(-50vw + 50%);
+  margin: 30px 0;
+}
+.agenda .expander-hidden::before {
+  content: "►";
+}
+.agenda .expander-hidden + .expander-content {
+  display: none;
+}
+.agenda .expander-content-main {
+  max-width: 750px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 760px) {
+  .agenda .expander-content-main {
+    margin: 0 10px;
+  }
+}
+.agenda .expander-content-main .close {
+  background: rgb(255, 241.8918918919, 158);
+  padding-bottom: 10px;
+}
+
+.blog .text-video {
+  background: rgb(255, 241.8918918919, 158);
+  font-size: 16px;
+  padding: 10px 10px;
+}
+.blog li {
+  list-style-type: initial;
+  padding: 0;
+  margin: 0;
+}
+.blog .full-width-image img {
+  width: 100%;
+  height: 100%;
+}
+.blog .postcard img {
+  width: 100%;
+  height: 100%;
+}
+.blog .postcard:nth-child(odd) {
+  margin-bottom: 80px;
+}
+.blog .postcard:nth-child(odd) #share-buttons {
+  display: none;
+}
+.blog .postcard:nth-child(odd) #share-buttons a {
+  background: none;
+  border-bottom: none;
+}
+.blog .postcard:nth-child(odd) #share-buttons a img {
+  width: 25px;
+  padding: 0 5px 2px 5px;
+}
+
+.expander-content {
+  position: relative;
+  width: 100vw;
+  left: calc(-50vw + 50%);
+  height: 100%;
+  margin: 30px 0;
+}
+
+.expander-content-main {
+  background: rgb(255, 241.8918918919, 158);
+  text-align: center;
+}
+@media screen and (max-width: 760px) {
+  .expander-content-main {
+    margin: 0;
+  }
+}
+.expander-content-main .expander-text {
+  max-width: 1300px;
+  margin: 0px auto;
+  padding: 20px 0;
+}
+.expander-content-main .expander-text p {
+  margin: 0 20px 30px 20px;
+}
+.expander-content-main .expander-text a {
+  color: #db163d;
+  border-bottom: none;
+}
+.expander-content-main .expander-text a:hover, .expander-content-main .expander-text a:focus {
+  color: #2D384F;
+  border-bottom: 2px dashed #2D384F;
+}
+.expander-content-main .container-photos {
+  margin: 20px 0;
+}
+
+.row-photos {
+  width: 100%;
+  margin: 0px auto;
+}
+.row-photos:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row-photos .photo {
+  display: block;
+  width: 33.33%;
+  width: 33.3333333333%;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+  padding-top: 25%;
+  font-size: 16px;
+  text-align: left;
+}
+@media screen and (max-width: 760px) {
+  .row-photos .photo {
+    width: 100%;
+    padding-top: 75%;
+  }
+}
+.row-photos .photo-overlay {
+  position: absolute;
+  bottom: 0;
+  background: #FFF;
+  padding: 0 5px 2px 5px;
+}
+.row-photos .journey1 {
+  background-image: url(/assets/img/journey-into-space/1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .journey2 {
+  background-image: url(/assets/img/journey-into-space/2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .journey3 {
+  background-image: url(/assets/img/journey-into-space/3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .journey4 {
+  background-image: url(/assets/img/journey-into-space/4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .journey5 {
+  background-image: url(/assets/img/journey-into-space/5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .journey6 {
+  background-image: url(/assets/img/journey-into-space/6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .tobreak1 {
+  background-image: url(/assets/img/tobreak/1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .tobreak2 {
+  background-image: url(/assets/img/tobreak/2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .tobreak3 {
+  background-image: url(/assets/img/tobreak/3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .tobreak4 {
+  background-image: url(/assets/img/tobreak/4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .tobreak5 {
+  background-image: url(/assets/img/tobreak/5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .tobreak6 {
+  background-image: url(/assets/img/tobreak/6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .grand-human-projects1 {
+  background-image: url(/assets/img/grand-human-projects/1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .grand-human-projects2 {
+  background-image: url(/assets/img/grand-human-projects/2.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .grand-human-projects3 {
+  background-image: url(/assets/img/grand-human-projects/3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .grand-human-projects4 {
+  background-image: url(/assets/img/portfolio/grandhumanprojects_14.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .grand-human-projects5 {
+  background-image: url(/assets/img/portfolio/grandhumanprojects_12.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .grand-human-projects6 {
+  background-image: url(/assets/img/portfolio/grandhumanprojects_5a.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .visual-arts1 {
+  background-image: url(/assets/img/visual-arts/1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .visual-arts2 {
+  background-image: url(/assets/img/visual-arts/2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .visual-arts3 {
+  background-image: url(/assets/img/visual-arts/3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .visual-arts4 {
+  background-image: url(/assets/img/visual-arts/4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .visual-arts5 {
+  background-image: url(/assets/img/visual-arts/5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .visual-arts6 {
+  background-image: url(/assets/img/visual-arts/6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .visual-arts7 {
+  background-image: url(/assets/img/visual-arts/7.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .visual-arts8 {
+  background-image: url(/assets/img/visual-arts/8.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .visual-arts9 {
+  background-image: url(/assets/img/visual-arts/9.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_ack_ack_1 {
+  background-image: url(/assets/img/portfolio/​ackack_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_ack_ack_2 {
+  background-image: url(/assets/img/portfolio/​ackack_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_ack_ack_3 {
+  background-image: url(/assets/img/portfolio/​ackack_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_a_documentary_1 {
+  background-image: url(/assets/img/portfolio/​adocumentary_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_a_documentary_2 {
+  background-image: url(/assets/img/portfolio/​adocumentary_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_a_documentary_3 {
+  background-image: url(/assets/img/portfolio/​adocumentary_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_a_journey_1 {
+  background-image: url(/assets/img/portfolio/ajourney_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_a_journey_2 {
+  background-image: url(/assets/img/portfolio/ajourney_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_a_journey_3 {
+  background-image: url(/assets/img/portfolio/ajourney_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_alterego_1 {
+  background-image: url(/assets/img/portfolio/alterego_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_alterego_2 {
+  background-image: url(/assets/img/portfolio/alterego_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_alterego_3 {
+  background-image: url(/assets/img/portfolio/alterego_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_bloodstain_1 {
+  background-image: url(/assets/img/portfolio/bloodstain_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_bloodstain_2 {
+  background-image: url(/assets/img/portfolio/bloodstain_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_bloodstain_3 {
+  background-image: url(/assets/img/portfolio/bloodstain_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_chocolategun_1 {
+  background-image: url(/assets/img/portfolio/chocolateguns_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_chocolategun_2 {
+  background-image: url(/assets/img/portfolio/chocolateguns_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_chocolategun_3 {
+  background-image: url(/assets/img/portfolio/chocolateguns_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_crowds_1 {
+  background-image: url(/assets/img/portfolio/crowds_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_crowds_2 {
+  background-image: url(/assets/img/portfolio/crowds_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_crowds_3 {
+  background-image: url(/assets/img/portfolio/crowds_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dr_Valcke_1 {
+  background-image: url(/assets/img/portfolio/dr_valcke_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dr_Valcke_2 {
+  background-image: url(/assets/img/portfolio/dr_valcke_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dr_Valcke_3 {
+  background-image: url(/assets/img/portfolio/dr_valcke_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dr_Valcke_4 {
+  background-image: url(/assets/img/portfolio/dr_valcke_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dr_Valcke_5 {
+  background-image: url(/assets/img/portfolio/dr_valcke_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dr_Valcke_6 {
+  background-image: url(/assets/img/portfolio/dr_valcke_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_faces_1 {
+  background-image: url(/assets/img/portfolio/faces_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_faces_2 {
+  background-image: url(/assets/img/portfolio/faces_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_faces_3 {
+  background-image: url(/assets/img/portfolio/faces_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_faces_4 {
+  background-image: url(/assets/img/portfolio/faces_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_gg_1 {
+  background-image: url(/assets/img/portfolio/gg_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_gg_2 {
+  background-image: url(/assets/img/portfolio/gg_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_gg_3 {
+  background-image: url(/assets/img/portfolio/gg_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_1 {
+  background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_2 {
+  background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_3 {
+  background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_4 {
+  background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_5 {
+  background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_6 {
+  background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_GOAWAYSORROWOFTHEWORLD_7 {
+  background-image: url(/assets/img/portfolio/goawaysorrowoftheworld_7.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_googleburning_1 {
+  background-image: url(/assets/img/portfolio/googleburning_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_googleburning_2 {
+  background-image: url(/assets/img/portfolio/googleburning_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_googleburning_3 {
+  background-image: url(/assets/img/portfolio/googleburning_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_grandhumanprojects_1 {
+  background-image: url(/assets/img/portfolio/grandhumanprojects_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_grandhumanprojects_2 {
+  background-image: url(/assets/img/portfolio/grandhumanprojects_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_grandhumanprojects_3 {
+  background-image: url(/assets/img/portfolio/grandhumanprojects_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_grandhumanprojects_4 {
+  background-image: url(/assets/img/portfolio/grandhumanprojects_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_grandhumanprojects_5 {
+  background-image: url(/assets/img/portfolio/grandhumanprojects_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_grandhumanprojects_6 {
+  background-image: url(/assets/img/portfolio/grandhumanprojects_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_guns_1 {
+  background-image: url(/assets/img/portfolio/guns_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_guns_2 {
+  background-image: url(/assets/img/portfolio/guns_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_guns_3 {
+  background-image: url(/assets/img/portfolio/guns_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_gunsbook_1 {
+  background-image: url(/assets/img/portfolio/gunsbook_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_gunsbook_2 {
+  background-image: url(/assets/img/portfolio/gunsbook_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_gunsbook_3 {
+  background-image: url(/assets/img/portfolio/gunsbook_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_mayanhieroglyfe_1 {
+  background-image: url(/assets/img/portfolio/mayanhieroglyfe_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_mayanhieroglyfe_2 {
+  background-image: url(/assets/img/portfolio/mayanhieroglyfe_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_mayanhieroglyfe_3 {
+  background-image: url(/assets/img/portfolio/mayanhieroglyfe_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_pigeonpricewinners_1 {
+  background-image: url(/assets/img/portfolio/pigeonpricewinners_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_pigeonpricewinners_2 {
+  background-image: url(/assets/img/portfolio/pigeonpricewinners_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_pigeonpricewinners_3 {
+  background-image: url(/assets/img/portfolio/pigeonpricewinners_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_PONG_1 {
+  background-image: url(/assets/img/portfolio/pong_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_PONG_2 {
+  background-image: url(/assets/img/portfolio/pong_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_PONG_3 {
+  background-image: url(/assets/img/portfolio/pong_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_samplersongs_1 {
+  background-image: url(/assets/img/portfolio/samplersongs_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_samplersongs_2 {
+  background-image: url(/assets/img/portfolio/samplersongs_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_samplersongs_3 {
+  background-image: url(/assets/img/portfolio/samplersongs_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_suitcasevariations_1 {
+  background-image: url(/assets/img/portfolio/suitcasevariations_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_suitcasevariations_2 {
+  background-image: url(/assets/img/portfolio/suitcasevariations_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_suitcasevariations_3 {
+  background-image: url(/assets/img/portfolio/suitcasevariations_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_suitcasevariations_4 {
+  background-image: url(/assets/img/portfolio/suitcasevariations_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_suitcasevariations_5 {
+  background-image: url(/assets/img/portfolio/suitcasevariations_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_suitcasevariations_6 {
+  background-image: url(/assets/img/portfolio/suitcasevariations_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_suitcasevariations_7 {
+  background-image: url(/assets/img/portfolio/suitcasevariations_7.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_thegildedchild_1 {
+  background-image: url(/assets/img/portfolio/thegildedchild_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_thegildedchild_2 {
+  background-image: url(/assets/img/portfolio/thegildedchild_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_thegildedchild_3 {
+  background-image: url(/assets/img/portfolio/thegildedchild_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_tobreak_1 {
+  background-image: url(/assets/img/portfolio/tobreak_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_tobreak_2 {
+  background-image: url(/assets/img/portfolio/tobreak_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_tobreak_3 {
+  background-image: url(/assets/img/portfolio/tobreak_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_trophies_1 {
+  background-image: url(/assets/img/portfolio/trophies_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_trophies_2 {
+  background-image: url(/assets/img/portfolio/trophies_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_trophies_3 {
+  background-image: url(/assets/img/portfolio/trophies_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_V_sign_1 {
+  background-image: url(/assets/img/portfolio/v-signs_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_V_sign_2 {
+  background-image: url(/assets/img/portfolio/v-signs_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_V_sign_3 {
+  background-image: url(/assets/img/portfolio/v-signs_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_vendingmachine_1 {
+  background-image: url(/assets/img/portfolio/vendingmachine_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_vendingmachine_2 {
+  background-image: url(/assets/img/portfolio/vendingmachine_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_vendingmachine_3 {
+  background-image: url(/assets/img/portfolio/vendingmachine_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_whataboutamericanhistory_1 {
+  background-image: url(/assets/img/portfolio/whataboutamericanhistory_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_whataboutamericanhistory_2 {
+  background-image: url(/assets/img/portfolio/whataboutamericanhistory_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_whataboutamericanhistory_3 {
+  background-image: url(/assets/img/portfolio/whataboutamericanhistory_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_whey_1 {
+  background-image: url(/assets/img/portfolio/whey_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_whey_2 {
+  background-image: url(/assets/img/portfolio/whey_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_whey_3 {
+  background-image: url(/assets/img/portfolio/whey_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_blueprintboardgame_1 {
+  background-image: url(/assets/img/portfolio/blueprintboardgame_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_blueprintboardgame_2 {
+  background-image: url(/assets/img/portfolio/blueprintboardgame_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_blueprintboardgame_3 {
+  background-image: url(/assets/img/portfolio/blueprintboardgame_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dogdemonsuitcase_1 {
+  background-image: url(/assets/img/portfolio/dog-demon-suitcase3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dogdemonsuitcase_2 {
+  background-image: url(/assets/img/portfolio/dog-demon-suitcase2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dogdemonsuitcase_3 {
+  background-image: url(/assets/img/portfolio/dog-demon-suitcase1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dogdemonsuitcase_4 {
+  background-image: url(/assets/img/portfolio/dog-demon-suitcase4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dogdemonsuitcase_5 {
+  background-image: url(/assets/img/portfolio/dog-demon-suitcase5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dogdemonsuitcase_6 {
+  background-image: url(/assets/img/portfolio/dog-demon-suitcase7.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dogdemonsuitcase_7 {
+  background-image: url(/assets/img/portfolio/dog-demon-suitcase9.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dogdemonsuitcase_8 {
+  background-image: url(/assets/img/portfolio/dog-demon-suitcase10.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dogdemonsuitcase_9 {
+  background-image: url(/assets/img/portfolio/dog-demon-suitcase11.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dogdemonsuitcasehongkong_1 {
+  background-image: url(/assets/img/portfolio/dog-demon-suitcase-hongkong_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dogdemonsuitcasehongkong_2 {
+  background-image: url(/assets/img/portfolio/dog-demon-suitcase-hongkong_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dogdemonsuitcasehongkong_3 {
+  background-image: url(/assets/img/portfolio/dog-demon-suitcase-hongkong_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dicesorrow_1 {
+  background-image: url(/assets/img/portfolio/dice-sorrow_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dicesorrow_2 {
+  background-image: url(/assets/img/portfolio/dice-sorrow_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_dicesorrow_3 {
+  background-image: url(/assets/img/portfolio/dice-sorrow_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrowhongkong_1 {
+  background-image: url(/assets/img/portfolio/sorrow-hongkong_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrowhongkong_2 {
+  background-image: url(/assets/img/portfolio/sorrow-hongkong_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrowhongkong_3 {
+  background-image: url(/assets/img/portfolio/sorrow-hongkong_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-fire_1 {
+  background-image: url(/assets/img/portfolio/claytablet-fire_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-fire_2 {
+  background-image: url(/assets/img/portfolio/claytablet-fire_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-fire_3 {
+  background-image: url(/assets/img/portfolio/claytablet-fire_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_r-f-screws_1 {
+  background-image: url(/assets/img/portfolio/r&f-screw_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_r-f-screws_2 {
+  background-image: url(/assets/img/portfolio/r&f-screw_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_r-f-screws_3 {
+  background-image: url(/assets/img/portfolio/r&f-screw_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_screwdriver-f_1 {
+  background-image: url(/assets/img/portfolio/screwdriver-f_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_screwdriver-f_2 {
+  background-image: url(/assets/img/portfolio/screwdriver-f_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_screwdriver-f_3 {
+  background-image: url(/assets/img/portfolio/screwdriver-f_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_screwdriver-r_1 {
+  background-image: url(/assets/img/portfolio/screwdriver-r_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_screwdriver-r_2 {
+  background-image: url(/assets/img/portfolio/screwdriver-r_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_screwdriver-r_3 {
+  background-image: url(/assets/img/portfolio/screwdriver-r_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-venice_1 {
+  background-image: url(/assets/img/portfolio/goawaysorrowoftheworld-venice_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-venice_2 {
+  background-image: url(/assets/img/portfolio/goawaysorrowoftheworld-venice_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-venice_3 {
+  background-image: url(/assets/img/portfolio/goawaysorrowoftheworld-venice_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-totem_1 {
+  background-image: url(/assets/img/portfolio/claytablet-totem_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-totem_2 {
+  background-image: url(/assets/img/portfolio/claytablet-totem_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-totem_3 {
+  background-image: url(/assets/img/portfolio/claytablet-totem_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_totempole-suitcase_1 {
+  background-image: url(/assets/img/portfolio/totempole-suitcase_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_totempole-suitcase_2 {
+  background-image: url(/assets/img/portfolio/totempole-suitcase_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_totempole-suitcase_3 {
+  background-image: url(/assets/img/portfolio/totempole-suitcase_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_walldrawing-cosmology_1 {
+  background-image: url(/assets/img/portfolio/walldrawing-cosmology_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_walldrawing-cosmology_2 {
+  background-image: url(/assets/img/portfolio/walldrawing-cosmology_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_walldrawing-cosmology_3 {
+  background-image: url(/assets/img/portfolio/walldrawing-cosmology_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_neon-gemini_1 {
+  background-image: url(/assets/img/portfolio/neon-gemini_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_neon-gemini_2 {
+  background-image: url(/assets/img/portfolio/neon-gemini_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_neon-gemini_3 {
+  background-image: url(/assets/img/portfolio/neon-gemini_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-gemini_1 {
+  background-image: url(/assets/img/portfolio/claytablet-gemini_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-gemini_2 {
+  background-image: url(/assets/img/portfolio/claytablet-gemini_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-gemini_3 {
+  background-image: url(/assets/img/portfolio/claytablet-gemini_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-tobreak_1 {
+  background-image: url(/assets/img/portfolio/claytablet-tobreak_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-tobreak_2 {
+  background-image: url(/assets/img/portfolio/claytablet-tobreak_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-tobreak_3 {
+  background-image: url(/assets/img/portfolio/claytablet-tobreak_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_walldrawing-covid_1 {
+  background-image: url(/assets/img/portfolio/walldrawing-covid_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_walldrawing-covid_2 {
+  background-image: url(/assets/img/portfolio/walldrawing-covid_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_walldrawing-covid_3 {
+  background-image: url(/assets/img/portfolio/walldrawing-covid_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_walldrawing-covid_4 {
+  background-image: url(/assets/img/portfolio/walldrawing-covid_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_walldrawing-covid_5 {
+  background-image: url(/assets/img/portfolio/walldrawing-covid_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_walldrawing-covid_6 {
+  background-image: url(/assets/img/portfolio/walldrawing-covid_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_blueprintreligion_1 {
+  background-image: url(/assets/img/portfolio/blueprintreligion_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_blueprintreligion_2 {
+  background-image: url(/assets/img/portfolio/blueprintreligion_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_blueprintreligion_3 {
+  background-image: url(/assets/img/portfolio/blueprintreligion_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_alteregosuitcase_1 {
+  background-image: url(/assets/img/portfolio/reindeer-oxhead_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_alteregosuitcase_2 {
+  background-image: url(/assets/img/portfolio/reindeer-oxhead_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_alteregosuitcase_3 {
+  background-image: url(/assets/img/portfolio/reindeer-oxhead_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_alteregosuitcase-potoi_1 {
+  background-image: url(/assets/img/portfolio/reindeer-oxhead-suitcase_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_alteregosuitcase-potoi_2 {
+  background-image: url(/assets/img/portfolio/reindeer-oxhead-suitcase_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_alteregosuitcase-potoi_3 {
+  background-image: url(/assets/img/portfolio/reindeer-oxhead-suitcase_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_christmas-gift_1 {
+  background-image: url(/assets/img/portfolio/christmas-gift_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_christmas-gift_2 {
+  background-image: url(/assets/img/portfolio/christmas-gift_2.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_christmas-gift_3 {
+  background-image: url(/assets/img/portfolio/christmas-gift_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_christmas-gift_4 {
+  background-image: url(/assets/img/portfolio/christmas-gift_7.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_christmas-gift_5 {
+  background-image: url(/assets/img/portfolio/christmas-gift_9.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_christmas-gift_6 {
+  background-image: url(/assets/img/portfolio/christmas-gift_8.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-large_1 {
+  background-image: url(/assets/img/portfolio/sorrow-large_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-large_2 {
+  background-image: url(/assets/img/portfolio/sorrow-large_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-large_3 {
+  background-image: url(/assets/img/portfolio/sorrow-large_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_breadcrumbs_1 {
+  background-image: url(/assets/img/portfolio/breadcrumbs_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_breadcrumbs_2 {
+  background-image: url(/assets/img/portfolio/breadcrumbs_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_breadcrumbs_3 {
+  background-image: url(/assets/img/portfolio/breadcrumbs_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_breadcrumbs_4 {
+  background-image: url(/assets/img/portfolio/breadcrumbs_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_breadcrumbs_5 {
+  background-image: url(/assets/img/portfolio/breadcrumbs_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_breadcrumbs_6 {
+  background-image: url(/assets/img/portfolio/breadcrumbs_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_breadcrumbs_7 {
+  background-image: url(/assets/img/portfolio/breadcrumbs_7.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_breadcrumbs_8 {
+  background-image: url(/assets/img/portfolio/breadcrumbs_8.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_breadcrumbs_9 {
+  background-image: url(/assets/img/portfolio/breadcrumbs_9.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_breadcrumbs_10 {
+  background-image: url(/assets/img/portfolio/breadcrumbs_10.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_breadcrumbs_11 {
+  background-image: url(/assets/img/portfolio/breadcrumbs_11.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_breadcrumbs_12 {
+  background-image: url(/assets/img/portfolio/breadcrumbs_12.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-lunch_1 {
+  background-image: url(/assets/img/portfolio/claytablet-lunch_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-lunch_2 {
+  background-image: url(/assets/img/portfolio/claytablet-lunch_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-lunch_3 {
+  background-image: url(/assets/img/portfolio/claytablet-lunch_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_mayan-hieroglyphs_1 {
+  background-image: url(/assets/img/portfolio/mayan-hieroglyphs_7.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_mayan-hieroglyphs_2 {
+  background-image: url(/assets/img/portfolio/mayan-hieroglyphs_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_mayan-hieroglyphs_3 {
+  background-image: url(/assets/img/portfolio/mayan-hieroglyphs_9.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_mayan-hieroglyphs_4 {
+  background-image: url(/assets/img/portfolio/mayan-hieroglyphs_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_mayan-hieroglyphs_5 {
+  background-image: url(/assets/img/portfolio/mayan-hieroglyphs_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_mayan-hieroglyphs_6 {
+  background-image: url(/assets/img/portfolio/mayan-hieroglyphs_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-brick_1 {
+  background-image: url(/assets/img/portfolio/sorrow-brick_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-brick_2 {
+  background-image: url(/assets/img/portfolio/sorrow-brick_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-brick_3 {
+  background-image: url(/assets/img/portfolio/sorrow-brick_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-brick_4 {
+  background-image: url(/assets/img/portfolio/sorrow-brick_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-brick_5 {
+  background-image: url(/assets/img/portfolio/sorrow-brick_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-brick_6 {
+  background-image: url(/assets/img/portfolio/sorrow-brick_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-brick_7 {
+  background-image: url(/assets/img/portfolio/sorrow-brick_7.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-brick_8 {
+  background-image: url(/assets/img/portfolio/sorrow-brick_8.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-brick_9 {
+  background-image: url(/assets/img/portfolio/sorrow-brick_9.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-helpinghand_1 {
+  background-image: url(/assets/img/portfolio/claytablet-helpinghand_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-helpinghand_2 {
+  background-image: url(/assets/img/portfolio/claytablet-helpinghand_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-helpinghand_3 {
+  background-image: url(/assets/img/portfolio/claytablet-helpinghand_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_foo-dog_1 {
+  background-image: url(/assets/img/portfolio/foo-dog_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_foo-dog_2 {
+  background-image: url(/assets/img/portfolio/foo-dog_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_foo-dog_3 {
+  background-image: url(/assets/img/portfolio/foo-dog_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-hugging_1 {
+  background-image: url(/assets/img/portfolio/claytablet-hugging_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-hugging_2 {
+  background-image: url(/assets/img/portfolio/claytablet-hugging_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_claytablet-hugging_3 {
+  background-image: url(/assets/img/portfolio/claytablet-hugging_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_ceramic-shrine_1 {
+  background-image: url(/assets/img/portfolio/ceramic-shrine_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_ceramic-shrine_2 {
+  background-image: url(/assets/img/portfolio/ceramic-shrine_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_ceramic-shrine_3 {
+  background-image: url(/assets/img/portfolio/ceramic-shrine_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_burning-shrine_1 {
+  background-image: url(/assets/img/portfolio/burning-shrine_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_burning-shrine_2 {
+  background-image: url(/assets/img/portfolio/burning-shrine_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_burning-shrine_3 {
+  background-image: url(/assets/img/portfolio/burning-shrine_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_burning-shrine_4 {
+  background-image: url(/assets/img/portfolio/burning-shrine_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_burning-shrine_5 {
+  background-image: url(/assets/img/portfolio/burning-shrine_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_burning-shrine_6 {
+  background-image: url(/assets/img/portfolio/burning-shrine_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_self-portrait-alter-egos_1 {
+  background-image: url(/assets/img/portfolio/self-portrait-alter-egos_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_self-portrait-alter-egos_2 {
+  background-image: url(/assets/img/portfolio/self-portrait-alter-egos_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_self-portrait-alter-egos_3 {
+  background-image: url(/assets/img/portfolio/self-portrait-alter-egos_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_archeology-suitcase_1 {
+  background-image: url(/assets/img/portfolio/archeology-suitcase_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_archeology-suitcase_2 {
+  background-image: url(/assets/img/portfolio/archeology-suitcase_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_archeology-suitcase_3 {
+  background-image: url(/assets/img/portfolio/archeology-suitcase_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_archeology-suitcase_4 {
+  background-image: url(/assets/img/portfolio/archeology-suitcase_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_archeology-suitcase_5 {
+  background-image: url(/assets/img/portfolio/archeology-suitcase_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_archeology-suitcase_6 {
+  background-image: url(/assets/img/portfolio/archeology-suitcase_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_trophyforculture_1 {
+  background-image: url(/assets/img/portfolio/trophyforculture_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_trophyforculture_2 {
+  background-image: url(/assets/img/portfolio/trophyforculture_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_trophyforculture_3 {
+  background-image: url(/assets/img/portfolio/trophyforculture_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-mini-suitcase_1 {
+  background-image: url(/assets/img/portfolio/sorrow-mini-suitcase_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-mini-suitcase_2 {
+  background-image: url(/assets/img/portfolio/sorrow-mini-suitcase_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-mini-suitcase_3 {
+  background-image: url(/assets/img/portfolio/sorrow-mini-suitcase_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_wall-of-china_1 {
+  background-image: url(/assets/img/portfolio/wall-of-china_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_wall-of-china_2 {
+  background-image: url(/assets/img/portfolio/wall-of-china_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_wall-of-china_3 {
+  background-image: url(/assets/img/portfolio/wall-of-china_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_shrine-shredding-sorrows_1 {
+  background-image: url(/assets/img/portfolio/shrine-shredding-sorrows_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_shrine-shredding-sorrows_2 {
+  background-image: url(/assets/img/portfolio/shrine-shredding-sorrows_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_shrine-shredding-sorrows_3 {
+  background-image: url(/assets/img/portfolio/shrine-shredding-sorrows_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_surveillance_1 {
+  background-image: url(/assets/img/portfolio/surveillance_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_surveillance_2 {
+  background-image: url(/assets/img/portfolio/surveillance_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_surveillance_3 {
+  background-image: url(/assets/img/portfolio/surveillance_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_doorsofperception_1 {
+  background-image: url(/assets/img/portfolio/doorsofperception_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_doorsofperception_2 {
+  background-image: url(/assets/img/portfolio/doorsofperception_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_doorsofperception_3 {
+  background-image: url(/assets/img/portfolio/doorsofperception_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_doorsofperception_4 {
+  background-image: url(/assets/img/portfolio/doorsofperception_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_doorsofperception_5 {
+  background-image: url(/assets/img/portfolio/doorsofperception_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_doorsofperception_6 {
+  background-image: url(/assets/img/portfolio/doorsofperception_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_crashed-human_1 {
+  background-image: url(/assets/img/portfolio/crashed-human_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_crashed-human_2 {
+  background-image: url(/assets/img/portfolio/crashed-human_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_crashed-human_3 {
+  background-image: url(/assets/img/portfolio/crashed-human_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_boxofpandora_1 {
+  background-image: url(/assets/img/portfolio/boxofpandora_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_boxofpandora_2 {
+  background-image: url(/assets/img/portfolio/boxofpandora_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_boxofpandora_3 {
+  background-image: url(/assets/img/portfolio/boxofpandora_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_pleasure-of-making_1 {
+  background-image: url(/assets/img/portfolio/pleasure-of-making_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_pleasure-of-making_2 {
+  background-image: url(/assets/img/portfolio/pleasure-of-making_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_pleasure-of-making_3 {
+  background-image: url(/assets/img/portfolio/pleasure-of-making_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_stele-stories_1 {
+  background-image: url(/assets/img/portfolio/stele-stories_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_stele-stories_2 {
+  background-image: url(/assets/img/portfolio/stele-stories_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_stele-stories_3 {
+  background-image: url(/assets/img/portfolio/stele-stories_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-socks_1 {
+  background-image: url(/assets/img/portfolio/sorrow-socks_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-socks_2 {
+  background-image: url(/assets/img/portfolio/sorrow-socks_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sorrow-socks_3 {
+  background-image: url(/assets/img/portfolio/sorrow-socks_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_shrine-tobreak_1 {
+  background-image: url(/assets/img/portfolio/shrine-tobreak_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_shrine-tobreak_2 {
+  background-image: url(/assets/img/portfolio/shrine-tobreak_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_shrine-tobreak_3 {
+  background-image: url(/assets/img/portfolio/shrine-tobreak_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_climbing-the-pole_1 {
+  background-image: url(/assets/img/portfolio/climbing-the-pole_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_climbing-the-pole_2 {
+  background-image: url(/assets/img/portfolio/climbing-the-pole_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_climbing-the-pole_3 {
+  background-image: url(/assets/img/portfolio/climbing-the-pole_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_ceramic-tools_1 {
+  background-image: url(/assets/img/portfolio/ceramic-tools_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_ceramic-tools_2 {
+  background-image: url(/assets/img/portfolio/ceramic-tools_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_ceramic-tools_3 {
+  background-image: url(/assets/img/portfolio/ceramic-tools_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_1 {
+  background-image: url(/assets/img/portfolio/table-dialogues_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_2 {
+  background-image: url(/assets/img/portfolio/table-dialogues_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_3 {
+  background-image: url(/assets/img/portfolio/table-dialogues_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_4 {
+  background-image: url(/assets/img/portfolio/table-dialogues_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_5 {
+  background-image: url(/assets/img/portfolio/table-dialogues_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_6 {
+  background-image: url(/assets/img/portfolio/table-dialogues_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_7 {
+  background-image: url(/assets/img/portfolio/table-dialogues_7.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_8 {
+  background-image: url(/assets/img/portfolio/table-dialogues_8.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_9 {
+  background-image: url(/assets/img/portfolio/table-dialogues_9.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_10 {
+  background-image: url(/assets/img/portfolio/table-dialogues_10.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_11 {
+  background-image: url(/assets/img/portfolio/table-dialogues_11.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_12 {
+  background-image: url(/assets/img/portfolio/table-dialogues_12.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_13 {
+  background-image: url(/assets/img/portfolio/table-dialogues_21.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_14 {
+  background-image: url(/assets/img/portfolio/table-dialogues_20.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_15 {
+  background-image: url(/assets/img/portfolio/table-dialogues_19.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_16 {
+  background-image: url(/assets/img/portfolio/table-dialogues_22.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_17 {
+  background-image: url(/assets/img/portfolio/table-dialogues_23.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_table-dialogues_18 {
+  background-image: url(/assets/img/portfolio/table-dialogues_24.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_stele-silver-rain_1 {
+  background-image: url(/assets/img/portfolio/stele-silver-rain_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_stele-silver-rain_2 {
+  background-image: url(/assets/img/portfolio/stele-silver-rain_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_stele-silver-rain_3 {
+  background-image: url(/assets/img/portfolio/stele-silver-rain_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_blueprint-stonesuitcase_1 {
+  background-image: url(/assets/img/portfolio/blueprint-stonesuitcase_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_blueprint-stonesuitcase_2 {
+  background-image: url(/assets/img/portfolio/blueprint-stonesuitcase_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_blueprint-stonesuitcase_3 {
+  background-image: url(/assets/img/portfolio/blueprint-stonesuitcase_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_woodworking_1 {
+  background-image: url(/assets/img/portfolio/woodworking_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_woodworking_2 {
+  background-image: url(/assets/img/portfolio/woodworking_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_woodworking_3 {
+  background-image: url(/assets/img/portfolio/woodworking_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_shrine-janus_1 {
+  background-image: url(/assets/img/portfolio/janushead_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_shrine-janus_2 {
+  background-image: url(/assets/img/portfolio/janushead_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_shrine-janus_3 {
+  background-image: url(/assets/img/portfolio/janushead_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_stele-archeology_1 {
+  background-image: url(/assets/img/portfolio/stele-archeology_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_stele-archeology_2 {
+  background-image: url(/assets/img/portfolio/stele-archeology_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_stele-archeology_3 {
+  background-image: url(/assets/img/portfolio/stele-archeology_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_ink-sketches-2023_1 {
+  background-image: url(/assets/img/portfolio/ink-sketches-2023_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_ink-sketches-2023_2 {
+  background-image: url(/assets/img/portfolio/ink-sketches-2023_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_ink-sketches-2023_3 {
+  background-image: url(/assets/img/portfolio/ink-sketches-2023_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_ink-sketches-2023_4 {
+  background-image: url(/assets/img/portfolio/ink-sketches-2023_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_ink-sketches-2023_5 {
+  background-image: url(/assets/img/portfolio/ink-sketches-2023_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_ink-sketches-2023_6 {
+  background-image: url(/assets/img/portfolio/ink-sketches-2023_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sacredladder_1 {
+  background-image: url(/assets/img/portfolio/sacredladder_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sacredladder_2 {
+  background-image: url(/assets/img/portfolio/sacredladder_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_sacredladder_3 {
+  background-image: url(/assets/img/portfolio/sacredladder_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_totemheads_1 {
+  background-image: url(/assets/img/portfolio/totemheads_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_totemheads_2 {
+  background-image: url(/assets/img/portfolio/totemheads_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_totemheads_3 {
+  background-image: url(/assets/img/portfolio/totemheads_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_totemheads_4 {
+  background-image: url(/assets/img/portfolio/totemheads_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_totemheads_5 {
+  background-image: url(/assets/img/portfolio/totemheads_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_totemheads_6 {
+  background-image: url(/assets/img/portfolio/totemheads_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.row-photos .portfolio_drawing-foodog_1 {
+  background-image: url(/assets/img/portfolio/drawing-foodog_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_drawing-foodog_2 {
+  background-image: url(/assets/img/portfolio/drawing-foodog_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_drawing-foodog_3 {
+  background-image: url(/assets/img/portfolio/drawing-foodog_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_shrine-amulets_1 {
+  background-image: url(/assets/img/portfolio/shrine-amulets_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_shrine-amulets_2 {
+  background-image: url(/assets/img/portfolio/shrine-amulets_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_shrine-amulets_3 {
+  background-image: url(/assets/img/portfolio/shrine-amulets_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_cutouts_1 {
+  background-image: url(/assets/img/portfolio/cutouts_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_cutouts_2 {
+  background-image: url(/assets/img/portfolio/cutouts_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_cutouts_3 {
+  background-image: url(/assets/img/portfolio/cutouts_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_woodlog_1 {
+  background-image: url(/assets/img/portfolio/woodlog_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_woodlog_2 {
+  background-image: url(/assets/img/portfolio/woodlog_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_woodlog_3 {
+  background-image: url(/assets/img/portfolio/woodlog_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_maquette-ysp_1 {
+  background-image: url(/assets/img/portfolio/maquette-ysp_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_maquette-ysp_2 {
+  background-image: url(/assets/img/portfolio/maquette-ysp_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_maquette-ysp_3 {
+  background-image: url(/assets/img/portfolio/maquette-ysp_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_maquette-ysp_4 {
+  background-image: url(/assets/img/portfolio/maquette-ysp_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_splott-beach_1 {
+  background-image: url(/assets/img/portfolio/splott-beach_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_splott-beach_2 {
+  background-image: url(/assets/img/portfolio/splott-beach_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_splott-beach_3 {
+  background-image: url(/assets/img/portfolio/splott-beach_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_hugging_1 {
+  background-image: url(/assets/img/portfolio/hugging_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_hugging_2 {
+  background-image: url(/assets/img/portfolio/hugging_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_hugging_3 {
+  background-image: url(/assets/img/portfolio/hugging_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_stanton-drew_1 {
+  background-image: url(/assets/img/portfolio/stanton-drew_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_stanton-drew_2 {
+  background-image: url(/assets/img/portfolio/stanton-drew_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_stanton-drew_3 {
+  background-image: url(/assets/img/portfolio/stanton-drew_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_porthbysgod_1 {
+  background-image: url(/assets/img/portfolio/porthbysgod_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_porthbysgod_2 {
+  background-image: url(/assets/img/portfolio/porthbysgod_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_porthbysgod_3 {
+  background-image: url(/assets/img/portfolio/porthbysgod_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_stranded_1 {
+  background-image: url(/assets/img/portfolio/stranded_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio_stranded_2 {
+  background-image: url(/assets/img/portfolio/stranded_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-stranded-3 {
+  background-image: url(/assets/img/portfolio-stranded-3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-bee_ritual-1 {
+  background-image: url(/assets/img/portfolio/bee_ritual-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-bee_ritual-2 {
+  background-image: url(/assets/img/portfolio/bee_ritual-2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-bee_ritual-3 {
+  background-image: url(/assets/img/portfolio/bee_ritual-3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-bee_ritual-4 {
+  background-image: url(/assets/img/portfolio/bee_ritual-4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-bee_ritual-5 {
+  background-image: url(/assets/img/portfolio/bee_ritual-5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-bee_ritual-6 {
+  background-image: url(/assets/img/portfolio/bee_ritual-6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-friendship-surmounts-1 {
+  background-image: url(/assets/img/portfolio/friendship-surmounts_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-friendship-surmounts-2 {
+  background-image: url(/assets/img/portfolio/friendship-surmounts_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-friendship-surmounts-3 {
+  background-image: url(/assets/img/portfolio/friendship-surmounts_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-crinkle-toy_1 {
+  background-image: url(/assets/img/portfolio/crinkle-toy_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-crinkle-toy_2 {
+  background-image: url(/assets/img/portfolio/crinkle-toy_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-crinkle-toy_3 {
+  background-image: url(/assets/img/portfolio/crinkle-toy_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-wintersolstice_1 {
+  background-image: url(/assets/img/portfolio/wintersolstice_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-wintersolstice_2 {
+  background-image: url(/assets/img/portfolio/wintersolstice_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-wintersolstice_3 {
+  background-image: url(/assets/img/portfolio/wintersolstice_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-janus-puzzle_1 {
+  background-image: url(/assets/img/portfolio/janus-puzzle_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-janus-puzzle_2 {
+  background-image: url(/assets/img/portfolio/janus-puzzle_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-janus-puzzle_3 {
+  background-image: url(/assets/img/portfolio/janus-puzzle_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-arcade-table_1 {
+  background-image: url(/assets/img/portfolio/arcade-table_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-arcade-table_2 {
+  background-image: url(/assets/img/portfolio/arcade-table_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-arcade-table_3 {
+  background-image: url(/assets/img/portfolio/arcade-table_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-arcade-table_4 {
+  background-image: url(/assets/img/portfolio/arcade-table_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-arcade-table_5 {
+  background-image: url(/assets/img/portfolio/arcade-table_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-arcade-table_6 {
+  background-image: url(/assets/img/portfolio/arcade-table_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-tree-of-life_1 {
+  background-image: url(/assets/img/portfolio/tree-of-life_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-tree-of-life_2 {
+  background-image: url(/assets/img/portfolio/tree-of-life_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-tree-of-life_3 {
+  background-image: url(/assets/img/portfolio/tree-of-life_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-tree-of-life_4 {
+  background-image: url(/assets/img/portfolio/tree-of-life_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-tree-of-life_5 {
+  background-image: url(/assets/img/portfolio/tree-of-life_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-tree-of-life_6 {
+  background-image: url(/assets/img/portfolio/tree-of-life_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-summer-solstice-tablet_1 {
+  background-image: url(/assets/img/portfolio/summer-solstice-tablet_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-summer-solstice-tablet_2 {
+  background-image: url(/assets/img/portfolio/summer-solstice-tablet_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-summer-solstice-tablet_3 {
+  background-image: url(/assets/img/portfolio/summer-solstice-tablet_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-weder_1 {
+  background-image: url(/assets/img/portfolio/weder_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-weder_2 {
+  background-image: url(/assets/img/portfolio/weder_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-weder_3 {
+  background-image: url(/assets/img/portfolio/weder_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-weder_4 {
+  background-image: url(/assets/img/portfolio/weder_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-weder_5 {
+  background-image: url(/assets/img/portfolio/weder_7.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-weder_6 {
+  background-image: url(/assets/img/portfolio/weder_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cv {
+  font-size: 0.8em;
+}
+.cv li {
+  list-style-type: initial;
+  padding: 0;
+  margin: 0;
+}
+.cv li li {
+  list-style-type: circle;
+}
+
+.landingpage {
+  text-align: center;
+}
+.landingpage .landing-header {
+  position: relative;
+  margin-top: 25vh;
+}
+.landingpage .landing-header h1 {
+  -webkit-animation: FadeOut 2.5s forwards;
+  -moz-animation: FadeOut 2.5s forwards;
+  animation: FadeOut 2.5s forwards;
+  color: #FFEB6B;
+}
+@media screen and (max-width: 950px) {
+  .landingpage .landing-header h1 {
+    font-size: 400%;
+  }
+}
+.landingpage .landing-header .landing-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.landingpage .landing-header .landing-logo .logo {
+  height: 85px;
+  width: 85px;
+  display: inline-block;
+  border-radius: 50%;
+  border-bottom: none;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.landingpage .landing-header .landing-logo .logo:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.overview-artworks {
+  font-size: 0.8em;
+  text-align: left;
+}
+.overview-artworks a {
+  padding: 0;
+}
+.overview-artworks th {
+  text-align: left;
+  vertical-align: center;
+  padding-left: 15px;
+  padding-top: 14px;
+  width: 20px;
+}
+.overview-artworks td.year {
+  width: 110px;
+  text-align: right;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+.overview-artworks h4 {
+  text-align: center;
+}
+@media screen and (max-width: 950px) {
+  .overview-artworks {
+    text-align: left;
+  }
+  .overview-artworks ul {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+  }
+}
+.overview-artworks li {
+  margin-bottom: 18px;
+}
+
+.row-artwork {
+  box-sizing: border-box;
+  position: relative;
+  width: 100vw;
+  margin: 0 auto;
+  left: calc(-50vw + 50%);
+  height: 100%;
+  padding-bottom: 2em;
+}
+.row-artwork:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 950px) {
+  .row-artwork {
+    max-width: 750px;
+  }
+}
+.row-artwork .artwork-left {
+  display: block;
+  width: 50%;
+  width: 50%;
+  float: left;
+  text-align: right;
+  box-sizing: border-box;
+  position: relative;
+  padding: 1.5em 3em 3em 0;
+}
+@media screen and (max-width: 950px) {
+  .row-artwork .artwork-left {
+    width: 100%;
+    text-align: center;
+    padding: 0 0 3em 0;
+  }
+}
+.row-artwork .artwork-info {
+  display: inline-block;
+  width: 50%;
+  width: 50%;
+  max-width: 500px;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+  padding: 0 20px;
+}
+@media screen and (max-width: 950px) {
+  .row-artwork .artwork-info {
+    width: 100%;
+  }
+}
+
+.container-380px {
+  max-width: 500px;
+}
+
+.container-380px-midden {
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.container-400px-rechts {
+  max-width: 600px;
+  float: right;
+}
+@media screen and (max-width: 950px) {
+  .container-400px-rechts {
+    margin: 0 auto;
+    float: none;
+  }
+}
+
+.resp-container-16-9 {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.resp-container-1-1 {
+  position: relative;
+  overflow: hidden;
+  padding-top: 100%;
+}
+
+.resp-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.flex-item-not-center {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+
+.flex-item-left {
+  padding-bottom: 2em;
+}
+
+.iframe-artwork {
+  width: 380px;
+  height: 385px;
+}
+@media screen and (max-width: 380px) {
+  .iframe-artwork {
+    width: 320px;
+    height: 324px;
+  }
+}
+
+.update {
+  background: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */

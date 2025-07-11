@@ -1,0 +1,110 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Neon Gemini" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+   
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/407944284" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (1 min)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Neon Gemini</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2019</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>150 cm x 200 cm x 7,5 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>neon light sculpture: neon + argon gas, glass, aluminium framework, electronics</td>
+                  </tr>
+                         <tr>
+                    <th><em>Details</em></th>
+                    <td>/</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>1/1</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+                                
+                            {% include social-share.html %}
+
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+    
+    
+<p>This large neon sculpture depicts the star sign Gemini. The work radiates energy and power. At the time of writing, it is hanging up high in the central exhibition space of Be-Part (Waregem, BE) as if it were part of the night sky. In this R&amp;F F&amp;R solo exhibition the light sculpture can be seen as a counterpart to the star sign Taurus. The latter sign can be found depicted in a charcoal drawing on the basement level (see <a href="{{site.url}}/portfolio/wall-drawing-cosmology">R&amp;F F&amp;R Cosmology 1.0</a>). The duality between these two signs is striking: neon radiates light, while charcoal absorbs light.</p>
+
+<p>Duality and transformation permeates the world of Robbert&amp;Frank Frank&amp;Robbert: two star signs (Gemini for Frank and Taurus for Robbert), two alter egos (steer head for Frank and reindeer head for Robbert), two colours (red for Frank and yellow for Robbert), two stars (Castor for Frank and Pollux for Robbert), etc.
+</p>
+
+<p>The star sign Gemini refers to the story of Castor and Pollux, mythological twins from ancient Greek and Roman culture. These twins are often the subject of (classical) artworks: as the Dioscuri, the sons of Zeus and Leda, as the saviours of their sister Helen from the hands of Thesus, as participants in the Argonautic expedition to retrieve the Golden Fleece, and so on. Twins symbolise connection, friendship, hospitality, sports and games.</p>
+    
+<p>For Robbert&amp;Frank Frank&amp;Robbert, this astrological sign serves as a ‘guiding star’ and a source of inspiration. This work can also be seen as a self-portrait. A self-portrait that is part of a long series of works in which F&R R&F attempt to understand the world by re-identifying themselves, time and again, with new images, histories and symbols. Through this experimentation with their self-image as an artist duo, new relationships emerge naturally between the people and things around them. </p>
+    
+<p>Both artists were born in the year 1989. According to the Chinese zodiac, this makes them both snakes, a sign symbolic of change and rebirth (as snakes shed their old skin). Two snakes who, almost like monozygotic twins, tirelessly forge a new path together, always in search of a visual language that can give shape to connection and (self-)reflection.</p>
+
+    
+      <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_neon-gemini_1"></div>
+                    <div class="photo portfolio_neon-gemini_2"></div>
+                    <div class="photo portfolio_neon-gemini_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks-organized.html %}
+
+</main>

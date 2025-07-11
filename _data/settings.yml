@@ -1,0 +1,29 @@
+#-------------------------------
+# General Site Settings
+
+title: Robbert theme
+description: Robbert&Frank Frank&Robbert - The Website
+email: info@robbertenfrank.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Robbert&Frank Frank&Robbert, an artist duo based in Ghent Belgium, working with installation, video, sculpture and more'
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics-ua: UA-38188228-2
+

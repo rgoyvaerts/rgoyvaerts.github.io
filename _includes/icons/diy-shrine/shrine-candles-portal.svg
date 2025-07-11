@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="250px" height="250px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g>
+        <path d="M61.633,32.459C61.521,96.269 60.908,102.85 60.607,223.455L65.858,223.799L65.885,216.22L188.437,216.675L188.409,224.551L193.075,224.511L192.979,32.946" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+        <path d="M50.319,25.449L50.294,32.342L205.328,32.992L205.354,25.79L50.319,25.449Z" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+        <path d="M66.629,32.477L66.286,210.469L188.456,211.44L188.231,32.928L66.629,32.477Z" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+        <path d="M85.269,32.547L83.646,169.505L65.997,210.985L65.885,216.124L188.437,216.675L188.456,211.44L172.663,170.908L173.156,32.873" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+    </g>
+    <g>
+        <ellipse cx="31.064" cy="216.321" rx="17.23" ry="8.23" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+        <ellipse cx="31.064" cy="214.256" rx="17.23" ry="5.831" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+        <g>
+            <g>
+                <path d="M24.329,166.809C24.279,147.054 23.657,137.399 26.053,118.11L37.072,118.132C38.604,160.685 37.605,167.741 37.387,211.388C37.373,214.325 26.84,215.57 24.838,212.38L24.532,185.928L24.329,166.809" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+                <path d="M31.805,117.275L31.805,109.985L31.805,112.756C31.178,115.641 24.757,112.171 27.963,105.14C28.952,102.97 32.946,96.99 31.804,94.308C38.855,104.707 37.196,116.309 31.805,111.712" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+            </g>
+        </g>
+    </g>
+    <g>
+        <ellipse cx="220.584" cy="216.321" rx="17.23" ry="8.23" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+        <ellipse cx="220.584" cy="214.256" rx="17.23" ry="5.831" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+        <g>
+            <path d="M226.708,187.518C226.974,176.05 227.715,170.46 225.48,159.2L214.226,158.936C212.196,183.603 213.139,187.725 212.885,213.072C212.868,214.777 223.61,215.765 225.69,213.963L226.292,198.613L226.708,187.518" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+            <path d="M219.652,159.283L219.812,150.856L219.751,154.059C220.363,157.411 227.348,153.569 224.051,145.357C223.034,142.822 218.867,135.804 220.154,132.735C212.34,144.568 213.873,158.023 219.774,152.852" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+        </g>
+    </g>
+    <rect x="75" y="32.547" width="105" height="159.453" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+    <g>
+        <g>
+            <rect x="97.5" y="48.547" width="25" height="28.453" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+            <rect x="129.5" y="48.547" width="25" height="28.453" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+        </g>
+        <g>
+            <rect x="97.5" y="83.047" width="25" height="28.453" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+            <rect x="129.5" y="83.047" width="25" height="28.453" style="fill:#fff;stroke:#000;stroke-width:4px;"/>
+        </g>
+    </g>
+    <path d="M77,123.189L78.599,131.254L84.996,131.254L85.796,125.608C91.829,123.014 96.386,123.989 102.588,125.608C106.182,126.547 107.665,121.979 103.387,120.769C95.496,118.536 87.658,117.643 79.399,120.769L77,123.189Z" style="fill:none;stroke:#000;stroke-width:4px;"/>
+</svg>

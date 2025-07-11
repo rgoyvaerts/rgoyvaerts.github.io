@@ -1,0 +1,104 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Cutouts Series" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/917656455?" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (53 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Do you remember?</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2024</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>40,5 cm x 20 cm x 7,5 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>reclaimed wood
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Location</em></th>
+                                <td><a href="https://www.google.com/maps/place/60°56'30.5%22N+25°45'12.8%22E/@60.9418082,25.7509807,17z/data=!3m1!4b1!4m4!3m3!8m2!3d60.9418056!4d25.7535556?entry=ttu">60°56'30.5"N<br>25°45'12.8"E</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<p>Robbert&amp;Frank create in relation to the world. In doing so, they also search for alternative ways to share and distribute their creations. In this new Artwork of the Month, they exchange the artificiality of the white cube for the comforting natural light of a Northern Europe blanketed in snow. </p>
+ 
+<p>They venture out into a forest surrounded by swampland. And they give back to nature what they took: a slightly rotten piece of wood. The only difference is that F&amp;R R&amp;F have burned a drawing into it. This pyrographic drawing will evolve with the wood as it continues to slowly decay, eventually rotting completely and falling apart. </p>
+ 
+<p>The drawing itself depicts a family: a mother, a father and a child. The reflection of the family is visible in the body of water next to them. But, on closer inspection, it appears that the reflection presents an image of the future, in which the child is grown up and seems to be taking care of its parents. The family members have thus switched positions – a reminder that we are all part of this endless cycle called life. </p>
+ 
+<p>The drawing and the location are connected, for now. The swamp is currently frozen, but soon, when the ice melts, the swamp will come back to life. When this happens, the chunk of wood and the drawing will participate in the cycle themselves.</p>
+
+    
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio_woodlog_1"></div>
+                        <div class="photo portfolio_woodlog_2"></div>
+                        <div class="photo portfolio_woodlog_3"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>

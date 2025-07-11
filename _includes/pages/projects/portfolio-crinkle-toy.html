@@ -1,0 +1,112 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Crinkle Toy" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1034737364?" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (55 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Crinkle Toy</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2024</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>26 cm × 16 cm × 1.5 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>cotton, crinkle foil
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>unnumbered</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>Yes, <a href="https://ko-fi.com/s/c3bd1e220c">buy here!</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>A few months ago, Robbert became a dad for the second time!</p>
+
+    <p>Frank and Robbert created a special edition of a pointy-head crinkle puppet in traditional R&F colors, yellow
+        and red, to connect with the new part of life that they and many of their friends are experiencing as parents.
+    </p>
+
+    <p>Pointy-head puppets are like blank canvases that reflect every possible human. When you interact with them, you
+        see yourself in the R&F F&R world, filled with symbols, folklore, rituals, and popular culture. This makes the
+        art come alive and allows everyone to tell their own stories.</p>
+
+    <p>Playing with art is fun for adults and kids alike. So do yourself, or a loved one, a favor and buy this unique
+        handmade
+        edition as a (Christmas) gift.</p>
+
+    <p><a href="https://ko-fi.com/s/c3bd1e220c">BUY HERE</a> <br> (or go to https://ko-fi.com/s/c3bd1e220c)</p>
+
+    <p>* Special thanks to our mothers(-in-law) for helping with the creation of this artwork!</p>
+
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-crinkle-toy_1"></div>
+                        <div class="photo portfolio-crinkle-toy_2"></div>
+                        <div class="photo portfolio-crinkle-toy_3"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>

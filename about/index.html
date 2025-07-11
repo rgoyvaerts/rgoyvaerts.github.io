@@ -1,0 +1,39 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About Robbert&amp;Frank Frank&amp;Robbert</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico"> 
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <script src="/assets/js/instafeed.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '2028166473',
+        accessToken: '2028166473.cd1d3b6.595f7dc21dc747ea9ab78e259622be21',
+        limit: '1',
+        resolution: 'standard_resolution',
+    });
+    feed.run();
+  </script>
+  {% include mailchimp-popup.html %}
+  {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+</head>
+<body>
+    
+{% include header.html %}
+ 
+{% include pages/about.html %}
+
+{% include footer.html %}
+
+<script src="/assets/js/jquery-2.1.1.min.js"></script>
+<script src="/assets/js/functions.js" type="text/javascript"></script>
+</body>
+</html>

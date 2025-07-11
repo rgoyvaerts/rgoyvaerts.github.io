@@ -1,0 +1,157 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Weder" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1097572839?" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (59 sec). With sound!</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Weder</h2>
+
+                    <table class="table">
+                        <tr>
+                            <th><em>Year</em></th>
+                            <td>2025</td>
+                        </tr>
+                        <tr>
+                            <th><em>Materials</em></th>
+                            <td>clay, flowers, leaves, water, recycled paper, charcoal, white port</td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><em>For Sale</em></th>
+                            <td>Yes, contact us <a
+                                    href="mailto:info@robbertenfrank.com?subject=Contact%20via%20Robbert%20Frank%20website">here</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                                {% include social-share.html %}
+
+                            </td>
+                        </tr>
+
+                    </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>
+        The amazing people of <a href="https://www.weder.be" target="_blank" rel="noopener">Weder</a>, together with
+        artist
+        <a href="https://louisvanhaverbeke.be/en/" target="_blank" rel="noopener">Louis Vanhaverbeke</a>, invited a
+        small
+        group of artists to celebrate
+        Midsummer at their beautiful flower farm in Mariakerke (BE). Robbert& Frank, Frank& Robbert, joined forces with
+        <a href="https://www.riteofcuddle.be" target="_blank" rel="noopener">Rite
+            of Cuddle</a> (Mira Verstraeten / Tchi Ann), <a
+            href="https://www.instagram.com/kapinga.j.muela_kabeya_artist_/" target="_blank" rel="noopener">Kapinga
+            Joséphine Muela Kabeya</a>, <a href="https://www.annapueschel.art" target="_blank" rel="noopener">Anna
+            Püschel</a>, and <a href="https://beeld.be/nl/kunstenaars/jolien-van-goethem" target="_blank"
+            rel="noopener">Jolien van
+            Goethem</a> to
+        create a day filled with participatory rituals and actions.
+    </p>
+
+    <p>
+        The ritual Frank&Robbert performed together with Merel (founder of Weder), Rite of Cuddle, and Louis Van
+        Haverbeke
+        and all participants was as follows: We started by gathering in a circle and listening to an a cappella song by
+        Rite
+        of Cuddle. We wrote our intentions on pieces of recycled paper with charcoal. We dug a hole in the middle of the
+        flower field and put our intentions in it… We made clay by mixing dried clay beads, used for soil enhancement,
+        and
+        water in a bassin. The kids and grown-ups trampled the beats with their bare feet until it was a smooth mixture
+        to build small bowls with. All the participants made bowls in different shapes and sizes. We harvested leaves
+        and
+        flowers to make a spirit drink and to cover the inside of our clay pots. We went to the local creek, and each
+        and
+        every one of us took a little bit of water and carried it in our self-made clay pots. We poured the water into
+        the
+        wishing well (the hole we dug in the flower field). The intentions soaked and eventually disintegrated. We mixed
+        everything up and closed the pit. On top of it, we made a fire. Our hands were washed ritually by Kapinga. We
+        then
+        drank the landscape in the form of our spirit drink. We laughed. We cried a bit. We ate ice creams and
+        watermelons.
+        We connected with ourselves and the others.
+    </p>
+
+    <p>
+        On the day of the summer solstice, the sun travels the longest path through the sky in the Northern Hemisphere.
+        It’s
+        one of the key dates in the Neolithic calendar and has been celebrated globally for thousands of years.
+    </p>
+
+    <p>
+        This day is all about reflection and gratitude. As a community, we are grateful for surviving the darkness of
+        the
+        winter. We celebrate the renewal sparked by Mother Nature. The sapstream of the plants peaks due to maximum
+        exposure
+        to sunlight. It’s a time of fertility, a time of renewal, and the reemergence of life.
+    </p>
+
+    <p>
+        Farmers used to organize a moment of collective reflection during the summer solstice. They analyzed the fields
+        they
+        sowed and predicted the outcome of the harvest. The summer solstice marks the middle of the year. It’s a time to
+        look back and to decide what we want to take with us to the future.
+    </p>
+
+    <p>
+        Thanks to all the artists for sharing their beautiful art. And thanks to all the people for joining and
+        participating. We’re happy that we continued the tradition of celebrating natural cycles and life.
+    </p>
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-weder_1"></div>
+                        <div class="photo portfolio-weder_2"></div>
+                        <div class="photo portfolio-weder_3"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-weder_4"></div>
+                        <div class="photo portfolio-weder_5"></div>
+                        <div class="photo portfolio-weder_6"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>

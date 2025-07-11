@@ -1,0 +1,111 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Cutouts Series" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/908720396?" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (60 sec)<br> with special guest <strong>Sam Heyvaert*</strong>.</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Cutout Series</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2022 - ongoing</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>variable</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>printed paper
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Options</em></th>
+                                <td>/</td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>No :) they are for free <br><br>
+                                <a href="https://drive.google.com/drive/folders/1hrIq_296Dwc6uK5A-1x_ZBZ7kOFA7hWH?usp=sharing" target="_blank">--> Click here to download</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<p>During the COVID-19 pandemic, Frank&amp;Robbert got the idea to design and distribute what they call ‘cutouts: templates for paper models. This allowed them to continue to interact with their audience despite limitations such as distance, time, the ban on public gatherings and so on. These easy-to-assemble models encouraged the public to exercise their crafting skills: cutting, folding, sticking. Once the model was complete, people could devise their own scenography at home. </p>
+
+<p>Robbert&amp;Frank have continued to distribute their paper model templates sporadically since 2022. Sometimes through a publication, other times in connection with an exhibition or project. They design a new model every few months. Each ‘folding page’ refers to a unique part of the F&amp;R R&amp;F universe: props from their theatre productions, small sculptures, interventions in the public space. Past examples have included their mini ‘Dog-Demon Suitcase’ figures and a series of clay tablets being buried (or are they being discovered?).</p>
+
+<p>The artists’ ‘folding pages’ have an ambiguous status. They undermine the principle of the unique work of art. In this way, they transcend themselves. Are the pages artworks in themselves? Or are they props in performative actions? Or carriers of participatory artworks? They are both none and all of the above. They’re peculiar creations, a cross between reproduction, edition, artwork ... They go beyond participation and ultimately give the audience full freedom: they are invited to become co-authors and engage directly with the oeuvre of R&amp;F F&amp;R. </p>
+
+<p>The audience also retains the ultimate right to distribution, deciding for themselves how far to go. All the ‘folding pages’ can be adapted and reproduced at very little expense. Everyone is free to copy and distribute them. The folding pages are reminiscent of children’s books and afternoons of innocent crafting pleasure. The joy of playing.  </p>
+
+<p>Art is fun! And it’s at your fingertips. </p>
+    
+<p><a href="https://drive.google.com/drive/folders/1hrIq_296Dwc6uK5A-1x_ZBZ7kOFA7hWH?usp=sharing" target="_blank">--> Click here to download the cutout files</a></p>
+
+<p>*This edition of Artwork of the Month is unique in yet another way. Meet this month’s guest, Sam Heyvaert from the MA Visual Arts programme at KASK / School of Arts in Ghent. Sam is doing an internship at R&amp;F F&amp;R from January until June 2024.</p>
+
+    
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio_cutouts_1"></div>
+                        <div class="photo portfolio_cutouts_2"></div>
+                        <div class="photo portfolio_cutouts_3"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>

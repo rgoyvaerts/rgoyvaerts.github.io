@@ -1,0 +1,110 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Cutouts Series" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1014291803?" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (60 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Blood Contract - Bee</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2024</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>48 cm × 30 cm × 2.3 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>Unfired clay, fired clay, blood, wood, cortensteel, mead drink
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<p>Frank&amp;Robbert Robbert&amp;Frank created a custom participatory performance for two friends and art lovers, Hans and Bram. Inspired by the symbolism surrounding bees, this work plays out as a ritual.</p>
+
+<p>The ritual involves of two bees: a black bee made out of unbaked clay and dirt, and a porous, yellow bee made out of toasted-cork clay baked at 1,100°C. </p>
+
+<p>Bram, Hans and the audience were asked to transport both bees through a small wooden door. Beyond the door was both a real place – the private garden of Bram &amp; Hans – and a symbolic space, where the bees could be activated. The first bee to be activated was the black bee, which represents the past. All participants were instructed to break off a piece of the bee, with their collective action leading to its total destruction. They were then told to choose a spot to plant their part of the bee and to think of a shared memory with Hans and Bram, which was then sown in the ground together with the shard. The sown shards attract good fortune.</p>
+
+<p>At this point there was an intermezzo, with participants imbibing a glass of special mead together. Following this, the audience received a blood lancet – a device that resembles a small white pen. Such lancets are usually used in taking blood samples from people with diabetes. One by one, the audience was invited to use it to prick their finger. Each person then pressed the drop of blood from their finger onto the yellow bee. As it absorbed the blood, the bee became a carrier of the genetic information of all the guests. But the bee is more than a silent witness. The bee serves as a contract, signed in blood: a promise to make new memories with Bram and Hans. </p>
+
+<p>Through this ritual, past, present and future are connected.</p> 
+
+<p>Bees are associated with diligence and work ethic, but also with purity and the capacity to give life. It is for this reason that bees have often been used in historical depictions to represent the soul. The ancients believed that when a bee flew into the mouth of a corpse, the corpse would be revived. Pagan priests and priestesses were often nicknamed ‘bees’ in reflection of their pledge to protect the secrets of life. 
+</p>
+
+    
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-bee_ritual-1"></div>
+                        <div class="photo portfolio-bee_ritual-2"></div>
+                        <div class="photo portfolio-bee_ritual-3"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-bee_ritual-4"></div>
+                        <div class="photo portfolio-bee_ritual-5"></div>
+                        <div class="photo portfolio-bee_ritual-6"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>

@@ -1,0 +1,115 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Claytablet - Hugging" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+   
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/581523122" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (48 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Clay Tablet - Hugging</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2020</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>17 cm x 22.8 cm x 1.5 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>white clay, engobes, ceramic glazes</td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>Custom R&amp;F F&amp;R Wall Mount <a href="{{site.url}}/portfolio/claytablet-totem#wallmount">more info</a></td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>6/6</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+    
+    
+<p>
+This clay tablet is part of an ongoing series of ceramic tiles through which Frank&amp;Robbert Robbert&amp;Frank document their personal lives and their shared artistic practice. They see each tablet as a sort of self-portrait. However, the abstract figures depicted on them are open to interpretation, allowing the audience to, in a way, project themselves onto every persona.  
+</p>
+    
+<p>
+This particular tablet has an emotional charge, depicting two hugging figures. The act of hugging refers directly to R&amp;F's second theatre piece, TO BREAK: The Window of Opportunity, in which the artists hug in front of a giant painting of an empty desert. In the context of the pandemic, this image has gained new meaning: due to the lack of human contact over the past 15 months, we all long for a hug and / or a shoulder to lean on.
+</p>
+    
+<p>
+Holding a mirror up to society, the oeuvre of Frank and Robbert is open for interpretation and comment. Their work gains layers and depth through its relationship to the world. Robbert and Frank each try to find meaning in the other. This is a cornerstone of their artistic practice. With their performance and sculptures they seek to re-examine our relationship to magic and our search for purpose in this world.
+</p>
+    
+<p>
+In documenting the world and their practice, they enter into a tradition that can be traced back to cave paintings, hieroglyphics and proto-writing.
+</p>
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_claytablet-hugging_1"></div>
+                    <div class="photo portfolio_claytablet-hugging_2"></div>
+                    <div class="photo portfolio_claytablet-hugging_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks-organized.html %}
+
+</main>

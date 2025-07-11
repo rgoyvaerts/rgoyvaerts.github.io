@@ -1,0 +1,111 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Bleuprint - Stone Suitcase" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>  
+    
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/809094040?h=1c8e6296d6" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (41 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Blueprint - Stone Suitcase</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2018</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>Artwork: 42 cm x 29.8 cm<br/>
+                      Frame: 46 cm x 33.2 cm x 3.0 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>Two colour silk-screen print on Steinbach paper (200 gr) in royal blue and white, signed and stamped</td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>incl. custom-made birch frame by Atelier Derycke<br/>Blueprint is part of the wooden suitcase project.</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>5 pieces (+ 1 artist’s proof)</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+    <p>R&amp;F/F&amp;R’s blueprints are based on design drawings for wooden suitcases that serve to make an idea, performance or visual work mobile for deployment in the public space. </p>
+
+    <p>These wooden suitcases all have the same specific dimensions, allowing them to be taken as hand luggage aboard trains, planes, etc. without coming up against formalities or restrictions. In this way, F&amp;R/R&amp;F can literally carry their work out of the art studio and into the wider world. </p>
+
+    <p>This blueprint is for a ceramic case. Next to the case is a hammer. Here the artists are playing with the idea of the old-fashioned piggy bank, which, once full, can be smashed to release a ‘treasure’ of coins. It is thus insinuated that this ceramic case also holds some kind of ‘treasure’. And yet the artists refrain from lifting the veil, instead choosing to leave the case’s contents hidden. </p>
+
+    <p>This blueprint dates back to 2018 and is based on an old digital drawing the artists made in Hong Kong in 2012. When the blueprint was first exhibited, the artists expressed a desire to ‘someday’ realise such a work – to place a hollow ceramic sculpture in the public space in the hope of eliciting interaction. This wish remains unfulfilled for the time being. </p>
+
+    <p>Each blueprint is presented in a frame designed by R&amp;F / F&amp;R and handcrafted at the framing studio of Claus Derycke. The frame acts like a little ‘cabinet of curiosities’, subtly stretching the boundaries unique to 2D work in order to create an incubation space for 3D work.</p>
+
+    <p>These blueprints occupy a completely autonomous place within F&amp;R/R&amp;F’s artistic history as unique ‘artefacts’ of an oeuvre in continuous development. </p>
+
+
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_blueprint-stonesuitcase_1"></div>
+                    <div class="photo portfolio_blueprint-stonesuitcase_2"></div>
+                    <div class="photo portfolio_blueprint-stonesuitcase_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks-organized.html %}
+
+</main>

@@ -1,0 +1,107 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "The Pleasure of Making Things" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>  
+    
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/731301219?h=24b4d98951" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (57 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>The Pleasure of Making Things</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2022</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>197 cm x 148 cm x 50 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>corten steel
+                    </td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>/</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>1/1</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+<p>The Pleasure of Making Things is R&amp;F F&amp;R’s ode to passion and profession of being an artist. Working together on physical objects, spending time in the studio, finding solutions to challenges presented by the concept or material. All this is encapsulated by this monumental work made of corten steel.</p>
+
+<p>The central, many-armed figure first appeared in a large-scale wall drawing that R&amp;F F&amp;R made as part of their solo exhibition Breadcrumbs at Be-part, Waregem (2019–2020). This ‘cave drawing’ consisted of charcoal lines drawn directly on the concrete walls of the arts centre’s basement level. The drawing took up the entire wall surface and could be read as a kind of cosmogenesis of the F&amp;R R&amp;F universe. The figure with eight arms was the focal point of the drawing.</p>
+
+<p>Now in sculptural form, the figure is flanked by a palm tree and a worshipper on both sides. As with many R&amp;F F&amp;R works, these two worshipping figures can be read as self-portraits. Here, flirting with religious imagery, the artists present their own mythological interpretation of their joint project as an artist duo.</p>
+
+<p>This work was created with a rich natural environment in mind as the presentation context. The figure is made of corten steel, a material that transforms in response to the environment it is exposed to. This kind of steel reacts with environmental moisture and acidity to form a discoloured oxidation layer (rust). This layer of weathering paradoxically provides protection, making it resistant to inclement weather conditions. </p>
+
+<p>This context, coupled with the climate-sensitive nature of the work, beautifully translates an essential aspect of being an artist according to F&amp;R R&amp;F – that is, being subject to the prevailing circumstances and allowing these influences to impact on one’s practice, leaving visible traces. </p>
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_pleasure-of-making_1"></div>
+                    <div class="photo portfolio_pleasure-of-making_2"></div>
+                    <div class="photo portfolio_pleasure-of-making_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks-organized.html %}
+
+</main>

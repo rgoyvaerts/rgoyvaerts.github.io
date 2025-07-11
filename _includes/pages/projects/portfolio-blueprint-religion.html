@@ -1,0 +1,110 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Blueprint - Religion" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+   
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/420347628" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (47 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Blueprint - Religion</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2018</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>Artwork: 42 cm x 29.8 cm<br/>
+                      Frame: 46 cm x 33.2 cm x 3.0 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>Two colour silk-screen print on Steinbach paper (200 gr) in royal blue and white, signed and stamped</td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>incl. custom-made birch frame by Atelier Derycke<br/>Blueprint is part of the wooden suitcase project.</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>5 pieces (+ 1 artist’s proof)</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+    
+    
+<p>Blueprint Relgions (2019) is a limited edition of silkscreen prints. Each print comes with a custom-made frame by Atelier Derycke. The frames are an inseparable part of the work and are signed by means of a blue colour code.</p>
+
+<p>This print is based on a digital drawing created during R&amp;F F&amp;R’s residency at WING, Hong Kong (2015). It depicts a small suitcase carrying a number of books that ‘we people’ across the globe have carried with us since time immemorial. These books – the Bible, the Koran, the Torah, the Vedas, the I Ching, etc. – describe the rituals and moral laws that have, across diverse cultures, guided and shaped human society and helped us to grasp what it means to be human. They speak of our eternal search for meaning … and they illustrate our fears and our hopes, our inspiration, imagination and creativity.</p>
+
+<p>By bringing these books together in one suitcase, a naive, hopeful picture is evoked of dialogue. An image of the tool of the postmodern missionary. Of the baggage and traditions we carry with us. A symbolic questioning of the notion of absolute truth. </p>
+    
+<p>The oeuvre of R&amp;F F&amp;R stems from the seed of their combined action. Their search for the meaning of things is not only conceptual but is also manifest in form. In the case of the blueprints, a number of digital drawings were transformed, years after their creation, into analogue negatives, which were then silkscreened by the artists themselves. The form of the prints alludes to design drawings of the kind associated with inventors and engineers. The artists can also be considered as such; certain of their designs are realised in physical form and activated in the public space. Others remain in the realm of their imagination …</p>
+
+<p>see also the related work <a href="{{site.url}}/portfolio/blueprint-boardgame" target="_blank">Blueprint - Boardgame</a> and the suitcase works <a href="{{site.url}}/portfolio/totempole-suitcase" target="_blank">Mask Totem Pole Suitcase</a>, <a href="{{site.url}}/portfolio/dog-demon-suitcase" target="_blank">Dog Demon Suitcase</a> &amp; <a href="{{site.url}}/portfolio/sorrow-suitcase-performance" target="_blank">Sorrow Suitcase</a>. </p>
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_blueprintreligion_1"></div>
+                    <div class="photo portfolio_blueprintreligion_2"></div>
+                    <div class="photo portfolio_blueprintreligion_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks-organized.html %}
+
+</main>

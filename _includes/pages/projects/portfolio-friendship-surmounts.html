@@ -1,0 +1,104 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Crinkle Toy" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1025526134?" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (59 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Friendship surmounts</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2024</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>22.5 cm × 5.7 cm × 5.7 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>yellow clay, mortar
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<p>Frank&amp;Robbert Robbert&amp;Frank have known each other since high school. They have spent much of their lives together - making art, travelling the world, empowering people, performing rituals and much more. In the last few years, many things have changed; both artists became fathers, started a family, renovated a house, etc. Their friendship and artistic practice has been transformed and enriched once again. </p>
+
+<p>To celebrate this, Frank made a special brick for Robbert's birthday. The brick is inscribed with the quote 'Friendship surmounts' and is a product of deep-rooted love. It symbolises both the beauty and the struggle of the deep friendship the two artists share. It's a token of good luck and a bearer of hope, protecting Robbert's house and his family. </p>
+
+<p>Once again, it's a work of art that derives its meaning from context and connection to real-life situations and interaction with the physical world. This brick is part of a new tradition that Frank and Robbert have been practising; a tradition in which they ritually protect a building by removing an existing brick and replacing it with one of their own. </p>
+
+<p>The artists have already placed bricks in private buildings in Ghent, Meulebeke and Hamburg (DE), as well as at the STUK Kunstencentrum in Leuven (BE) and at the Stanton Drew Stone Circle in the UK.
+
+</p>
+    
+    <p>* Special thanks to the neighbours of Robbert&amp;Lize for their beautiful Halloween Trick of Treat cameo.</p>
+
+    
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-friendship-surmounts-3"></div>
+                        <div class="photo portfolio-friendship-surmounts-2"></div>
+                        <div class="photo portfolio-friendship-surmounts-1"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>

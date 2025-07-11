@@ -1,0 +1,118 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "trophy for culture" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>  
+    
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/661163332?h=d0779980f0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (48 sec)</small>
+            
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Trophy for culture</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2014</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>43 cm x 18 cmx 61 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>reclaimed wood, nails, glue</td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>/</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>/</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+
+        
+    
+    
+<p>
+This trophy is made of pieces of reclaimed wood. It is an ode to the persistence and ingenuity of people working in the arts, many of whom have to make do with minimal means yet still create wonderful experiences. Long live the arts!
+</p>
+<p>
+During the corona crisis we realised that culture in all its forms and formats is an essential part of our social fabric and crucial for both our mental and physical health. Long live the arts!
+</p>
+<p>
+In December 2021 the Belgian government made the decision to shut down all cultural activities. Pubs and restaurants were allowed to stay open, however, as were outdoor Christmas markets, non-essential shops etc. This led to widespread protests and the cultural sector took the matter to the Council of State. They won the case: the Council of State called the closure "a disproportionate measure" that "lacked adequate motivation". Long live the arts!
+</p>
+<p>
+In this month’s artwork we can be seen sharing a cookie. Despite what some may say, there is enough for everybody. Everybody is entitled to a piece of the proverbial pie. So, let’s stop thinking in terms of scarcity and start thinking in terms of abundance, solidarity and sharing the wealth. That is our wish for 2022. 
+</p>
+<p>
+Long live the arts and happy New Year!
+</p>
+<p>- January 1, 2022 -</p>
+
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_trophyforculture_1"></div>
+                    <div class="photo portfolio_trophyforculture_2"></div>
+                    <div class="photo portfolio_trophyforculture_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks-organized.html %}
+
+</main>

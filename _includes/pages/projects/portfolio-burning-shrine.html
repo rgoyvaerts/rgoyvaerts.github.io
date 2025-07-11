@@ -1,0 +1,116 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Burning Shrine at Franks new home" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+   
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/616998846?h=97ab18a9a8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (58 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Burning Shrine at Franks new home</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2021</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>36 cm x 22,5 cm x 16 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>wood,fire</td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>Flatpack design shrine as DIY package</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>/</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Not yet - <a href="mailto:info@robbertenfrank.com">contact us if you're interested</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+    
+    
+<p>Frank&amp;Robbert Robbert&amp;Frank have been making small wooden suitcases for the last few years. Each case is a mobile artwork or performance. The cases have become simpler in recent working periods: the handle and the doors recently disappeared from the equation, leaving only empty wooden boxes. These boxes are little shrines.</p>
+
+<p>Shrines can be found across the globe and the various traditions associated with them stretch back far in time. Sometimes they are houses for the keeper's ancestors; sometimes they serve as ritual altars; sometimes they are small temples or little boxes in which to keep a relic of the past. Robbert&amp;Frank Frank&amp;Robbert embrace all these different functions and make their own portable versions: shrines that give light, are a Wheel of Fortune or a translation machine.</p>
+
+<p>Recently, they developed a flat-pack version of a shrine. It is easily CNC'ed and can be assembled without screws or bolts. Its clever design even allows for the doors to be opened and closed without hinges. The idea of this shrine is simple: instead of sacrificing or burning something in it, the shrine itself is destroyed. The artwork thus turns to ash. In this way, the ashes become part of the place where they were sacrificed.</p>
+
+<p>This video work documents the first burning. It arose from the idea of 'practice what you preach': the COVID-19 pandemic was a time of significant personal change for the artists, with children arriving or on the way, the start of home renovations and more. During those renovations, Frank's house became uninhabitable for a time. To ward off any bad energies, the artists decided to do the first burning in the excavated living room of Frank's house.</p>
+
+<p>It personal work joins a long tradition of rites of passage and ritual burnings. It is currently on display at the exhibition MAGIC MIRRORS at <a href="https://www.fredferry.com">Fred&amp;Ferry</a> in Antwerp and will remain there until 9 October 2021.</p>
+
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_burning-shrine_1"></div>
+                    <div class="photo portfolio_burning-shrine_2"></div>
+                    <div class="photo portfolio_burning-shrine_3"></div>
+                </div>
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_burning-shrine_4"></div>
+                    <div class="photo portfolio_burning-shrine_5"></div>
+                    <div class="photo portfolio_burning-shrine_6"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks-organized.html %}
+
+</main>

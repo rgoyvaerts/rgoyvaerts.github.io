@@ -1,0 +1,110 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Cutouts Series" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/992743098?" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (59 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Porthbysgod (Gate Fish or Harbour Fish)</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2024</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>23.0 cm × 11.2 cm × 1.3 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>Laser-etched ceramic stone
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Location</em></th>
+                                <td><a href="https://www.google.be/maps/place/52%C2%B054'16.5%22N+4%C2%B001'36.4%22W">52°54'16.5"N<br>4°01'36.4"W</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<p>Frank&amp;Robbert Robbert&amp;Frank are on a tour of Neolithic sites in Wales. Their intention is to connect with the past through their artistic practice. To make the link between similar symbols, artworks and stories.</p> 
+
+<p>On day five of their trip, they drove via the hamlet of Bryn Bwbach to Llandecwyn, in search of the stone circle of Bryn Cader Faner and the mountains of (or ‘Snowdonia’, as the English call the region). Their camper van wound up getting stuck at a gradient of around 20%. They decided to leave their luggage behind in the van. As well as all their slates, artworks and figures made of weathering steel. With a great deal of manoeuvring, they reached the top after a number of hours. By this time, they were effectively stranded, but the farmer Gerry J. Smith invited them into his home, where they were able to spend the night. </p>
+
+<p>At the break of day, they climbed the rest of the mountain. Straight through the fields, populated by horses, sheep and goats. Marshy, windy and wet, with views of the sea never out of sight. The cold sea air cut through their clothing. After about two hours of walking, they reached one of the first peaks. The view was glorious. Here they encountered a pile of neatly ordered stones. Such stone piles are called ‘ca(i)rns’. Legend has it that they are men of stone, formed by the mist. In our modern reality, they are used as trail markers by hikers in places where there is often no path. In Neolithic times, they were often used to mark symbolic places. From the Bronze Age onwards, they became places where people deposited the bones and/or ashes of their dead. </p>
+
+<p>This particular example is situated on a protruding ridge that overlooks the beautiful bay a few hundred metres below. R&amp;F carried a number of smaller artworks along with them. One of them is a ceramic fish with pictures laser-etched into it. The pictures tell a story about sacrifice and letting go. The stone fish itself is a remnant of a memorial for an artist friend who passed away. </p>
+
+<p>When we returned, Gerry told us that cairns are genuinely magical, that they are like bridges across the boundaries of time. He also shared a beautiful saying used in Wales and Scotland as a greeting: Cuiridh mi clach air do chàrn (‘I will add a stone to your cairn’).</p> 
+
+<p>All mountain peaks were once sea beds. Fish of stone at great altitudes. The circle is, once again, complete.</p>
+
+<p>Frank&amp;Robbert visited Wales as part of their ‘Reconnect with the UK’ tour, supported by Kunstenpunt and the British Arts Council.</p>
+
+    
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio_porthbysgod_1"></div>
+                        <div class="photo portfolio_porthbysgod_2"></div>
+                        <div class="photo portfolio_porthbysgod_3"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>

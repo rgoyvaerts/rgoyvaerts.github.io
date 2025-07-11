@@ -1,0 +1,114 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Claytablet - Dining" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+   
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/517095045" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (44 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Clay Tablet - Lunch</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2020</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>17 cm x 22.8 cm x 1.5 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>white clay, engobes, ceramic glazes</td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>Custom R&amp;F F&amp;R Wall Mount <a href="{{site.url}}/portfolio/claytablet-totem#wallmount">more info</a></td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>6/6</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+    
+    
+<p>Inspired by the cave paintings of Lascaux, Egyptian hieroglyphics and Mesopotamian proto-cuneiform script, Frank&amp;Robbert Robbert&amp;Frank are developing ceramic works in which they document their own lives and work in the form of simple, symbolic line drawings.
+</p>
+    
+<p>
+A quintessential part of Robbert&amp;Franks practice as an artist duo is brainstorming. In this work you can see a depiction of the mental process of sharing and discussing new ideas. Usually this is done during lunch or dinner. While partaking food, they also share their opinions and fantasies about upcoming projects or the state of the world in general.
+</p>
+    
+<p>
+As a duo it is important to present intimate thoughts and emotions to each other and make them visible through speech or drawing. The other is a sounding board for preliminary ideas. This work makes a perfect representation of this process. As such this work symbolizes the birthplace of new artworks.
+</p>
+    
+<p>
+At the same time, this is a homage to the creative power of dialogue and sharing — sharing both physically (food) and mentally (ideas). Sharing is caring!
+</p>
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_claytablet-lunch_1"></div>
+                    <div class="photo portfolio_claytablet-lunch_2"></div>
+                    <div class="photo portfolio_claytablet-lunch_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks-organized.html %}
+
+</main>

@@ -1,0 +1,110 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Doors of perception" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>  
+    
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/731300811?h=2c64ffaa2d" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (39 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Box of Pandora</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2020</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>29.5 cm x 21.0 cm x 6.0 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>Colouring pencils, paint, varnish, metal (Dibond), plastic, glue
+                    </td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>/</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>1/1</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+<p>R&amp;F F&amp;R are mostly known for their large-scale mural drawings and installations. Smaller, tactile pencil works are (to date, 2022) very rare within the oeuvre of the duo. This particular drawing has been made on a sheet of aluminium composite. The artists removed the top layer of the Dibond and prepared the surface with thick, white wall paint. As a result, the colours of the pencils in combination with the structured surface take on an almost painterly quality.</p> 
+
+<p>The drawing depicts the F&amp;R R&amp;F clay tablets: a duo, Robbert&amp;Frank, the dynamic of a dialogue. Both figures are interacting with a laptop. The laptop seems to be unlocking a digital portal to a different world; Symbols, Egyptian figures, wooden suitcases and even the Frank&amp;Robbert mantra ‘Go Away Sorrow of the World’ are hidden in this alternative reality. </p>
+
+<p>One of the two figures is wearing a mask of some sort. It resembles one of the masks from Dog Demon Suitcase, a sculptural work the artists have used in various performances in and around Europe and Asia. Dog Demon Suitcase is centred on the idea of shifting identities and playful masquerade. 
+</p>
+    
+<p>In this drawing, the mask refers to our digital alter egos and the masquerade of online social activity. What is real and does it still matter? As artists, we believe that the digital transformation of our perception through virtual or augmented reality is as profound a cultural change as was the invention of written language.</p>
+
+<p>How to deal with this monumental shift in culture? Robbert&amp;Frank don’t know the answer, but they consider it their task to document, investigate and formulate alternative possibilities and insights.</p>
+
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_boxofpandora_1"></div>
+                    <div class="photo portfolio_boxofpandora_2"></div>
+                    <div class="photo portfolio_boxofpandora_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks-organized.html %}
+
+</main>

@@ -1,0 +1,109 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Alter-ego Suitcase: Reindeer &amp; Bull" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+   
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/459294751" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (58 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+                <h2>Alter-ego Suitcase: <br>Reindeer &amp; Bull</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2014</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>45 cm x 36.5 cm x 13.6 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>Plywood, metal, custom R+F screw, boat varnish, foam, iron wire, balsa wood, papier mâché, latex, small plastic trees, LED lighting, lacquer</td>
+                  </tr>
+                         <tr>
+                    <th><em>Options</em></th>
+                    <td>Part of the wooden suitcase project</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>1/1</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>No</td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                             {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+    
+    
+<p>This small suitcase serves as a portable shrine, a little, collapsible home altar dedicated to Reindeer and Bull: the alter egos of Robbert and Frank, respectively. The symbolic use of these mythical creatures – half-animal, half-man – stems from a personal story that Frank&amp;Robbert Robbert&amp;Frank have shared since their time as students. The creatures appear in several of their works and are part of a collection of enchanted characters and objects that populate the world of R&amp;F F&amp;R.</p>
+
+<p>Reindeer and Bull were first used in a performance in which Frank – wearing a Bull mask and carrying a double-barrelled rifle – hunted Robbert. Robbert – wearing a Reindeer mask and with double-barrelled rifle in hand – in turn hunted Frank. Like the ouroboros, who eats his own tail, Robbert&amp;Frank Frank&amp;Robbert hunted each other for a whole night (SMAK Museum Night, Ghent, 2008). The paradox of the duo being pitted against each other was thus established. </p>
+
+<p>This dual paradox merged into a unity during a performance in which F&amp;R R&amp;F attempted to bring to life a latex figure of a human by transplanting into it Bull organs and Reindeer blood. Through this operation, the vision of a Frankenstein’s monster-like amalgamation of the two artists was realised in the form of bewitched artwork (see <a href="{{site.url}}/portfolio/alter-ego-surgery">Alter-ego Surgery</a>).</p>
+    
+<p>Now, residing in this wooden suitcase, these alter egos have taken on a new form. The image of the small wooden suitcase is emerging as a common thread in the work of R&amp;F F&amp;R. It symbolises movability, adventure, encounters with the unknown, ingenuity and play. These suitcase works should not be considered finished artworks; rather, the artwork is created anew with each performance or use (as with any performance or live work).</p>
+
+<p>As such, this shrine is set up and documented in different places in the public space, with new combinations of sacrifice and ritual each time. What is serious and what is play? How do art and tradition relate to one another? And who are we?</p>
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_alteregosuitcase_1"></div>
+                    <div class="photo portfolio_alteregosuitcase_2"></div>
+                    <div class="photo portfolio_alteregosuitcase_3"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks-organized.html %}
+
+</main>

@@ -1,0 +1,117 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+
+{% assign title = "Wall Drawing - Covid 1.0" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+   
+<div class="row-artwork">
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="flex-item-left">
+                    
+                        <iframe class="iframe-artwork" src="https://player.vimeo.com/video/442673650" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                <small style="padding-left: 5px"><br>Artwork of the month - video (45 sec)</small>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="flex-item-item">
+
+            <h2>Wall Drawing: Covid 1.0</h2>
+
+            <small><table class="table">
+                  <tr>
+                    <th><em>Year</em></th>
+                    <td>2020</td>
+                  </tr>
+                  <tr>
+                    <th><em>Size</em></th>
+                    <td>303 cm x 645 cm</td>
+                  </tr>
+                         <tr>
+                    <th><em>Materials</em></th>
+                    <td>charcoal</td>
+                  </tr>
+                         <tr>
+                    <th><em>Details</em></th>
+                    <td>In-situ work as part of the artists’ solo exhibition at <a href="https://lxhxb.com/index.php/exhibitions/2020/narratives/" target="_blank">lxhxb</a>, Eindhoven, NL</td>
+                  </tr>
+                         <tr>
+                    <th><em>Edition</em></th>
+                    <td>1/1</td>
+                  </tr>
+                        <tr>
+                    <th><em>For Sale</em></th>
+                    <td>Yes, contact our gallery <a href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry (Antwerp, BE)</a></td>
+                  </tr>
+                    <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                                {% include social-share.html %}
+                                
+                    </td>
+                    </tr>
+
+             </table></small>
+
+            </div>
+        </div>
+    </div>
+</div>       
+    
+        
+    
+    
+<p>Since 2015 Robbert&amp;Frank Frank&amp;Robbert have been documenting their artistic practice and their realities through the creation of digital drawings. Each drawing centres on one particular action, whether it be a simple trip to the hardware store or a unique moment from a ritual performance.</p>
+
+<p>Until recently, the drawings had been made using a word processing software. The unconventional use of such software to make drawings gave rise to a specific formal language: simple tables could become doors, windows or suitcases and arrows or triangles could form the basis for abstract figures.</p>
+
+<p>In this way, F&amp;R R&amp;F developed a signature style characterised by simplicity. Each shape represents an attempt to create as universal a signifier as possible. Anthropomorphic figures can stand in as self portraits of the artists or as symbols for any human being. In this way, each drawing attempts to build a bridge between the artists’ practice and the reality of the viewer(s).</p>
+    
+<p>The digital drawings form the basis for new, physical works, such as a series of <a href="{{site.url}}/portfolio/blueprint-boardgame" target="_blank">blueprints</a>, a series of pictographic <a href="{{site.url}}/portfolio/claytablet-tobreak" target="_blank">clay tablets</a> or, most recently, a number of in-situ <a href="{{site.url}}/portfolio/wall-drawing-cosmology" target="_blank">wall drawings</a>.</p>
+    
+<p>During the recent lockdown, R&amp;F F&amp;R decided to focus their drawings on the unique situation surrounding COVID-19. The digital works document hospital scenes, news reports and practices such as social distancing and handwashing. Artist and curator Guus Van der Velden of Ixhxb Gallery in Eindhoven invited the artists to create an entirely new interpretation of these drawings in the form of a wall-filling charcoal drawing.</p>
+    
+<p>The mural is part of the F&amp;R R&amp;F solo exhibition ‘Narratives’, which runs from 12 July to 22 August 2020 at <a href="https://lxhxb.com/index.php/exhibitions/2020/narratives/" target="_blank">lxhxb</a>, Eindhoven. Visit for free from Thursday to Saturday, 1pm to 6pm, or by appointment. Geldropsteweg 84A, Eindhoven, The Netherlands. </p>
+
+    
+    <br><br><br>
+  
+<span class="expander" id="blueprintboardgame">
+    
+    <div class="expander-content">
+    
+        <div class="expander-content-main">
+            
+            <div class="container-photos">
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_walldrawing-covid_1"></div>
+                    <div class="photo portfolio_walldrawing-covid_3"></div>
+                    <div class="photo portfolio_walldrawing-covid_2"></div>
+                </div>
+                
+                <div class="row-photos">
+                    <div class="photo portfolio_walldrawing-covid_4"></div>
+                    <div class="photo portfolio_walldrawing-covid_6"></div>
+                    <div class="photo portfolio_walldrawing-covid_5"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</span> 
+    
+    <p style="text-align: center">- - - - - - - - - -</p>
+    
+    
+    {% include pages/artworks-organized.html %}
+
+</main>
