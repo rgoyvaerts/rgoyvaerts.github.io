@@ -3392,6 +3392,42 @@ footer .social-footer .social-icon.email {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.row-photos .portfolio-revealing-intent_1 {
+  background-image: url(/assets/img/portfolio/revealing-intent_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-revealing-intent_2 {
+  background-image: url(/assets/img/portfolio/revealing-intent_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-revealing-intent_3 {
+  background-image: url(/assets/img/portfolio/revealing-intent_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-revealing-intent_4 {
+  background-image: url(/assets/img/portfolio/revealing-intent_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-revealing-intent_5 {
+  background-image: url(/assets/img/portfolio/revealing-intent_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-revealing-intent_6 {
+  background-image: url(/assets/img/portfolio/revealing-intent_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .cv {
   font-size: 0.8em;

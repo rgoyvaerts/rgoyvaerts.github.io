@@ -1,0 +1,127 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Skiapode" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1114222098?" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (59 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Ritual of Revealing Intent</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2025</td>
+                            </tr>
+                            <tr>
+                                <th><em>Location</em></th>
+                                <td><a href="https://secondroom.org/about/" target="_blank"
+                                        rel="noopener">Secondroom</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>Ceramic tablet, ceramic pencils, transparent glaze, finger-stick blood samplers,
+                                    diverse R&F F&R sculptures
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>Yes, <a
+                                        href="mailto:info@robbertenfrank.com?subject=Contact%20via%20Robbert%20Frank%20website">contact
+                                        us</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>Christine Verheyden invited Robbert and Frank to create a special performance or ritual to end SECONDroom’s
+        cultural season in Antwerpen, Belgium.
+    </p>
+    <p>
+        Frank and Robbert have been making clay tablets for over ten years. Their tablets always represent a performance
+        or a real-life action. They’re reminders of the past, just like how people used to write their lives in stone.
+    </p>
+    <p>
+        For SECONDroom, the artists did something new. Instead of making a clay tablet of something that’s already
+        happened, R&F wanted to create a big clay tablet with the audience.
+    </p>
+    <p>
+        They set up a special space with hemp ropes and a small wooden door. Once someone stepped through the door, they
+        were asked to draw an intention or a wish onto the clay. They could use ceramic pencils. After they were done,
+        they needed to seal their wishes with a clear glaze. The glaze becomes clear in the kiln when it reaches a
+        temperature of 1000°C. For now, it’s just a way to keep their wishes safe.
+    </p>
+    <p>
+        After sealing their wishes, the participants were asked to add a drop of blood. Frank and Robbert provided blood
+        pens. Each pen only takes a tiny drop of blood. The blood acts like a special contract, making their wishes
+        stronger.
+    </p>
+    <p>
+        At the end of the performance, the clay tablet needed to rest so the glaze could dry and the wishes could sink
+        in. One day, when the tablet is fired, the invisible will become visible, and the audience might be able to see
+        what has happened and what hasn’t.
+    </p>
+
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-revealing-intent_1"></div>
+                        <div class="photo portfolio-revealing-intent_2"></div>
+                        <div class="photo portfolio-revealing-intent_3"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-revealing-intent_4"></div>
+                        <div class="photo portfolio-revealing-intent_5"></div>
+                        <div class="photo portfolio-revealing-intent_6"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
