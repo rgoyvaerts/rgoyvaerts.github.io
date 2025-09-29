@@ -3428,6 +3428,42 @@ footer .social-footer .social-icon.email {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.row-photos .portfolio-fire-figures_1 {
+  background-image: url(/assets/img/portfolio/fire-figures_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-fire-figures_2 {
+  background-image: url(/assets/img/portfolio/fire-figures_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-fire-figures_3 {
+  background-image: url(/assets/img/portfolio/fire-figures_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-fire-figures_4 {
+  background-image: url(/assets/img/portfolio/fire-figures_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-fire-figures_5 {
+  background-image: url(/assets/img/portfolio/fire-figures_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-fire-figures_6 {
+  background-image: url(/assets/img/portfolio/fire-figures_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .cv {
   font-size: 0.8em;

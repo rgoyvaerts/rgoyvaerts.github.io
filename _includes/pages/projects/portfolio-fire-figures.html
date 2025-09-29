@@ -1,0 +1,135 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Mandorla - Fire Figures" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1122839101?" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (59 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Mandorla Arcade - Fire Figures</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2025</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>38 cm x 55 cm x 2 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>Corten steel
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>Yes, contact our gallery <a
+                                        href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry
+                                        (Antwerp, BE)</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>Frank&Robbert Robbert&Frank collaborated with <a href="https://dertien12.be/projecten/robbert-frank">Dertien12
+            architects</a> and Pierre Muyle to create several art
+        integrations for Arcade, Gistel (BE). <a href="https://www.arcadevzw.be">Arcade</a> is a care
+        facility
+        providing care and shelter for dozens of
+        youngsters in the North of West-Flanders. In Gistel, a total of 4 new units have been built. R&F F&R made
+        special tiling as part of the floor design, an outdoor temple consisting of 2 concrete circles forming a
+        shelter
+        protecting an inner table with amulets and a corten steel circle of figures guarding a central fire. </p>
+
+    <p>To connect the new facilities of Arcade with the other locations, Frank and Robbert have created an additional
+        series of fire figures: 6 corten steel and 1 ceramic figure have been placed between the hamlet of ‘Zevekote’
+        and the city of Ostend (BE). Connecting all locations is important. It generates a sense of unity and a sense of
+        attachment. It generates a new story where all youngsters are linked and they are all part of one story, one
+        positive future. </p>
+
+    <p>The figures themselves have been designed with a playful ambiguity: on the one hand, they seem to be celebrating;
+        hands high in the air. Like if they are doing some sort of unified dance. It’s an ode to life, an ode to
+        positivity. The figures represent autonomy and the power that one has to act in his / hers own life. On the
+        other hand, the high-raised arms seem mystical… Like devotional. As if the figures are calling to the sky, to
+        Mother Nature, to God, and they are connecting with the past, present, and the future. They are not individual.
+        They are connected with the cosmos. </p>
+
+    <p>This duality is key to this art integration. We all need to be active in our own lives. We need to take up the
+        life force and transform every day into a new possibility. On the other hand, we need to be connected with
+        everything and everyone. No one can live on its own. We only gain depth and meaning by interacting with our
+        environment. </p>
+
+    <p>In this way, this art intervention is subtle. It’s a hidden message, a whisper, a dream… That only finds meaning
+        when you choose to pay attention to it. </p>
+
+    <a href="https://dertien12.be/projecten/robbert-frank">Find out more about the R&F F&R / Dertien12 collaboration
+        here</a>
+
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-fire-figures_1"></div>
+                        <div class="photo portfolio-fire-figures_2"></div>
+                        <div class="photo portfolio-fire-figures_3"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-fire-figures_5"></div>
+                        <div class="photo portfolio-fire-figures_4"></div>
+                        <div class="photo portfolio-fire-figures_6"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
