@@ -1,0 +1,102 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Mandorla - Fire Figures" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="resp-container-16-9">
+
+        <iframe class="resp-iframe" src="https://player.vimeo.com/video/1131998219" width="100%" height="100%"
+            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    <br><br>
+    <h2>Solstice Stones - Guided Tour (Dutch video)</h2>
+
+    <small>
+        <table class="table">
+            <tr>
+                <th><em>Venue</em></th>
+                <td>Fred&amp;Ferry Gallery, Antwerp (BE)<br>Leopoldplaats 12, 9000 Antwerp</td>
+            </tr>
+            <tr>
+                <th><em>Dates</em></th>
+                <td>Oct 18 - Nov 15 2025</td>
+            </tr>
+            <tr>
+                <th><em>Installation views</em></th>
+                <td><a href="https://fredferry.com/exhibitions/61-robbert-frank-frank-robbert-solstice-stones/installation_shots/"
+                        target="_blank">Link - High quality photos of the show</a></td>
+            </tr>
+            <tr>
+                <th><em>Price List</em></th>
+                <td><a href="https://privateviews.artlogic.net/2/7b26a3b523fd41620e93a8/" target="_blank">Link -
+                        Detailed list of the artworks</a>
+                </td>
+            </tr>
+            <tr>
+                <th><em>Share</em></th>
+                <td>
+
+                    {% include social-share.html %}
+
+                </td>
+            </tr>
+
+        </table>
+    </small>
+
+
+    <p>FRANK&ROBBERT ROBBERT&FRANK return for the third time to the gallery in Antwerp, where they present new ceramic
+        work that builds on the Neolithic tradition of menhirs, dolmens and symbolic stones. They create contemporary
+        interpretations of ancient themes, activating their creations with ritual acts and participatory performances.
+        The “leftovers” from these interventions become part of the works.</p>
+
+    <p>In this video, the artists give a guided tour of the exhibition, explaining each work and delving deeper into the
+        history and personal significance of the sculptures or drawings in question. Prehistory, Freud, dreams,
+        geography, fairy tales, explosions, and alter egos come together in this extensive exposé.</p>
+
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-solstice-stones_1"></div>
+                        <div class="photo portfolio-solstice-stones_2"></div>
+                        <div class="photo portfolio-solstice-stones_3"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-solstice-stones_5"></div>
+                        <div class="photo portfolio-solstice-stones_4"></div>
+                        <div class="photo portfolio-solstice-stones_6"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-solstice-stones_7"></div>
+                        <div class="photo portfolio-solstice-stones_8"></div>
+                        <div class="photo portfolio-solstice-stones_9"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-solstice-stones_10"></div>
+                        <div class="photo portfolio-solstice-stones_11"></div>
+                        <div class="photo portfolio-solstice-stones_12"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
