@@ -1,0 +1,105 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Summer Solstice Tablet" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1141991694?" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (59 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>DIY Nativity Scene Set</h2>
+
+                    <table class="table">
+                        <tr>
+                            <th><em>Year</em></th>
+                            <td>2025</td>
+                        </tr>
+                        <tr>
+                            <th><em>Size</em></th>
+                            <td>45 cm x 32 cm x 30 cm</td>
+                        </tr>
+                        <tr>
+                            <th><em>Materials</em></th>
+                            <td>Lasercut wooden boards, super glue
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><em>For Sale</em></th>
+                            <td>Yes, <a href="https://ko-fi.com/s/f217ca6a47">buy now online!</a></td>
+                        </tr>
+                        <tr>
+                            <th><em>Share</em></th>
+                            <td>
+
+                                {% include social-share.html %}
+
+                            </td>
+                        </tr>
+
+                    </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>Frank&Robbert Robbert&Frank celebrate the end of the year again with a brand-new affordable artwork you can bring
+        home! </p>
+    <p>We reimagined the traditional nativity scene in true r&f f&r fashion. Joseph and Mary take on the playful forms
+        of our well-known alter egos—Cowbeast and Reindeerhead—while the classic crib becomes a small egg, symbolizing
+        life, beginnings, and endless potential. The stable itself is a wooden suitcase, a perfect portable fit,
+        continuing the R&F spirit. </p>
+
+    <p>Step into a whimsical universe where the three kings, the animals, the angels, and every other character are
+        reinterpreted with humor and charm. All elements arrive as a DIY flatpack: a delightful invitation to spend an
+        afternoon cutting, folding, building, and gluing the scene together. </p>
+
+    <p>Follow the artists’ vision—or let your imagination take over and create a world entirely your own. And that for
+        only 19,99EUR per artwork ( excl. tax and shipping).
+    </p>
+
+    <p><a href="https://ko-fi.com/s/f217ca6a47">Buy your Model Kit here!</a></p>
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-kerststal_1"></div>
+                        <div class="photo portfolio-kerststal_2"></div>
+                        <div class="photo portfolio-kerststal_3"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
