@@ -1,0 +1,138 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "The Shoulder and The Egg" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1150459711" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (56 sec).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>The Shoulder and The Egg</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2025</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>84 cm × 49 cm x 24 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>Black clay with chamotte, various glazes & engobes
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>Yes, contact our gallery <a
+                                        href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry
+                                        (Antwerp, BE)</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>FRANK & ROBBERT return for the third time to FRED&FERRY gallery in Antwerp,
+        presenting a new body of works rooted in the Neolithic traditions of menhirs, dolmens, and
+        symbolic stones. These works translate the collective subconscious with ancient forms and
+        belief systems into a contemporary language, activated through ritual gestures and
+        participatory performances. The traces and remnants of these interventions become
+        integral to the artworks themselves.
+
+    <p>The Shoulder and the Egg serves as the exhibition’s poster work and functions as a key to
+        understanding the broader body of work. The piece originates from a recurring dream
+        experienced by Frank. Through collective reflection in the studio and an attempt to
+        recapture the dream’s emotional charge, the dream gradually transformed into a physical
+        artwork.</p>
+
+    <p>At the heart of the dream is a central figure who removes a piece of their own shoulder
+        and offers it to a demon-like being. Though initially frightening, the figure also appears
+        benevolent. The demon’s elongated tongue holds a scale, poised to weigh the piece of
+        flesh. At the moment of offering, the flesh transforms into an egg. The egg contains life, yet
+        it has not hatched yet. Beneath this dream scene lies an abstract calendar, linking the
+        hatching of the egg to the cycles of the moon and a specific moment in time.</p>
+
+    <p>The dream scene is engraved on the reverse side of a self-made black monolith. The front
+        presents the face of the demon itself. Its eyes are hollowed into lavabo-like forms, capable
+        of collecting (rain)water or other liquids.</p>
+
+    <p>The work unfolds as a metaphysical meditation on burden and responsibility. The act of
+        offering part of one’s load to another suggests a transformation from the negative to the
+        generative: the burden becomes a vessel for new life. The scale points toward the future,
+        toward balance, acceptance, and the weighing of time. It speaks of transformation and
+        release, of the eternal cycle between darkness and light, life and death. In this sense, the
+        work operates alchemically, holding within it the tension and power of duality.</p>
+
+    <p>Installed in the gallery on metal legs and surrounded by yellow leaves, the monolith carries
+        the promise of future activation in the public realm, in a forest, on a hill, or in another site
+        close to nature. The holes on the sides of the sculpture invite participation and collective
+        engagement. Through these gestures, the work moves beyond the world of Frank &
+        Robbert and becomes a shared vessel, a carrier for the kindred.</p>
+
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-shoulderandegg_1"></div>
+                        <div class="photo portfolio-shoulderandegg_2"></div>
+                        <div class="photo portfolio-shoulderandegg_3"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-shoulderandegg_4"></div>
+                        <div class="photo portfolio-shoulderandegg_5"></div>
+                        <div class="photo portfolio-shoulderandegg_6"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>

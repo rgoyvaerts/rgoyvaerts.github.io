@@ -3554,6 +3554,42 @@ footer .social-footer .social-icon.email {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.row-photos .portfolio-shoulderandegg_1 {
+  background-image: url(/assets/img/portfolio/shoulderandegg_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-shoulderandegg_2 {
+  background-image: url(/assets/img/portfolio/shoulderandegg_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-shoulderandegg_3 {
+  background-image: url(/assets/img/portfolio/shoulderandegg_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-shoulderandegg_4 {
+  background-image: url(/assets/img/portfolio/shoulderandegg_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-shoulderandegg_5 {
+  background-image: url(/assets/img/portfolio/shoulderandegg_5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-shoulderandegg_6 {
+  background-image: url(/assets/img/portfolio/shoulderandegg_6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .cv {
   font-size: 0.8em;
