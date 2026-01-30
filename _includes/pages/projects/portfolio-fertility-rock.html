@@ -1,0 +1,140 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Fertillity Rock Well*Ness" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1160197911" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (1 min).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Fertility Rock Well*Ness</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2026</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>100 cm × 200 cm x 0.1 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>Digital print on flag / textile
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>Yes, contact our gallery <a
+                                        href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry
+                                        (Antwerp, BE)</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>We tend to perceive time as linear: things begin, unfold, and end. Quantum physics proposes a different model,
+        one that is less linear and more circular, where phenomena vibrate, recur, and loop rather than simply start and
+        stop. Perhaps Neolithic people already intuited this. Much of ancient visual culture points toward circularity
+        and vibration: stone circles, round burial mounds, coves, cairns, spiral motifs, mandalas, concentric forms.
+        Again and again, the circle appears as a fundamental structure.</p>
+    <p>The Neolithic period marks a decisive turning point in human history. It is the moment when sedentary life,
+        agriculture, and collective organization took hold, redirecting the course of human existence. The world we
+        inhabit today is, in many ways, a direct continuation of that shift. Beneath contemporary infrastructures lies a
+        Neolithic logic of settlement, ritual, and relationship to land.</p>
+    <p>Robbert&Frank Frank&Robbert seek to reconnect with these Neolithic roots. Their work is driven by a search
+        for provenance and meaning, a desire to understand where certain gestures, forms, and beliefs originate. To do
+        so, they travel to significant ancient sites, carrying with them a series of artworks. These works are brought
+        into the public domain and consciously activated on site. Activation is essential: only through interaction with
+        place, landscape, and context do the works fully come alive. The artworks become porous, unfolding their meaning
+        through encounter.</p>
+    <p>During recent journeys through the United Kingdom and Finland, the artists visited several Neolithic locations.
+        In Britain, they traveled to Stanton Drew, the second-largest stone circle complex in the country. Located on
+        the floodplain of the River Chew, the site forms part of what archaeologists describe as the Neolithic Highway,
+        an extensive network linking northern Scotland with mainland Europe. Growing archaeological evidence suggests
+        that Neolithic societies were far more interconnected and sophisticated than once believed. Rather than isolated
+        groups, they may have constituted a highly organized, transregional culture with deep, largely intangible
+        knowledge of nature, cycles, and the cosmos.</p>
+    <p>In their search for this lost knowledge, and simultaneously for their own artistic identity, Robbert & Frank
+        engage with these sites through contemporary gestures. One of them is walking in circles; around ancient
+        monuments, landmarks, helicopter platforms, artworks. This is a practice that the artists have been doing for a
+        while now, scattered all over Europe. This adds to the circular notion of the Neolithic wisdom.</p>
+    <p>Another practice is the moving of stones and boulders. Echoing the Neolithic practice of transporting stones
+        across vast distances, Frank and Robbert have chosen to not move the material itself, but its image. An image of
+        a Stanton Drew boulder was transformed into a flag. When placed in a contemporary landscape, the flag functions
+        as a portal, connecting distant locations across time.</p>
+    <p>The flag is set against the backdrop of the castle of John de Marnix de Sainte Aldegonde, a local landmark that
+        may indicate one of the earliest settlement points in the region. Within this historically layered setting, the
+        flag operates as a temporal bridge between Neolithic times and the contemporary timeframe. Concealed within the
+        image of the Stanton Drew boulder is a small fertility sculpture previously created by the artists. Revealed
+        through the larger form, it links monumentality to intimacy, and anchors the work in ideas of birth, origin, and
+        emergence.</p>
+    <p>This work directly links with the origin story of Bornem, the town where Robbert & Frank open their new solo
+        exhibition Wellness* on February 22.</p>
+    <p>The title carries layered meanings. Well refers to the source, the spring, water as origin, but also as a
+        reservoir of hidden knowledge. Ness evokes a body of fresh water, a lake, a site of accumulation and reflection.
+        Bornem itself has Neolithic origins, developing as a pole village in a swampy, water-rich environment. The land
+        still bears traces of this liquidity.
+    </p>
+
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-fertility-rock_1"></div>
+                        <div class="photo portfolio-fertility-rock_2"></div>
+                        <div class="photo portfolio-fertility-rock_3"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>

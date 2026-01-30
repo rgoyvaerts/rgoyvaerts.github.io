@@ -3590,6 +3590,24 @@ footer .social-footer .social-icon.email {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.row-photos .portfolio-fertility-rock_1 {
+  background-image: url(/assets/img/portfolio/fertility-rock_4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-fertility-rock_2 {
+  background-image: url(/assets/img/portfolio/fertility-rock_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-photos .portfolio-fertility-rock_3 {
+  background-image: url(/assets/img/portfolio/fertility-rock_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .cv {
   font-size: 0.8em;
