@@ -1,0 +1,147 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Border Control Suitcase" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1169300624" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (1 min).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Border Control Suitcase</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2026</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>45 cm x 36.5 cm x 13.6 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>wood, metal, custom R+F screw, stamp, ink, paperwork.</td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>Yes, contact our gallery <a
+                                        href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry
+                                        (Antwerp, BE)</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>About ten years ago, the first artworks in the form of small wooden <strong>suitcases</strong> were created by
+        R&F F&R. The
+        dimensions of the suitcase are perfectly tailored to the maximum size of hand luggage allowed on aeroplanes or
+        trains, making it the perfect travelable artwork. (See <a href="{{site.url}}/portfolio#suitcase-projects">all
+            the Suitcase Projects</a>).</p>
+
+    <p>The suitcases function as <strong>little Trojan horses</strong>. No one suspects that behind the everyday
+        appearance of a suitcase
+        lies a work of art or a performance. Using simple but ingenious craft mechanisms, each suitcase can be
+        <strong>activated
+            or unfolded</strong>. Some contain a multitude of attributes with which a participatory ritual is performed.
+        Others are
+        like a Mister Gadget-like object that can, for example, transform into a large advertising billboard on legs
+        with the slogan <a href="{{site.url}}/sorrow-blog/">“Go Away Sorrow Of The World”</a>.
+    </p>
+
+    <p>Robbert&Frank take on the role of <strong>activator and guide</strong>. They are intermediaries, mediating
+        between the artwork and
+        its surroundings. It therefore never becomes a play or a dramatised performance. Simply “unfolding” the suitcase
+        and the accompanying ritualised actions constitute the artwork. The <strong>dialogue</strong> that arises from
+        the confrontation
+        between the <strong>work</strong> and the <strong>audience</strong> and the <strong>location</strong> is the
+        goal.
+    </p>
+
+    <p><strong>Art in public spaces</strong> is often associated with monuments and roundabout art, street art or street
+        theatre. But
+        small, temporary and connecting rituals with a simple wooden suitcase are also possible. <strong>The boundaries
+        </strong> between
+        visual art and theatre, spectator and participant, museum and pavement become <strong>blurred and
+            porous</strong>.
+    </p>
+
+    <p>This ‘Border Control Suitcase’ alludes to the <strong>arbitrary nature of “borders”</strong>. This small suitcase
+        seems to be a
+        prime example of “sustainable and responsible” toys. In a seemingly naive way, it questions the randomness of
+        borders. In this way, the work symbolises the painful and <strong>childish machinations</strong> behind some
+        major
+        political
+        decisions or humanitarian disasters. </p>
+
+    <p>With youthful enthusiasm and unbridled imagination, people constantly invent new rules to separate what was once
+        one. Fortunately, this works both ways. <strong>With each new generation, the rules of the game are challenged
+            anew.</strong> The
+        older generation packs its bags and makes way for new players with different toys.</p>
+
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-grenskoffertje_1"></div>
+                        <div class="photo portfolio-grenskoffertje_2"></div>
+                        <div class="photo portfolio-grenskoffertje_3"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-grenskoffertje_4"></div>
+                        <div class="photo portfolio-grenskoffertje_5"></div>
+                        <div class="photo portfolio-grenskoffertje_6"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>grenskoffertje
