@@ -1,0 +1,126 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Grenswachters-gum" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1179256644" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (1 min).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Border Guards - GUM</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2026</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>620 cm x 820 cm x 200 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>metal, rope, soil, plants</td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>Yes, contact our gallery <a
+                                        href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry
+                                        (Antwerp, BE)</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>Borders demarcate and exclude. They separate one thing from another. But every border also contains a paradox,
+        for where a border exists, the possibility of encounter also arises.</p>
+    <p> The artist duo Robbert & Frank have
+        constructed two monumental versions of themselves, as border guards, on either side of a crossing. Only when
+        viewed together does their true meaning unfold: the guards do not demarcate, but connect. Their bodies, with
+        hands reaching out to one another, form not a border but a portal. The artists invite you to pass through this
+        portal and thus complete the border guards’ gesture.</p>
+
+    <p>Robbert & Frank created this work especially for the new temporary exhibition BORDERS by <a
+            href="https://www.gum.gent/nl" target="_blank">GUM & Plantentuin</a>. Check out the little wooden suitcase
+        <a href="{{site.url}}/portfolio/border-control-suitcase/" target="_blank">Border Control</a> by F&R R&F, which
+        inspired
+        this monumental sculpture.
+    </p>
+
+    <p>During the festive inauguration, the sculptures were consecrated through a planting ritual. Small hops
+        plants
+        were planted by the public at the base of the figures so that they might wind their way upwards and
+        overgrow the
+        sculpture. To mark this festive occasion, a home-brewed herbal drink — made with herbs from the
+        botanical garden
+        where the artwork is located — was served, and a toast was raised to the sounds of the live band <a
+            href="https://www.instagram.com/su.fx_music/" target="_blank">SU.FX</a>.
+    </p>
+
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-grenswachters-gum_1"></div>
+                        <div class="photo portfolio-grenswachters-gum_2"></div>
+                        <div class="photo portfolio-grenswachters-gum_3"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-grenswachters-gum_4"></div>
+                        <div class="photo portfolio-grenswachters-gum_5"></div>
+                        <div class="photo portfolio-grenswachters-gum_6"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>grenskoffertje
