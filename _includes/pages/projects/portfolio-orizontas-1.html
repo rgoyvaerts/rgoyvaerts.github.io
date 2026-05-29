@@ -1,0 +1,126 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Orizontas N°1" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1196452324" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (1 min).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>Orizontas n°1</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2026</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>100 cm x 125 cm x 5 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>Stainless steel</td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>Yes, contact our gallery <a
+                                        href="mailto:info@robbertenfrank.com,info@fredferry.com?subject=Contact%20via%20Robbert%20Frank%20website">Fred&amp;Ferry
+                                        (Antwerp, BE)</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>De ‘Orizontas’-werken functioneren niet als afgesloten objecten, maar als open situaties. Ze nodigen de bezoeker
+        uit om zich letterlijk en mentaal te positioneren tegenover een kader, een opening, een grens. Wie doorheen de
+        contour kijkt, merkt dat de omgeving deel wordt van het kunstwerk: planten, lucht, reflecties, voorbijgangers en
+        veranderend licht vullen telkens opnieuw de leegte. Zo verschuift de aandacht van het object zelf naar wat
+        eromheen gebeurt. Het werk bestaat daardoor nooit volledig op zichzelf, maar leeft in relatie tot zijn omgeving
+        en tot degene die kijkt.</p>
+    <p>Binnen de context van <a href="https://www.gum.gent/nl/event/borders" target="blank">BORDERS</a> krijgt die
+        werking een bijzondere betekenis. Grenzen verschijnen hier niet als
+        harde scheidingen, maar als poreuze zones waarin ontmoeting, transformatie en verbeelding mogelijk worden. De
+        cut-outs functioneren als tijdelijke poorten tussen werelden: tussen natuur en architectuur, tussen herinnering
+        en projectie, tussen het tastbare en het denkbeeldige. Elke contour nodigt uit om stil te staan bij wat
+        zichtbaar is, maar ook bij wat ontbreekt, verdwijnt of nog moet ontstaan.</p>
+    <p>Dit eerste werk in de ‘Orizontas’-reeks verwijst rechtstreeks naar de metalen grenswachters die Frank&Robbert
+        maakten voor de tentoonstelling <a href="https://www.gum.gent/nl/event/borders" target="blank">BORDERS</a> en
+        die aan de inkom van het domein staan. Deze grenswachters fungeren
+        als portaalfiguren: ze heten bezoekers welkom en bakenen tegelijk de tentoonstellingsruimte af. De metalen
+        figuren werden tijdens een ritueel geactiveerd: samen met een veertigtal deelnemers werden hoppescheuten aan de
+        voeten van de sculpturen geplant. De naar elkaar reikende grenswachters zullen overgroeid worden door de hop,
+        waardoor ook de grens vervaagt tussen kunstwerk en omgeving. De visualisatie van dit proces ligt aan de basis
+        van het werk: Frank tekende de grenswachters en dochter Gloria probeerde de woekerende planten te verbeelden.
+        Het resultaat is een speels werk dat zowel de herkenbare stijl van R&F F&R draagt als de schoonheid van een
+        kinderhand.</p>
+    <p>De grenswachters functioneren als elkaars spiegelbeeld: twee figuren uit hetzelfde universum die tegelijk verwant
+        en tegengesteld lijken. Door de inox cut-out op het wateroppervlak te plaatsen, ontstaat een extra laag. Het
+        water weerspiegelt de sculptuur en creëert zo een tweede, omgekeerde wereld onder het oppervlak. Het centrale
+        portaal krijgt hierdoor een bijna liminale werking, alsof het zich bevindt op de grens tussen boven- en
+        onderwereld, tussen aanwezigheid en reflectie.</p>
+    <p>Ontdek <a href="https://www.gum.gent/nl/event/borders" target="blank">BORDERS</a> in GUM&Plantentuin, en ga
+        onderweg ook op zoek naar alle kunstwerken die verborgen liggen tussen
+        de rijke collectie planten, kruiden en bloemen.</p>
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-orizontas_1"></div>
+                        <div class="photo portfolio-orizontas_2"></div>
+                        <div class="photo portfolio-orizontas_3"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>grenskoffertje
