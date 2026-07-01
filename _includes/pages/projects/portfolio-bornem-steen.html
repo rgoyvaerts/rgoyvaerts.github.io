@@ -1,0 +1,121 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "Orizontas N°1" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1205796121" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (1 min).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>50th Anniversary Ter Dilft</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2026</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>58 cm x 6 cm x 6 cm</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>Clay, glaze, ash, champagne, mortar</td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>Yes, <a
+                                        href="mailto:info@robbertenfrank.com?subject=Contact%20via%20Robbert%20Frank%20website">contact
+                                        us</a></td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>To mark the 50th anniversary of the Ter Dilft cultural centre, the artist duo Robbert&Frank Frank&Robbert
+        developed a participatory ritual in which the past, present and future were literally linked together. Instead
+        of a traditional commemorative monument, the artists opted for a symbolic intervention in the building itself:
+        an existing facade stone was removed and replaced with a new one bearing the inscription: ‘GO AWAY SORROW OF
+        THE WORLD’. In this way, the history of Ter Dilft was not only commemorated, but also physically continued. </p>
+    <p>During Matinee Jubilee, Bornem’s festive ‘longest table’, the artists invited all guests to write down their
+        wishes for Ter Dilft’s next fifty years. These personal messages were then collected and ritually burnt. The
+        ashes of all the wishes were mixed with a splash of champagne and the mortar used to permanently embed the brick
+        into the façade. In this way, hundreds of individual voices were brought together in a single collective
+        gesture, and the public’s hopes for the future were given a permanent place within the architecture of the
+        cultural centre. </p>
+    <p>The ritual ties in with a recurring line of inquiry within the practice of Robbert&Frank Frank&Robbert, in which
+        ephemeral acts are transformed into tangible matter. Just as in earlier projects, in which written concerns are
+        ritually burnt and the ashes are later reused as raw material for new creations, transformation is also at the
+        heart of this work. Fire does not destroy, but transforms; ash is not an end point, but the beginning of a new
+        story.</p>
+    <p>With ‘GA WEG LEED VAN DE WERELD’, the artists did not create a monument for the public, but a monument by the
+        public. The artwork literally bears the material traces of the community that has helped shape Ter Dilft over
+        the past fifty years, as well as the dreams that together will guide the next fifty years. In this way, the
+        façade becomes not merely an architectural element, but a vessel for collective memory, hope and solidarity.</p>
+
+    <br><br><br>
+
+    <span class="expander" id="blueprintboardgame">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-bornem-steen_1"></div>
+                        <div class="photo portfolio-bornem-steen_2"></div>
+                        <div class="photo portfolio-bornem-steen_3"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-bornem-steen_4"></div>
+                        <div class="photo portfolio-bornem-steen_5"></div>
+                        <div class="photo portfolio-bornem-steen_6"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>grenskoffertje
