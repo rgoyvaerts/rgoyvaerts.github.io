@@ -1,0 +1,132 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "WITBOEK" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1222955336" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (1 min).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>WITBOEK</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2025</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>A5 (14.8 cm x 21 cm) - 150 pages</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>Ink, pencil, ballpoint pen and coloured markers on 200gr. Steinbach paper</td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>A book can be many things. It can carry a story, preserve a memory, transmit knowledge, be used as a portal, or
+        simply sit quietly on a shelf. But what happens when the book itself becomes the artwork? For WITBOEK, an
+        exhibition project curated by Bruno Devos and Frederik Vergaert, fifty artists were invited to create fifty
+        unique book objects. The project opened at Fred&Ferry in Antwerp in September 2025, before continuing as a
+        travelling project in which the books leave the gallery and encounter new contexts, audiences and places.</p>
+
+    <p>For Robbert&Frank Frank&Robbert, the invitation resulted in a book that is perhaps best understood not as a
+        publication, but as a small portable and associative universe.</p>
+
+    <p>Their WITBOEK brings together associative drawings connected to dreams, earlier artworks, fragments of their
+        shared artistic mythology, and drawings made together (and sometimes with their children). There is no single
+        narrative running through the pages. Instead, images appear, disappear and reappear in unexpected combinations. A
+        symbol from an earlier artwork can suddenly sit next to a drawing of a dream; an associative drawing can connect
+        with one of the duo's alter egos; a visual fragment can be linked to ancient cuneiform and much much more. Every
+        page in the book is a discovery.</p>
+
+    <p>This holistic way of working is deeply embedded in the artistic practice of Robbert&Frank Frank&Robbert.
+        Throughout their oeuvre, the two artists have developed a visual language in which symbols, rituals, objects,
+        alter egos and recurring characters constantly migrate from one work into another. Their practice moves freely
+        between performance, sculpture, drawing, installation, theatre and digital environments. Rather than treating
+        these disciplines as separate territories, they use them as different ways of entering the same imaginative
+        landscape. The book therefore becomes a kind of map of this landscape and while leafing through it, one travels
+        through the oeuvre of the duo.</p>
+
+    <p>Instead of presenting finished artworks, it opens the door onto the territory where artworks begin: the
+        unfinished image, the half-remembered dream, the strange association, the image that appears without
+        explanation.</p>
+
+    <p>In that sense, the book becomes both an archive and a playground. It documents the artistic process, and at the
+        same time it generates meaning. WITBOEK approaches the book not as a container for art, but as an artistic
+        medium in its own right. Its curatorial framework traces a lineage from experimental artists' books by figures
+        such as Dieter Roth and Marcel Broodthaers to contemporary artists who use the book as an autonomous object, a
+        space for experimentation and a way of challenging the conventional boundaries of art.</p>
+
+
+    <br><br><br>
+
+    <span class="expander">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-witboek_1"></div>
+                        <div class="photo portfolio-witboek_2"></div>
+                        <div class="photo portfolio-witboek_3"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-witboek_4"></div>
+                        <div class="photo portfolio-witboek_5"></div>
+                        <div class="photo portfolio-witboek_6"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
