@@ -9,13 +9,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico" />
     <link rel="stylesheet" href="/assets/css/main.css" />
-    <link rel="stylesheet" href="/assets/css/agenda.build.css">
     <script src="/assets/js/luxon.min.js"></script>
-    <script src="/assets/js/agenda.build.js"></script>
-    <script type="text/javascript">
-        document.addEventListener("DOMContentLoaded", function(event) {
-            window.agenda = new Agenda('calendar', 'AIzaSyDhZjZN3GhbD78qtBS7DLgYec3MrmDaM3k', 'ksmd8rgprjo9s0188v6f9o28n8@group.calendar.google.com');
-            window.agenda.setup();
+    <script src="/assets/js/agenda.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            new Agenda(
+                'calendar',
+                'AIzaSyDhZjZN3GhbD78qtBS7DLgYec3MrmDaM3k',
+                'ksmd8rgprjo9s0188v6f9o28n8@group.calendar.google.com'
+            ).setup();
         });
     </script>
     <script>
@@ -41,7 +43,7 @@
 
     <main>
         <div class="pagetitle"><h1>NEWS</h1></div>
-        <div class="agenda">
+        <div class="news-agenda">
             <div id="calendar"></div>
         </div>
     </main>

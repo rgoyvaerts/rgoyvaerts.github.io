@@ -1,0 +1,263 @@
+// News / agenda page
+//
+// Styles the Google Calendar feed rendered by assets/js/agenda.js.
+// Replaces the old stand-alone assets/css/agenda.build.css, which never went
+// through this Sass pipeline.
+//
+// Row anatomy — no icons; the date sits flush left above the arrow, so the
+// title reads as indented:
+//
+//   Thursday 17 September 2026   Now on
+//   ▶  OPROERKRAAIERS - participatief traject      until 1 May 2027
+//
+// Fine #ddd rule between rows, generous space above and below it.
+
+$highlight: lighten($accent-color, 10%)
+$rule: #ddd
+$measure: 660px
+$marker-column: 20px
+$row-space: 24px
+
+.news-agenda
+    padding-bottom: 80px
+
+    // ---------- past / upcoming switch ----------
+
+    .news-views
+        display: flex
+        justify-content: center
+        gap: 16px
+        margin: 0 0 48px
+
+        button
+            font-family: $font-one
+            font-size: 1em
+            font-weight: 400
+            letter-spacing: 0.05em
+            color: $link-color
+            background: none
+            border: 0
+            cursor: pointer
+            padding: 0 5px 2px 5px
+            line-height: inherit
+
+        button:hover, button:focus-visible
+            background: $highlight
+            outline: 0
+
+        button.is-current
+            background: $highlight
+
+    // ---------- rows ----------
+
+    .news-events
+        margin: 0
+        padding: 0
+
+        li
+            list-style-type: none
+            margin: 0
+            padding: 0
+
+    // rules between events only — no line above the first one, so the list
+    // never reads as a closed-off table
+    .news-event
+        border-bottom: 1px solid $rule
+
+    .news-event-header,
+    .news-event-static
+        display: grid
+        grid-template-columns: $marker-column minmax(0, 1fr) auto
+        grid-template-areas: "meta meta meta" "marker title when"
+        width: 100%
+        margin: 0
+        padding: $row-space 10px $row-space 0
+        text-align: left
+        font-family: inherit
+        font-size: inherit
+        font-weight: inherit
+        letter-spacing: inherit
+        line-height: inherit
+        color: $text-color
+        background: none
+        border: 0
+
+    .news-event-header
+        cursor: pointer
+
+    // date, flush left, as a quiet pre-title above the event name
+    .news-event-meta
+        grid-area: meta
+        display: flex
+        align-items: baseline
+        flex-wrap: wrap
+        gap: 4px 10px
+        font-size: 16px
+        line-height: 1.3
+        letter-spacing: 0.04em
+        margin-bottom: 6px
+
+    // Red, against the design system's "red is links only" rule — but the
+    // date is part of the clickable row, so it behaves like one.
+    .news-event-date
+        color: $link-color
+
+    // "now on" / "today" — ink on the highlight field, never red on yellow
+    .news-tag
+        font-size: 15px
+        letter-spacing: 0.03em
+        background: $highlight
+        color: $text-color
+        padding: 1px 6px 2px
+        white-space: nowrap
+
+    // the whole signal for open/closed, in the left column
+    .news-marker
+        grid-area: marker
+        color: $link-color
+        font-size: 0.7em
+        line-height: 1.95
+        transition: transform 0.2s ease
+        transform-origin: 45% 55%
+
+        &::before
+            content: "\25B6"
+
+    // regular when closed, bold when open
+    .news-event-title
+        grid-area: title
+        font-family: $font-two
+        font-weight: 400
+        font-size: 1em
+        line-height: 1.35
+        max-width: $measure
+        overflow-wrap: break-word
+
+    // hours for a one-day event, the closing date for a run
+    .news-event-when
+        grid-area: when
+        justify-self: end
+        align-self: baseline
+        max-width: 200px
+        padding-left: 24px
+        font-size: 16px
+        line-height: 1.35
+        text-align: right
+        opacity: 0.65
+
+    // hover: the title turns red, as links do inside .link-textcolor
+    .news-event-header:hover .news-event-title,
+    .news-event-header:focus-visible .news-event-title
+        color: $link-color
+
+    .news-event-header:focus-visible
+        outline: 0
+
+    // ---------- open state ----------
+    //
+    // The arrow turns down, the title goes red and bold. Nothing else.
+
+    .news-event[data-open='true']
+
+        .news-event-title
+            font-weight: 700
+            color: $link-color
+
+        .news-marker
+            transform: rotate(90deg)
+
+    // The outer box does the sliding: max-height is animated, and set in
+    // pixels by agenda.js. visibility keeps the collapsed links out of the
+    // tab order, switching only after the slide has finished.
+    .news-event-body
+        max-height: 0
+        overflow: hidden
+        visibility: hidden
+        transition: max-height 0.4s ease, visibility 0s linear 0.4s
+
+    .news-event[data-open='true'] .news-event-body
+        visibility: visible
+        transition: max-height 0.4s ease, visibility 0s
+
+    @media (prefers-reduced-motion: reduce)
+
+        .news-event-body,
+        .news-event[data-open='true'] .news-event-body
+            transition: none
+
+    .news-event-body-inner
+        margin: 0 10px 0 $marker-column
+        padding: 4px 0 $row-space
+        font-size: 16px
+        text-align: left
+
+        // Descriptions carry whatever styling was pasted into Google
+        // Calendar. Sizes, leading and faces are forced back to the page's
+        // own, so nothing can come through at 36pt. Bold, italics and links
+        // still work. (agenda.js also strips the inline styles themselves.)
+        *
+            font-size: inherit !important
+            line-height: inherit !important
+            font-family: inherit !important
+            letter-spacing: inherit !important
+            word-spacing: normal !important
+            font-stretch: normal !important
+            text-align: left !important
+
+        // what was set oversized in the calendar keeps its role as a heading,
+        // at a size this page decides. Tracking is set explicitly, since the
+        // pasted-in styling is often what makes these lines look crammed.
+        .news-heading
+            font-family: $font-two !important
+            font-weight: 700
+            font-size: 22px !important
+            line-height: 1.25 !important
+            letter-spacing: 0.02em !important
+            display: block
+            margin-bottom: 12px
+
+        p, div, ul, ol
+            max-width: $measure
+            margin: 0 0 24px
+
+        // no gap before the first line, whatever the calendar entry did
+        > :first-child
+            margin-top: 0
+
+        > :last-child
+            margin-bottom: 0
+
+        br:first-child
+            display: none
+
+        img
+            max-width: 100%
+            height: auto
+
+        a
+            color: $link-color
+            padding: 0 5px 2px 5px
+
+        a:hover, a:focus
+            background: $highlight
+
+    // ---------- messages ----------
+
+    .news-message
+        padding: 24px 0
+        opacity: 0.75
+
+    // ---------- narrow screens ----------
+
+    @media screen and (max-width: 620px)
+
+        .news-event-header,
+        .news-event-static
+            grid-template-columns: $marker-column minmax(0, 1fr)
+            grid-template-areas: "meta meta" "marker title" ". when"
+
+        .news-event-when
+            justify-self: start
+            text-align: left
+            padding: 6px 0 0
+            max-width: none
