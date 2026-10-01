@@ -1,0 +1,119 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "10 YEARS DE KOER" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1232009913" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (1 min).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>10 YEARS DE KOER</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2026</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>8 m x 12 m</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>Pilates balls, golf balls, pregnancy ball, reclaimed wood, paint, metal fittings, steel cable, corrugated sheets, PVC pipes, washbasin, rope, White Russian cocktail ingredients + special extras, sampled cinema clips, AI-generated animations</td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>De Koer is celebrating its 10th anniversary. What started on the site of an old bowling alley in the Brugse Poort neighbourhood of Ghent has grown into a place where art, music, encounters, experimentation and everyday life constantly overlap. <a href="https://dekoer.be" target="_blank">De Koer</a> is not a conventional arts venue, but <strong>a place shaped together with its neighbourhood</strong>. The Koervolk, a broad community of people from the Brugse Poort and its surroundings, plays an important role in making the place what it is today.</p>
+
+    <p>For its anniversary, De Koer looked back at its own history through a Feestcomité led by the collective <a href="https://een-twee.be" target="_blank">een-twee</a>; bringing together Koervolk and artists who spent <strong>a year dreaming, making and organising together</strong>. The celebration unfolded across the different spaces and stories of De Koer, with street food from the Koer kitchen, karaoke led by Nele De Gussem, a souvenir archive curated by Elien Ronse, cabaret by Jezebel Studios and a quiz café hosted by Eline Vyncke and Wouter Verdegem. The evenings culminated in concerts by Brik Tu-Tok, Stampen &amp; Blazen, De Kift and a-e-i-o-u.</p>
+
+    <p>Robbert&amp;Frank Frank&amp;Robbert have been part of De Koer’s story since the beginning, presenting one of the first performances there. For the anniversary, they return to one of the site's roots and <strong>bring the old bowling back to life</strong>, together with the Koervolk.</p>
+
+    <p>The classic bowling format is given <strong>five new twists</strong>: golf bowling, wrecking-ball bowling, domino bowling, strength-ball bowling and curved bowling. And after all that bowling, visitors can head to the homemade White Russian Bar and bowl together their very own cocktail. 🎳🥃</p>
+
+    <p>The project connects to an important principle within Robbert&amp;Frank Frank&amp;Robbert’s practice: <strong>art does not always have to be a static object viewed from a distance</strong>. An artwork can also be an invitation to do something together, to experiment, laugh, collide and meet one another. It is precisely through this interactive and social dimension that another kind of meaning can emerge.</p>
+
+    <p>This is why the bowling is not a conventional white-cube creation, but <strong>an artistic co-creation with the Koervolk</strong>. The work was conceived and built together with people from the neighbourhood, and only truly comes to life when visitors start playing.</p>
+
+    <p>Ten years of De Koer thus becomes more than a look back at what has been. It becomes a temporary reactivation of a piece of the site's history. The old bowling returns, as an artwork, as a game and, above all, as <strong>a place for people to meet</strong>.</p>
+
+    <p><em>With thanks to <a href="https://dekoer.be" target="_blank">De Koer</a>, the Koervolk, the Feestcomité and <a href="https://een-twee.be" target="_blank">een-twee</a>, and to everyone from the Brugse Poort who helped build the bowling and who came to play.</em></p>
+
+
+    <br><br><br>
+
+    <span class="expander">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-10j-dekoer_10"></div>
+                        <div class="photo portfolio-10j-dekoer_9"></div>
+                        <div class="photo portfolio-10j-dekoer_8"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-10j-dekoer_7"></div>
+                        <div class="photo portfolio-10j-dekoer_6"></div>
+                        <div class="photo portfolio-10j-dekoer_5"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-10j-dekoer_4"></div>
+                        <div class="photo portfolio-10j-dekoer_3"></div>
+                        <div class="photo portfolio-10j-dekoer_2"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
