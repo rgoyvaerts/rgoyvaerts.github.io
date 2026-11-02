@@ -1,0 +1,114 @@
+<!-- Titel aanpassen naar titel van artwork -->
+<!-- Deze liquid tag word gebruikt in het stukje html van social share -->
+{% assign title = "SWAN SONGS" | url_param_escape %}
+{% assign share_url = site.url | append: page.url | url_encode %}
+
+<main>
+
+    <div class="row-artwork">
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="flex-item-left">
+
+                    <iframe class="iframe-artwork" src="https://player.vimeo.com/video/1242317370" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" webkitallowfullscreen mozallowfullscreen
+                        allowfullscreen></iframe>
+
+                    <small style="padding-left: 5px"><br>Artwork of the month - video (1 min).</small>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="flex-item-item">
+
+                    <h2>SWAN SONGS</h2>
+
+                    <small>
+                        <table class="table">
+                            <tr>
+                                <th><em>Year</em></th>
+                                <td>2026</td>
+                            </tr>
+                            <tr>
+                                <th><em>Size</em></th>
+                                <td>Site-specific, from the gallery on the second floor to the street</td>
+                            </tr>
+                            <tr>
+                                <th><em>Materials</em></th>
+                                <td>Paper, tape, crayons, markers, origami paper, fire basket, fire, ashes</td>
+                            </tr>
+                            <tr>
+                                <th><em>Edition</em></th>
+                                <td>1/1</td>
+                            </tr>
+                            <tr>
+                                <th><em>For Sale</em></th>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <th><em>Share</em></th>
+                                <td>
+
+                                    {% include social-share.html %}
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>For this artwork of the month, Robbert&amp;Frank Frank&amp;Robbert turned a farewell into a <strong>paper trail</strong>. Together with visitors, they cut out swans and set them down one after another, from the gallery on the second floor, down the stairs and out into the street. When the trail was complete, the swans were burned one by one, a slow, ritual ending.</p>
+
+    <p>It happened during their week at ‘Swan Songs’, the final group exhibition of <a href="https://fredferry.com" target="_blank">FRED&amp;FERRY</a> gallery in Antwerp. Legend has it that a swan is silent its whole life, and sings only once: just before it dies. That last, most beautiful song is its swan song. <strong>After six years, the gallery has chosen to sing its own.</strong> ‘Swan Songs’ is a farewell built around fifteen songs linked to the artists the gallery is currently representing. For fourteen weeks the group show fills the gallery, and each week one artist steps forward with a performance, a lecture, a tour or an action. On 13 December the doors finally close for good.</p>
+
+    <p>During the Robbert&amp;Frank Frank&amp;Robbert week, the artists turned the ‘farewell’ into something tangible. Frank and Robbert designed <strong>cut-out pages full of swans</strong>, with white ones, grey ones, and one black one, alongside candles and figures. They recall the old Dutch children’s rhyme ‘witte zwanen, zwarte zwanen, wie gaat er mee naar Engeland varen?’, a game about who gets to leave and who stays behind.</p>
+
+    <p>The black swan also points somewhere else. In ‘The Black Swan’, Nassim Nicholas Taleb describes the rare, unforeseen event that changes everything and that, afterwards, everyone claims to have seen coming. A gallery that stops at its peak, instead of fading out, is <strong>a small black swan of its own</strong>.</p>
+
+    <p>Throughout the space, large white sheets hung on the walls. People wrote <strong>wishes</strong> on them, for the gallery, for its artists, for whatever comes next, and they drew swans. At the end of the day these filled sheets were folded into large origami swans and added to the trail.</p>
+
+    <p>Once the trail was complete, the swans were burned one by one in a fire basket on the street. A slow, ritual ending: the song sung through to its last note. We gathered the <strong>ashes</strong> and buried them at the foot of the public tree in front of the gallery. Then we raised a glass.</p>
+
+    <p>What remains is not the paper, but <strong>the gesture</strong>. A farewell shared, written, folded and let go. Some endings deserve to be sung out loud.</p>
+
+    <p>Swan Songs — <a href="https://fredferry.com" target="_blank">FRED&amp;FERRY</a>, Leopoldplaats 12, Antwerp. Until 13 December 2026.</p>
+
+
+    <br><br><br>
+
+    <span class="expander">
+
+        <div class="expander-content">
+
+            <div class="expander-content-main">
+
+                <div class="container-photos">
+
+                    <div class="row-photos">
+                        <div class="photo portfolio-swansongs_1"></div>
+                        <div class="photo portfolio-swansongs_2"></div>
+                        <div class="photo portfolio-swansongs_3"></div>
+                    </div>
+                    <div class="row-photos">
+                        <div class="photo portfolio-swansongs_4"></div>
+                        <div class="photo portfolio-swansongs_5"></div>
+                        <div class="photo portfolio-swansongs_6"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </span>
+
+    <p style="text-align: center">- - - - - - - - - -</p>
+
+    {% include pages/artworks-organized.html %}
+
+</main>
